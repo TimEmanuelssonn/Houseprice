@@ -1,0 +1,177 @@
+Adress,Område,Region,Datum,Slutpris,Begärt pris,Bostadstyp,Upplåtelseform,Antal rum,Boarea,Balkong,Våning,Elevator,Byggår,Avgift/månad,Driftskostnad
+Torsplan 8,Hagastaden,Stockholms kommun,2022-06-14,6600000,6495000,Lägenhet,Bostadsrätt,2 ,59 ,True,7 av 36,True,2018,3656,3718
+"Torsplan 8, våning 8",Vasastan/Hagastaden,Stockholms kommun,2022-05-30,9650000,,Lägenhet,Bostadsrätt,3 ,77 ,True,8,True,2018,4516,
+"Torsplan 8, vån 22",Hagastaden,Stockholms kommun,2022-05-14,9250000,9250000,Lägenhet,Bostadsrätt,2 ,62 ,True,22 av 35,True,2019,3807,
+"Torsplan 10, 2 tr",Vasastan,Stockholms kommun,2022-04-29,17250000,17500000,Lägenhet,Bostadsrätt,"5,5 ",175 ,True,,,2018,9060,12000
+"Torsplan 8, våning 13",Vasastan/Hagastaden,Stockholms kommun,2022-04-27,14500000,,Lägenhet,Bostadsrätt,4 ,85 ,True,13,True,2018,4881,
+"Torsplan 8, våning 5",Vasastan/Hagastaden,Stockholms kommun,2022-04-25,7800000,7495000,Lägenhet,Bostadsrätt,3 ,63 ,True,5,True,2018,3847,
+"Torsplan 10, vån 13",Vasastan/Hagastaden,Stockholms kommun,2022-04-23,7000000,6150000,Lägenhet,Bostadsrätt,2 ,51 ,True,13,True,2020,3354,
+"Torsplan 8, vån 29",Vasastaden,Stockholms kommun,2022-04-22,35500000,35000000,Lägenhet,Bostadsrätt,6 ,163 ,True,29,True,2019,8532,
+Torsplan 8,Vasastan / Hagastaden,Stockholms kommun,2022-04-18,16900000,16900000,Lägenhet,Bostadsrätt,3 ,95 ,True,,,2018,5254,3718
+"Torsplan 8, 13 tr",Hagastaden/Vasastan,Stockholms kommun,2022-04-08,9000000,9000000,Lägenhet,Bostadsrätt,2 ,58 ,True,13 av 36,True,2018,3621,5000
+"Torsplan 10, vån 13",Vasastan/Hagastaden,Stockholms kommun,2022-04-06,16950000,16950000,Lägenhet,Bostadsrätt,3 ,88 ,True,13 av 34,True,2020,5316,
+Torsplan 10,Vasastan/Torsplan,Stockholms kommun,2022-04-03,11500000,10950000,Lägenhet,Bostadsrätt,3 ,74 ,,19 av 34,False,,4413,
+Torsplan 8 våning 14,Vasastan/Hagastaden,Stockholms kommun,2022-04-01,9500000,8495000,Lägenhet,Bostadsrätt,2 ,61 ,True,14,True,2018,3766,
+"Torsplan 10, vån 27",Vasastan/Hagastaden,Stockholms kommun,2022-03-18,15900000,15900000,Lägenhet,Bostadsrätt,3 ,88 ,True,27,True,2018,5057,
+Torsplan 10 våning 9,Vasastan/Hagastaden,Stockholms kommun,2022-03-18,14000000,12495000,Lägenhet,Bostadsrätt,3 ,92 ,True,9,True,2020,5241,
+"Torsplan 8, våning 14",Vasastan/Hagastaden,Stockholms kommun,2022-03-14,11200000,10495000,Lägenhet,Bostadsrätt,3 ,77 ,True,14,True,2019,4516,
+"Torsplan 8, vån 7",Hagastaden,Stockholms kommun,2022-03-10,10000000,8795000,Lägenhet,Bostadsrätt,3 ,86 ,True,7 av 35,True,2019,4916,
+Torsplan 10,Hagastaden,Stockholms kommun,2022-03-04,15600000,15600000,Lägenhet,Bostadsrätt,4 ,93 ,True,,,2020,5287,
+Torsplan 8 vån 2,Vasastaden,Stockholms kommun,2022-03-01,10125000,10125000,Lägenhet,Bostadsrätt,4 ,88 ,True,,,2017,5017,
+"Torsplan 8, våning 7",Hagastaden,Stockholms kommun,2022-02-18,9000000,8495000,Lägenhet,Bostadsrätt,3 ,65 ,True,7,True,2018,3950,
+Torsplan 10,Hagastaden,Stockholms kommun,2022-02-18,12800000,,Lägenhet,Bostadsrätt,3 ,92 ,False,,,2020,5241,
+"Torsplan 10, vån 9",Vasastaden,Stockholms kommun,2022-02-11,11000000,11000000,Lägenhet,Bostadsrätt,3 ,76 ,True,9,True,2020,4505,
+"Torsplan 10, 7 tr",Hagastaden/Vasastan,Stockholms kommun,2022-02-09,7250000,7250000,Lägenhet,Bostadsrätt,2 ,56 ,True,7 av 33,True,2018,3584,5000
+"Torsplan 10, vån 6",Vasastan,Stockholms kommun,2022-01-30,9000000,7995000,Lägenhet,Bostadsrätt,3 ,68 ,True,6,True,,4136,
+"Torsplan 10, vån 10",Vasastan/Hagastaden,Stockholms kommun,2022-01-30,14600000,13495000,Lägenhet,Bostadsrätt,4 ,93 ,True,10,True,2020,5287,
+Torsplan 8,Vasastaden,Stockholms kommun,2022-01-27,14500000,,Lägenhet,Bostadsrätt,4 ,86 ,True,18,True,2019,4933,
+"Torsplan 8, vån 9",Hagastaden,Stockholms kommun,2022-01-14,10000000,8995000,Lägenhet,Bostadsrätt,3 ,65 ,True,9,True,2019,3950,
+Torsplan 8,Torsplan,Stockholms kommun,2022-01-13,7250000,6495000,Lägenhet,Bostadsrätt,2 ,59 ,True,9,True,2019,3657,
+"Torsplan 8, 6tr",Vasastan / Torsplan,Stockholms kommun,2022-01-11,11200000,10500000,Lägenhet,Bostadsrätt,4 ,85 ,True,6 av 36,True,2016,4908,6600
+Torsplan 8,Hagastaden - Vasastan,Stockholms kommun,2021-12-20,6800000,6900000,Lägenhet,Bostadsrätt,2 ,69 ,True,2 av 36,True,2016,4132,5028
+Torsplan 10,Vasastan/Hagastaden,Stockholms kommun,2021-12-19,15700000,15700000,Lägenhet,Bostadsrätt,3 ,87 ,True,29 av 34,True,2018,5011,
+"Torsplan 8, plan 3",Vasastan/Hagastan,Stockholms kommun,2021-11-29,11500000,11675000,Lägenhet,Bostadsrätt,5 ,114 ,True,3 av 35,True,2016,6226,
+"Torsplan 10, vån 14",Vasastan/Hagastaden,Stockholms kommun,2021-11-23,10400000,9995000,Lägenhet,Bostadsrätt,2 ,75 ,True,14 av 34,True,2020,4458,
+"Torsplan 10, våning 14",Vasastaden,Stockholms kommun,2021-11-19,11000000,10995000,Lägenhet,Bostadsrätt,3 ,68 ,True,14,True,2020,4136,
+Torsplan 8,Hagastaden,Stockholms kommun,2021-11-19,10000000,9495000,Lägenhet,Bostadsrätt,4 ,85 ,True,,,2018,4869,
+"Torsplan 8, våning 15",Vasastan/Hagastaden,Stockholms kommun,2021-11-19,9437000,8495000,Lägenhet,Bostadsrätt,2 ,58 ,True,15,True,2019,3621,
+"Torsplan 10, vån 8",Vasastan/Hagastaden,Stockholms kommun,2021-11-13,7825000,7395000,Lägenhet,Bostadsrätt,2 ,59 ,True,8 av 34,True,2020,3722,
+Torsplan 10,Hagastaden,Stockholms kommun,2021-11-06,16500000,15950000,Lägenhet,Bostadsrätt,4 ,106 ,False,,,2018,5885,3500
+Torsplan 8,Hagastaden,Stockholms kommun,2021-11-03,15700000,14950000,Lägenhet,Bostadsrätt,3 ,92 ,True,,,2018,5195,3718
+Torsplan 10,Hagastaden,Stockholms kommun,2021-10-25,16500000,16500000,Lägenhet,Bostadsrätt,4 ,106 ,True,,,2018,5885,3500
+"Torsplan 8, vån 10",Vasastaden,Stockholms kommun,2021-10-12,9850000,9850000,Lägenhet,Bostadsrätt,3 ,77 ,True,10 av 35,True,2019,4516,
+"Torsplan 10, våning 10",Hagastaden,Stockholms kommun,2021-10-11,10500000,9195000,Lägenhet,Bostadsrätt,3 ,68 ,True,10,True,2020,4136,
+"Torsplan 8, plan 19",Vasastan/Hagastan,Stockholms kommun,2021-09-28,8550000,7450000,Lägenhet,Bostadsrätt,2 ,62 ,True,19 av 35,True,2016,3834,
+"Torsplan 8, vån 21",Torsplan,Stockholms kommun,2021-09-27,8675000,8675000,Lägenhet,Bostadsrätt,2 ,62 ,True,21 av 35,True,2019,3834,
+Torsplan 8,Hagastaden,Stockholms kommun,2021-09-24,11400000,11400000,Lägenhet,Bostadsrätt,3 ,85 ,True,10 av 36,True,2018,4908,3718
+"Torsplan 8, 11tr",Vasastan,Stockholms kommun,2021-09-23,9925000,9950000,Lägenhet,Bostadsrätt,3 ,79 ,True,11,True,2018,4611,5300
+"Torsplan 10, 15 tr",Hagastaden/Vasastan,Stockholms kommun,2021-09-19,9150000,7495000,Lägenhet,Bostadsrätt,2 ,56 ,True,15 av 33,True,2018,3584,5000
+"Torsplan 10, vån 14",Vasastan/Hagastaden,Stockholms kommun,2021-09-13,9150000,7350000,Lägenhet,Bostadsrätt,2 ,59 ,True,14 av 34,True,2019,3722,
+"Torsplan 8, vån 13",Hagastaden,Stockholms kommun,2021-09-10,9350000,9350000,Lägenhet,Bostadsrätt,3 ,65 ,False,13 av 35,True,2019,3950,
+"Torsplan 8, vån 1",Vasastan/Torsplan,Stockholms kommun,2021-09-04,8000000,7995000,Lägenhet,Bostadsrätt,3 ,87 ,,1 av 36,False,,4966,
+Torsplan 10,Vasastan,Stockholms kommun,2021-08-23,10200000,9995000,Lägenhet,Bostadsrätt,3 ,92 ,True,10 av 35,True,2020,5241,5500
+Torsplan 8,Hagastaden,Stockholms kommun,2021-08-20,11850000,11295000,Lägenhet,Bostadsrätt,3 ,85 ,True,,,2018,4908,3718
+Torsplan 8,Vasastaden,Stockholms kommun,2021-08-04,9940000,9995000,Lägenhet,Bostadsrätt,3 ,85 ,True,15 av 35,True,2019,4905,
+"Torsplan 8, 20 tr",Hagastaden/Vasastan,Stockholms kommun,2021-07-21,15300000,14650000,Lägenhet,Bostadsrätt,4 ,104 ,True,20 av 36,True,2018,5755,9000
+Torsplan 8,Hagastaden,Stockholms kommun,2021-07-14,6425000,5995000,Lägenhet,Bostadsrätt,2 ,59 ,True,7 av 36,True,2018,3656,3718
+"Torsplan 8, vån 22",Vasastaden,Stockholms kommun,2021-07-13,20000000,19995000,Lägenhet,Bostadsrätt,4 ,110 ,True,22 av 35,True,2019,6046,
+Torsplan 8,Hagastaden,Stockholms kommun,2021-07-11,12550000,11495000,Lägenhet,Bostadsrätt,3 ,86 ,True,20 av 36,True,2018,4933,3718
+Torsplan 8,Vasastan/ Hagastaden,Stockholms kommun,2021-06-24,6550000,6295000,Lägenhet,Bostadsrätt,"2,5 ",63 ,,,,2019,3866,9800
+"Torsplan 8, vån 23",Vasastan/Hagastaden,Stockholms kommun,2021-06-23,12100000,11995000,Lägenhet,Bostadsrätt,3 ,76 ,True,23 av 35,True,2019,4447,
+"Torsplan 8, vån 20",Vasastaden,Stockholms kommun,2021-06-05,7800000,7295000,Lägenhet,Bostadsrätt,2 ,62 ,True,20 av 35,True,2019,3807,
+"Torsplan 8, vån 27",Vasastaden,Stockholms kommun,2021-05-27,10925000,11000000,Lägenhet,Bostadsrätt,3 ,79 ,True,27 av 35,True,2019,4619,
+"Torsplan 8, vån 2",Vasastan/Hagastaden,Stockholms kommun,2021-05-27,8500000,8195000,Lägenhet,Bostadsrätt,4 ,88 ,True,2 av 35,True,2018,5017,
+"Torsplan 8, vån 8",Stockholm - Vasastan/Norrmalm,Stockholms kommun,2021-05-24,6360000,6195000,Lägenhet,Bostadsrätt,2 ,63 ,True,8 av 36,True,2018,3847,4200
+Torsplan 10,Hagastaden,Stockholms kommun,2021-05-23,9700000,9295000,Lägenhet,Bostadsrätt,3 ,77 ,False,18 av 36,True,2018,4551,2000
+Torsplan 8,Hagastaden,Stockholms kommun,2021-05-11,6200000,5995000,Lägenhet,Bostadsrätt,2 ,60 ,True,8 av 36,True,2018,3704,3718
+Torsplan 8,Hagastaden,Stockholms kommun,2021-05-11,10800000,9995000,Lägenhet,Bostadsrätt,3 ,79 ,True,25 av 36,True,2018,4981,3718
+Torsplan 8 - Våning 12,Vasastan Hagastaden,Stockholms kommun,2021-05-11,9200000,8450000,Lägenhet,Bostadsrätt,3 ,77 ,True,12 av 36,True,2018,4516,6300
+Torsplan 10,Hagastaden,Stockholms kommun,2021-05-06,11500000,10995000,Lägenhet,Bostadsrätt,3 ,80 ,True,,,2018,4949,2000
+"Torsplan 8, vån 5",Vasastan/Hagastaden,Stockholms kommun,2021-04-26,5875000,5495000,Lägenhet,Bostadsrätt,2 ,57 ,True,5 av 35,True,2019,3574,
+"Torsplan 10, vån 7",Vasastaden,Stockholms kommun,2021-04-25,10900000,10995000,Lägenhet,Bostadsrätt,4 ,110 ,True,7 av 34,True,2019,6069,
+"Torsplan 8, vån 31",Vasastaden,Stockholms kommun,2021-04-18,16300000,14975000,Lägenhet,Bostadsrätt,4 ,109 ,True,31 av 35,True,2019,5993,
+"Torsplan 10, 9tr",Vasastan - Hagastaden,Stockholms kommun,2021-04-13,6440000,5995000,Lägenhet,Bostadsrätt,2 ,56 ,,9 av 34,True,2018,3584,
+"Torsplan 8, plan 14",Vasastaden,Stockholms kommun,2021-03-31,7000000,7000000,Lägenhet,Bostadsrätt,2 ,63 ,True,14 av 36,True,,3847,
+"Torsplan 8, vån 17",Hagastaden,Stockholms kommun,2021-03-11,11300000,11300000,Lägenhet,Bostadsrätt,4 ,85 ,True,17 av 35,True,2019,4909,
+Torsplan 10,Hagastaden,Stockholms kommun,2021-03-05,11500000,9995000,Lägenhet,Bostadsrätt,3 ,80 ,False,,,2018,4949,2000
+"Torsplan 8, vån 21",Vasastaden,Stockholms kommun,2021-03-02,12950000,12950000,Lägenhet,Bostadsrätt,5 ,98 ,True,21 av 35,True,2019,5500,
+"Torsplan 10, vån 27",Vasastan,Stockholms kommun,2021-03-02,14800000,15400000,Lägenhet,Bostadsrätt,4 ,106 ,True,,,,5885,
+Torsplan 10.  Våning 26,Vasastan/ Torsplan,Stockholms kommun,2021-02-28,14500000,14500000,Lägenhet,Bostadsrätt,4 ,106 ,True,26,True,2018,5885,3500
+Torsplan 8,Vasastaden/Hagastaden,Stockholms kommun,2021-02-16,10000000,8995000,Lägenhet,Bostadsrätt,3 ,75 ,True,20 av 36,True,2018,4401,3718
+"Torsplan 8, vån 9 - Accepterat pris!",Vasastan - Hagastaden,Stockholms kommun,2021-02-12,6440000,6500000,Lägenhet,Bostadsrätt,2 ,63 ,True,9 av 36,True,,3866,
+"Torsplan 8, vån 11",Vasastaden,Stockholms kommun,2021-02-10,9175000,8495000,Lägenhet,Bostadsrätt,3 ,86 ,True,11 av 35,True,2019,4916,
+"Torsplan 8, 21 tr",Vasastan,Stockholms kommun,2021-01-25,11300000,11300000,Lägenhet,Bostadsrätt,4 ,90 ,True,21 av 35,True,2018,5109,5500
+"Torsplan 8, vån 10",Vasastan/Hagastaden,Stockholms kommun,2021-01-24,6975000,6695000,Lägenhet,Bostadsrätt,2 ,61 ,True,10 av 35,True,2019,3766,
+"Torsplan 8, vån 5",Vasastan/Hagastaden,Stockholms kommun,2021-01-23,5700000,5495000,Lägenhet,Bostadsrätt,2 ,57 ,True,5 av 35,True,2019,3588,
+"Torsplan 8, 9tr",Vasastan / Torsplan,Stockholms kommun,2021-01-14,6550000,6150000,Lägenhet,Bostadsrätt,2 ,58 ,True,9,True,2016,3621,10308
+Torsplan 10,Vasastan,Stockholms kommun,2021-01-13,7250000,6995000,Lägenhet,Bostadsrätt,3 ,68 ,True,,,2018,4136,5500
+"Torsplan 8, våning 6",Vasastan/Hagastaden,Stockholms kommun,2020-12-29,6000000,5695000,Lägenhet,Bostadsrätt,2 ,60 ,True,6 av 35,True,2019,3702,
+"Torsplan 10, 17 tr",Vasastan,Stockholms kommun,2020-12-22,8400000,8450000,Lägenhet,Bostadsrätt,3 ,71 ,True,,,2018,4274,
+"Torsplan 8, vån 6",Vasastan/Hagastaden,Stockholms kommun,2020-12-15,5900000,5900000,Lägenhet,Bostadsrätt,2 ,61 ,True,6 av 35,True,2019,3766,
+Torsplan 10 lgh 02.3703,Vasastaden,Stockholms kommun,2020-12-14,10500000,10975000,Lägenhet,Bostadsrätt,3 ,88 ,True,,,,5057,
+Torsplan 8 vån 12,Vasastan,Stockholms kommun,2020-12-04,8000000,8200000,Lägenhet,Bostadsrätt,3 ,74 ,True,,,2018,4390,10000
+"Torsplan 8, vån 15",Vasastaden,Stockholms kommun,2020-12-01,6815000,6800000,Lägenhet,Bostadsrätt,2 ,59 ,False,15 av 35,True,2019,3657,
+Torsplan 10 - Våning 22,Vasastan Hagastaden,Stockholms kommun,2020-12-01,13700000,13700000,Lägenhet,Bostadsrätt,4 ,101 ,True,22 av 34,True,2020,5654,
+"Torsplan 8, vån 5",Vasastan/Hagastaden,Stockholms kommun,2020-11-20,7350000,7195000,Lägenhet,Bostadsrätt,3 ,79 ,False,5 av 35,True,2019,4598,
+"Torsplan 8, vån 13",Hagastaden,Stockholms kommun,2020-11-19,6600000,6295000,Lägenhet,Bostadsrätt,2 ,63 ,True,13 av 35,True,2019,3866,
+Torsplan 10,Vasastan,Stockholms kommun,2020-11-16,7200000,7495000,Lägenhet,Bostadsrätt,3 ,56 ,True,14 av 36,True,2018,3584,5900
+"Torsplan 10, plan 23",Hagastaden Vasastan,Stockholms kommun,2020-11-02,10550000,10895000,Lägenhet,Bostadsrätt,3 ,88 ,True,23 av 34,True,2018,5057,
+"Torsplan 8, vån 26",Vasastan/Hagastaden,Stockholms kommun,2020-11-01,9225000,9195000,Lägenhet,Bostadsrätt,3 ,78 ,True,26 av 35,True,2019,4543,
+"Torsplan 10, vån 29",Vasastan/Hagastaden,Stockholms kommun,2020-10-23,11200000,11200000,Lägenhet,Bostadsrätt,3 ,87 ,,29 av 34,False,2018,5011,
+"Torsplan 8, vån 3",Vasastan/Hagastaden,Stockholms kommun,2020-10-19,10300000,10300000,Lägenhet,Bostadsrätt,4 ,109 ,True,3 av 35,True,2019,5997,
+"Torsplan 8, vån 14",Hagastaden - Vasastan,Stockholms kommun,2020-10-02,6750000,5995000,Lägenhet,Bostadsrätt,2 ,57 ,True,14 av 36,True,2019,3569,
+Torsplan 8,Vasastan/Hagastaden,Stockholms kommun,2020-10-01,8525000,8095000,Lägenhet,Bostadsrätt,4 ,84 ,True,4 av 36,True,2019,4861,
+"Torsplan 10, plan 12",Hagastaden Vasastan,Stockholms kommun,2020-09-26,8800000,8990000,Lägenhet,Bostadsrätt,3 ,92 ,True,12 av 34,True,2018,5241,
+Torsplan 10,Vasastan,Stockholms kommun,2020-09-25,11100000,10995000,Lägenhet,Bostadsrätt,4 ,92 ,True,,,2020,5240,8400
+"Torsplan 10, vån 13",Vasastan/Hagastaden,Stockholms kommun,2020-09-23,12500000,13495000,Lägenhet,Bostadsrätt,"3,5 ",88 ,True,13 av 34,True,2020,5316,
+"Torsplan 8, vån 11",Vasastan/Hagastaden,Stockholms kommun,2020-09-23,6585000,6495000,Lägenhet,Bostadsrätt,2 ,58 ,True,11 av 35,True,2019,3621,
+"Torsplan 8, vån 18",Vasastan/Hagastaden,Stockholms kommun,2020-09-17,10050000,9995000,Lägenhet,Bostadsrätt,4 ,91 ,True,18 av 35,True,2019,5176,
+"Torsplan 8, våning 11",Vasastan Hagastaden,Stockholms kommun,2020-09-16,6550000,6795000,Lägenhet,Bostadsrätt,2 ,57 ,True,11 av 36,True,2019,3593,
+"Torsplan 10, vån 21",Vasastan/Hagastaden,Stockholms kommun,2020-09-01,10650000,10695000,Lägenhet,Bostadsrätt,3 ,87 ,True,,,2018,5056,
+"Torsplan 8, vån 20",Vasastaden,Stockholms kommun,2020-09-01,6725000,6725000,Lägenhet,Bostadsrätt,2 ,62 ,True,20 av 35,True,2018,3807,
+"Torsplan 8, vån 15",Vasastan/Hagastaden,Stockholms kommun,2020-08-04,10500000,10595000,Lägenhet,Bostadsrätt,4 ,85 ,True,,,2019,4881,
+Torsplan 10,Vasastan,Stockholms kommun,2020-07-10,9975000,9975000,Lägenhet,Bostadsrätt,4 ,93 ,True,,,,5287,
+"Torsplan 8, vån 6",Vasastan/Hagastaden,Stockholms kommun,2020-06-26,5300000,5295000,Lägenhet,Bostadsrätt,2 ,57 ,True,,,2019,3569,
+"Torsplan 8, 9tr",Vasastan - Hagastaden,Stockholms kommun,2020-06-15,6150000,5995000,Lägenhet,Bostadsrätt,2 ,58 ,True,9,True,2019,3621,4200
+"Torsplan 8, vån 21",Vasastan/Hagastaden,Stockholms kommun,2020-06-12,6650000,6695000,Lägenhet,Bostadsrätt,2 ,62 ,True,,,2019,3834,
+"Torsplan 8, vån 27",Vasastan/Hagastaden,Stockholms kommun,2020-05-30,11600000,11600000,Lägenhet,Bostadsrätt,4 ,85 ,True,,,2019,4910,
+"Torsplan 8, vån 15",Torsplan,Stockholms kommun,2020-05-08,6900000,6900000,Lägenhet,Bostadsrätt,2 ,57 ,True,,,2019,3593,
+"Torsplan 8, vån 5",Vasastan/Hagastaden,Stockholms kommun,2020-04-24,5780000,5780000,Lägenhet,Bostadsrätt,2 ,62 ,True,,,2019,3829,
+"Torsplan 8, vån 24",Vasastan/Hagastaden,Stockholms kommun,2020-04-24,10400000,10400000,Lägenhet,Bostadsrätt,4 ,86 ,,,,2018,4937,
+"Torsplan 8, vån 15",Vasastaden,Stockholms kommun,2020-03-23,8950000,8950000,Lägenhet,Bostadsrätt,3 ,79 ,True,,,2018,4611,
+"Torsplan 8, vån 9",Vasastan Hagastaden,Stockholms kommun,2020-03-18,6250000,5995000,Lägenhet,Bostadsrätt,2 ,57 ,True,,,2019,3593,
+"Torsplan 8, vån 15",Vasastaden,Stockholms kommun,2020-03-09,6500000,6500000,Lägenhet,Bostadsrätt,2 ,59 ,True,,,2019,3657,
+Torsplan 8,Vasastan/Hagastaden,Stockholms kommun,2020-03-01,8500000,8500000,Lägenhet,Bostadsrätt,4 ,85 ,True,,,2019,4869,
+"Torsplan 8, vån 13",Hagastaden,Stockholms kommun,2020-02-28,8100000,8100000,Lägenhet,Bostadsrätt,3 ,65 ,False,,,2019,3950,
+"Torsplan 8, plan 1",Hagastaden Vasastan,Stockholms kommun,2020-02-21,8000000,8880000,Lägenhet,Bostadsrätt,4 ,103 ,False,,,2016,5752,
+Torsplan 8 vån 13,Vasastan,Stockholms kommun,2020-02-21,6700000,6490000,Lägenhet,Bostadsrätt,2 ,57 ,,,,,3593,
+Torsplan 8,Vasastan,Stockholms kommun,2020-02-01,6500000,6195000,Lägenhet,Bostadsrätt,3 ,63 ,False,,,2016,3847,4500
+"Torsplan 8, vån 10",Vasastan/Hagastaden,Stockholms kommun,2020-01-31,7650000,7650000,Lägenhet,Bostadsrätt,3 ,77 ,True,,,2019,4516,
+"Torsplan 8, vån 9",Hagastaden,Stockholms kommun,2020-01-31,5950000,5795000,Lägenhet,Bostadsrätt,2 ,63 ,False,,,2019,3866,
+"Torsplan 10, vån 9",Vasastan/Hagastaden,Stockholms kommun,2020-01-09,6100000,6195000,Lägenhet,Bostadsrätt,2 ,56 ,False,,,2018,3584,
+"Torsplan 8, vån 5",Hagastaden,Stockholms kommun,2019-12-12,5550000,5550000,Lägenhet,Bostadsrätt,2 ,57 ,True,,,2019,3574,
+"Torsplan 8, vån 14",Vasastan/Hagastaden,Stockholms kommun,2019-11-05,6425000,6425000,Lägenhet,Bostadsrätt,2 ,60 ,False,,,2019,3704,
+"Torsplan 8, 15 tr",Hagastaden/Vasastan,Stockholms kommun,2019-10-23,7750000,7295000,Lägenhet,Bostadsrätt,3 ,64 ,,,,2018,3909,4428
+"Torsplan 8, vån 7",Vasastan/Hagastaden,Stockholms kommun,2019-10-14,7700000,7700000,Lägenhet,Bostadsrätt,3 ,79 ,,,,2019,4611,
+"Torsplan 8, vån 9",Vasastan/Hagastaden,Stockholms kommun,2019-09-17,5700000,5695000,Lägenhet,Bostadsrätt,2 ,59 ,,,,2019,3657,
+Torsplan 8 - våning 26,Vasastan,Stockholms kommun,2019-09-12,10400000,9950000,Lägenhet,Bostadsrätt,3 ,81 ,,,,2018,4943,
+"Torsplan 8, vån 16",Hagastaden,Stockholms kommun,2019-09-05,6550000,6550000,Lägenhet,Bostadsrätt,2 ,62 ,,,,2019,3807,
+Torsplan 8,Hagastaden,Stockholms kommun,2019-09-01,9200000,9200000,Lägenhet,Bostadsrätt,4 ,91 ,,,,2019,5176,
+Torsplan 8,Vasastaden,Stockholms kommun,2019-08-28,6150000,6195000,Lägenhet,Bostadsrätt,2 ,74 ,,,,2019,4356,
+"Torsplan 8, vån 6",Vasastan/Hagastaden,Stockholms kommun,2019-08-28,7210000,6995000,Lägenhet,Bostadsrätt,3 ,74 ,,,,2019,4390,
+"Torsplan 10, plan 10",Vasastan - Hagastaden,Stockholms kommun,2019-08-26,9800000,9800000,Lägenhet,Bostadsrätt,4 ,92 ,,,,2018,5357,
+"Torsplan 8, vån 23",Vasastan/Hagastaden,Stockholms kommun,2019-08-19,10000000,10000000,Lägenhet,Bostadsrätt,3 ,76 ,,,,2019,4447,
+"Torsplan 8, 13 tr",Hagastaden/Vasastan,Stockholms kommun,2019-08-09,8100000,7995000,Lägenhet,Bostadsrätt,3 ,79 ,,,,2018,4611,5700
+"Torsplan 8, 10 tr",Vasastan / Hagastaden,Stockholms kommun,2019-08-01,6400000,5995000,Lägenhet,Bostadsrätt,2 ,57 ,,,,2018,3569,3600
+"Torsplan 8, vån 8",Vasastan/Hagastaden,Stockholms kommun,2019-07-31,7600000,7495000,Lägenhet,Bostadsrätt,3 ,74 ,,,,2019,4390,
+"Torsplan 8, 12 tr",Vasastan,Stockholms kommun,2019-06-05,6600000,5995000,Lägenhet,Bostadsrätt,2 ,61 ,,,,2018,3766,4000
+"Torsplan 8, vån 22",Vasastaden,Stockholms kommun,2019-05-23,6520000,6495000,Lägenhet,Bostadsrätt,2 ,62 ,,,,2019,3807,
+"Torsplan 8, 11tr",Vasastan,Stockholms kommun,2019-05-22,6350000,6400000,Lägenhet,Bostadsrätt,2 ,58 ,,,,2019,3881,5600
+"Torsplan 8, vån 4",Vasastaden,Stockholms kommun,2019-05-09,5475000,5595000,Lägenhet,Bostadsrätt,2 ,61 ,,,,2019,3748,
+"Torsplan 8, våning 11",Vasastaden,Stockholms kommun,2019-04-19,6990000,6990000,Lägenhet,Bostadsrätt,3 ,65 ,,,,,4210,3300
+"Torsplan 8, plan 24",Hagastaden Vasastan,Stockholms kommun,2019-04-17,7250000,7450000,Lägenhet,Bostadsrätt,3 ,78 ,,,,2016,4543,
+"Torsplan 8, vån 25",Hagastaden- Vasastan,Stockholms kommun,2019-03-22,9450000,9450000,Lägenhet,Bostadsrätt,3 ,81 ,,,,2017,4713,
+"Torsplan 8, plan 4",Hagastaden Vasastan,Stockholms kommun,2019-03-20,4600000,4975000,Lägenhet,Bostadsrätt,2 ,74 ,,,,2016,4356,
+Torsplan 8,Vasastan / Hagastaden,Stockholms kommun,2019-03-06,6150000,6290000,Lägenhet,Bostadsrätt,2 ,69 ,,,,2017 - 2018,4132,
+"Torsplan 8, våning 24",Vasastan,Stockholms kommun,2019-01-25,8400000,8600000,Lägenhet,Bostadsrätt,3 ,81 ,,,,,4683,
+"Torsplan 8, vån 22",Vasastaden,Stockholms kommun,2019-01-09,6650000,6995000,Lägenhet,Bostadsrätt,2 ,62 ,,,,2018,3807,
+"Torsplan 10, plan 12",Vasastan - Hagastaden,Stockholms kommun,2018-12-20,9600000,9600000,Lägenhet,Bostadsrätt,3 ,90 ,,,,2018,5217,
+"Torsplan 8, vån 33",Vasastan/Hagastaden,Stockholms kommun,2018-12-20,14500000,14500000,Lägenhet,Bostadsrätt,5 ,109 ,,,,2017,5993,
+"Torsplan 8, plan 34",Vasastan Hagastaden,Stockholms kommun,2018-12-18,14950000,14950000,Lägenhet,Bostadsrätt,4 ,105 ,,,,2016,5801,
+"Torsplan 8, 25 tr",Vasastan,Stockholms kommun,2018-12-16,9200000,9395000,Lägenhet,Bostadsrätt,4 ,85 ,,,,2016 - 2019,4910,
+Torsplan 8 våning 7,Vasastaden,Stockholms kommun,2018-12-08,4995000,4995000,Lägenhet,Bostadsrätt,2 ,57 ,,,,,3593,
+Torsplan 8 våning 20,Vasastaden,Stockholms kommun,2018-12-07,10500000,9995000,Lägenhet,Bostadsrätt,4 ,104 ,,,,,5755,
+"Torsplan 10, plan 18",Vasastan - Hagastaden,Stockholms kommun,2018-11-26,17800000,17800000,Lägenhet,Bostadsrätt,4 ,104 ,,,,2018,5870,
+"Torsplan 8, 28 tr",Vasastan,Stockholms kommun,2018-10-29,8200000,8250000,Lägenhet,Bostadsrätt,3 ,78 ,,,,2016 - 2019,4543,
+"Torsplan 8, plan 15",Vasastan,Stockholms kommun,2018-10-09,8900000,9100000,Lägenhet,Bostadsrätt,4 ,85 ,,,,2016 - 2019,4881,
+"Torsplan 8, plan 20",Hagastaden Vasastan,Stockholms kommun,2018-10-06,8750000,9150000,Lägenhet,Bostadsrätt,4 ,91 ,,,,2016,5179,
+Torsplan 8 - Plan 13,Vasastan,Stockholms kommun,2018-09-28,5900000,6100000,Lägenhet,Bostadsrätt,2 ,57 ,,,,2016,3593,
+"Torsplan 8, 9tr",Vasastan - Röda Bergen/Torsplan,Stockholms kommun,2018-09-03,4750000,4785000,Lägenhet,Bostadsrätt,2 ,59 ,,,,2018,3657,
+"Torsplan 8, plan 9 - Norra Tornen",Hagastaden Vasastan,Stockholms kommun,2018-08-29,5075000,5175000,Lägenhet,Bostadsrätt,2 ,63 ,,,,2016,3829,
+"Torsplan 8, plan 21",Hagastaden Vasastan,Stockholms kommun,2018-07-30,10300000,10500000,Lägenhet,Bostadsrätt,5 ,98 ,,,,2016,5500,
+Torsplan 8 - Plan 19,Vasastan,Stockholms kommun,2018-07-27,7550000,7895000,Lägenhet,Bostadsrätt,3 ,79 ,,,,2016,4609,
+Torsplan 8 - Plan 21,Vasastan,Stockholms kommun,2018-07-18,7200000,7200000,Lägenhet,Bostadsrätt,2 ,58 ,,,,2016,3610,
+"Torsplan 8, plan 4",Hagastaden Vasastan,Stockholms kommun,2018-07-13,5800000,5975000,Lägenhet,Bostadsrätt,3 ,74 ,,,,2016,4375,
+"Torsplan 8, plan 9",Hagastaden Vasastan,Stockholms kommun,2018-06-27,5300000,5300000,Lägenhet,Bostadsrätt,2 ,57 ,,,,2016,3593,
+Torsplan 8,Vasastaden,Stockholms kommun,2018-06-26,10990000,10990000,Lägenhet,Bostadsrätt,4 ,118 ,,,,,6385,
+"Torsplan 8, plan 11",Hagastaden Vasastan,Stockholms kommun,2018-05-15,8100000,8350000,Lägenhet,Bostadsrätt,4 ,85 ,,,,2016,4881,

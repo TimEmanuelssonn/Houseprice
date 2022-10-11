@@ -1,0 +1,162 @@
+Adress,Område,Region,Datum,Slutpris,Begärt pris,Bostadstyp,Upplåtelseform,Antal rum,Boarea,Balkong,Våning,Elevator,Byggår,Avgift/månad,Driftskostnad
+"Hammarby allé 5, 6tr",Hammarby Sjöstad,Stockholms kommun,2022-08-24,3965000,3695000,Lägenhet,Bostadsrätt,2 ,48 ,True,6 av 10,True,2016,2913,5160
+"Vävar Johans gata 28, vån 6/6",Hammarby Sjöstad,Stockholms kommun,2022-08-08,4400000,4450000,Lägenhet,Bostadsrätt,2 ,50 ,True,6 av 6,True,2019,2920,11760
+Midskeppsgatan 16,Hammarby Sjöstad,Stockholms kommun,2022-07-06,4515000,4495000,Lägenhet,Bostadsrätt,2 ,60 ,True,3,True,2008,3276,2400
+Hammarby Allé 5,Hammarby Sjöstad,Stockholms kommun,2022-07-01,3725000,3850000,Lägenhet,Bostadsrätt,2 ,52 ,True,3,True,2016,3317,4320
+Heliosgatan 12B,Hammarby Sjöstad,Stockholms kommun,2022-07-01,4250000,4250000,Lägenhet,Bostadsrätt,2 ,50 ,True,6 av 10,True,2019,2473,2400
+"Virkesvägen 9A, 2 tr",Hammarby Sjöstad,Stockholms kommun,2022-06-15,4750000,4295000,Lägenhet,Bostadsrätt,2 ,"55,5 ",True,2 av 4,True,2020,3227,2400
+"Virkesvägen 9G, HÖGST UPP!",Hammarby Sjöstad,Stockholms kommun,2022-06-05,5000000,4595000,Lägenhet,Bostadsrätt,2 ,"57,5 ",True,7 av 7,True,2019,3257,11088
+Fendergatan 6,Hammarby sjöstad,Stockholms kommun,2022-05-27,4100000,3850000,Lägenhet,Bostadsrätt,2 ,55 ,True,1,True,2009,3330,4300
+Båtbyggargatan 34,Hammarby Sjöstad,Stockholms kommun,2022-05-17,4375000,3995000,Lägenhet,Bostadsrätt,2 ,60 ,True,3 av 5,True,2003,4240,4200
+Båtbyggargatan 23,Hammarby Sjöstad,Stockholms kommun,2022-05-17,5000000,4950000,Lägenhet,Bostadsrätt,2 ,50 ,True,6 av 6,True,2019,2920,3500
+Virkesvägen 7C,Hammarby Sjöstad,Stockholms kommun,2022-05-12,3900000,3995000,Lägenhet,Bostadsrätt,2 ,42 ,True,1 av 6,True,2021,2755,7000
+Hammarby Allé 165,Hammarby Sjöstad,Stockholms kommun,2022-05-06,5900000,5695000,Lägenhet,Bostadsrätt,2 ,"63,5 ",True,7 av 7,True,2001,3703,3000
+Styrbordsgatan 23 2tr,Hammarby Sjöstad,Stockholms kommun,2022-05-06,4400000,4400000,Lägenhet,Bostadsrätt,2 ,50 ,True,2 av 5,True,2001,3642,3300
+Styrbordsgatan 7,Hammarby Sjöstad,Stockholms kommun,2022-05-06,4000000,3995000,Lägenhet,Bostadsrätt,2 ,56 ,False,1 av 5,True,2003,3820,
+"Sjöfartsgatan 11, vån 7",Hammarby Sjöstad,Stockholms kommun,2022-05-05,5800000,5600000,Lägenhet,Bostadsrätt,2 ,"66,5 ",True,5 av 5,True,2007,3708,8436
+Korphoppsgatan 21,Hammarby Sjöstad,Stockholms kommun,2022-05-03,4150000,3995000,Lägenhet,Bostadsrätt,2 ,46 ,False,1 av 7,True,2002,2796,
+Hammarbyterrassen 18,Hammarby Sjöstad,Stockholms kommun,2022-05-01,4350000,3695000,Lägenhet,Bostadsrätt,2 ,"49,5 ",True,5 av 6,True,2008,2815,7200
+Lugnets allé 43,Hammarby Sjöstad,Stockholms kommun,2022-04-26,4100000,3495000,Lägenhet,Bostadsrätt,2 ,48 ,True,1 av 6,True,2002,2299,4200
+"Korphoppsgatan 25, vån 3/3 i Gårdshus",Hammarby Sjöstad,Stockholms kommun,2022-04-25,6000000,4995000,Lägenhet,Bostadsrätt,2 ,64 ,True,3 av 3,True,2002,3489,8400
+"Sjöfartsgatan 15, accepterat pris",Hammarby Sjöstad,Stockholms kommun,2022-04-08,3800000,3800000,Lägenhet,Bostadsrätt,2 ,44 ,True,6 av 7,True,2008,2502,4200
+"Styrbordsgatan 13, pl 3",Hammarby Sjöstad,Stockholms kommun,2022-03-31,5500000,4995000,Lägenhet,Bostadsrätt,2 ,60 ,False,3 av 5,True,2003,4004,4800
+Per Ludvig Lindgrens Terrass 2,Hammarby Sjöstad - Henriksdalshamnen,Stockholms kommun,2022-03-29,5990000,5595000,Lägenhet,Bostadsrätt,2 ,66 ,True,3 av 5,True,2011,3485,5040
+Korphoppsgatan 40,Hammarby Sjöstad,Stockholms kommun,2022-03-29,4800000,4395000,Lägenhet,Bostadsrätt,2 ,"59,5 ",False,,,2002,4043,7200
+Redargatan 11,Hammarby Sjöstad,Stockholms kommun,2022-03-28,4800000,3995000,Lägenhet,Bostadsrätt,2 ,"59,5 ",True,2 av 5,True,2008,3102,7440
+"Fredriksdalsgatan 24, 1 tr",Hammarby Sjöstad,Stockholms kommun,2022-03-24,4000000,3595000,Lägenhet,Bostadsrätt,2 ,"54,5 ",False,1 av 8,True,2018,2929,9600
+"Fendergatan 6, 6tr",Hammarby Sjöstad,Stockholms kommun,2022-03-14,4500000,3950000,Lägenhet,Bostadsrätt,2 ,51 ,True,6 av 6,True,2009,3045,6600
+Midskeppsgatan 12,Hammarby Sjöstad,Stockholms kommun,2022-03-11,5000000,4295000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 6,True,2009,2990,2681
+"Redargatan 5, 5tr",Hammarby Sjöstad,Stockholms kommun,2022-03-10,4000000,3250000,Lägenhet,Bostadsrätt,2 ,"45,5 ",True,5 av 6,True,2009,2466,7800
+"Korphoppsgatan 25, 1 tr i gårdshus!",Hammarby Sjöstad,Stockholms kommun,2022-03-09,6000000,5250000,Lägenhet,Bostadsrätt,2 ,68 ,True,1 av 3,True,2002,3673,8400
+Sickla kanalgata 6,Hammarby Sjöstad,Stockholms kommun,2022-02-24,5750000,4995000,Lägenhet,Bostadsrätt,2 ,61 ,True,2 av 5,True,2002,2802,5400
+"Stapelgatan 4, 6 tr",Hammarby Sjöstad,Stockholms kommun,2022-02-21,6400000,5495000,Lägenhet,Bostadsrätt,2 ,69 ,True,6 av 6,True,2013,3101,10344
+Sickla Kanalgata 20,Hammarby Sjöstad,Stockholms kommun,2022-02-17,5700000,4195000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 4,True,2002,3509,5184
+Fartygsgatan 8,Hammarby Sjöstad,Stockholms kommun,2022-02-15,4550000,4195000,Lägenhet,Bostadsrätt,2 ,"55,5 ",True,3 av 5,True,2007,3733,6600
+"Virkesvägen 7C, 6tr",Hammarby Sjöstad,Stockholms kommun,2022-02-09,5050000,4450000,Lägenhet,Bostadsrätt,2 ,51 ,True,6 av 6,True,2021,3312,4392
+Konvojgatan 3,Södra Hammarbyhamnen,Stockholms kommun,2022-02-03,4800000,4495000,Lägenhet,Bostadsrätt,2 ,70 ,True,2 av 5,True,2007,4489,7083
+"Virkesvägen 9C, 2 tr",Hammarby Sjöstad,Stockholms kommun,2022-02-01,4750000,4195000,Lägenhet,Bostadsrätt,2 ,"55,5 ",True,2,True,2020,3028,10872
+"Virkesvägen 13, vån 2",Hammarby Sjöstad,Stockholms kommun,2022-02-01,4200000,3895000,Lägenhet,Bostadsrätt,2 ,50 ,True,2 av 8,True,2017,2473,3768
+Redargatan 6,Hammarby Sjöstad,Stockholms kommun,2022-01-26,5300000,4495000,Lägenhet,Bostadsrätt,2 ,66 ,True,4 av 6,True,2009,3965,5400
+"Virkesvägen 5F, 8tr",Hammarby Sjöstad,Stockholms kommun,2022-01-25,4375000,3995000,Lägenhet,Bostadsrätt,2 ,42 ,True,8 av 8,True,2019,2328,3500
+Sickla Kanalgata 14,Hammarby Sjöstad,Stockholms kommun,2022-01-21,6600000,5895000,Lägenhet,Bostadsrätt,2 ,"69,5 ",True,3 av 4,True,2002,4807,3600
+Rorgängargatan 7,Hammarby Sjöstad,Stockholms kommun,2022-01-20,4260000,3495000,Lägenhet,Bostadsrätt,2 ,54 ,True,4 av 5,True,2002,4147,5200
+Hästholmsvägen 10,Sofia,Stockholms kommun,2022-01-01,4000000,3650000,Lägenhet,Bostadsrätt,2 ,56 ,True,1 av 8,True,1945,2669,6000
+"Fredriksdalsgatan 4, 1 tr",Hammarby Sjöstad,Stockholms kommun,2021-12-12,5000000,4495000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 7,True,2018,2952,9600
+"Lugnets Allé 69, 4tr",Hammarby Sjöstad,Stockholms kommun,2021-12-08,4050000,3795000,Lägenhet,Bostadsrätt,2 ,49 ,True,4 av 5,True,2002,3442,5700
+"Fredriksdalsgatan 20, vån 3",Hammarby Sjöstad,Stockholms kommun,2021-12-07,5000000,3850000,Lägenhet,Bostadsrätt,2 ,48 ,True,3 av 7,True,2018,2629,9000
+"Hammarby allé 105, 6tr",Hammarby Sjöstad,Stockholms kommun,2021-11-26,5300000,3975000,Lägenhet,Bostadsrätt,2 ,47 ,True,6 av 6,True,2003,2975,8400
+"Fredriksdalsgatan 24, vån 4",Hammarby Sjöstad,Stockholms kommun,2021-11-23,5550000,3995000,Lägenhet,Bostadsrätt,2 ,"54,5 ",True,4 av 8,True,2018,2929,9600
+"Förskeppsgatan 5, 3tr",Hammarby Sjöstad,Stockholms kommun,2021-11-19,4500000,3750000,Lägenhet,Bostadsrätt,2 ,51 ,True,3 av 8,True,2008,3314,4788
+"Styrbordsgatan 22, pl 2",Hammarby Sjöstad,Stockholms kommun,2021-11-09,5550000,4795000,Lägenhet,Bostadsrätt,2 ,64 ,True,2 av 5,True,2003,2951,5600
+Stapelgatan 4,Hammarby Sjöstad - Henriksdalshamnen,Stockholms kommun,2021-11-03,5750000,4795000,Lägenhet,Bostadsrätt,2 ,"66,5 ",True,2 av 5,True,2013,3035,5000
+"Korphoppsgatan 23, vån 5",Hammarby Sjöstad,Stockholms kommun,2021-11-03,7100000,6195000,Lägenhet,Bostadsrätt,2 ,70 ,True,5 av 6,True,2003,3666,7200
+"Hammarby allé 149, 2tr",Hammarby Sjöstad,Stockholms kommun,2021-10-26,4620000,3795000,Lägenhet,Bostadsrätt,2 ,50 ,True,2,True,2003,3582,6000
+Babordsgatan 8,Hammarby Sjöstad,Stockholms kommun,2021-10-26,3900000,3250000,Lägenhet,Bostadsrätt,2 ,42 ,True,5 av 5,True,2002,2614,8112
+Fredriksdalsgatan 18,Hammarby Sjöstad,Stockholms kommun,2021-10-22,4750000,3995000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 6,True,2018,2952,5880
+Korphoppsgatan 28,Hammarby Sjöstad,Stockholms kommun,2021-10-20,5460000,4595000,Lägenhet,Bostadsrätt,2 ,60 ,True,1 av 5,True,2003,4004,6000
+Lugnets allé 71,Hammarby Sjöstad,Stockholms kommun,2021-10-05,4100000,3995000,Lägenhet,Bostadsrätt,2 ,49 ,True,3 av 6,True,2002,3442,5200
+Virkesvägen 17C,Hammarby Sjöstad,Stockholms kommun,2021-09-30,4300000,3895000,Lägenhet,Bostadsrätt,2 ,49 ,True,6 av 10,True,2015,2431,6200
+"Rorgängargatan 3, BV",Hammarby Sjöstad,Stockholms kommun,2021-09-28,3600000,2950000,Lägenhet,Bostadsrätt,2 ,52 ,False,,,2002,4049,4800
+"Fendergatan 6 ,pl2",Hammarby Sjöstad,Stockholms kommun,2021-09-28,4225000,3995000,Lägenhet,Bostadsrätt,2 ,51 ,True,2 av 6,True,2009,3245,4200
+"Heliosgatan 60, vån 3",Hammarby Sjöstad,Stockholms kommun,2021-09-28,5500000,4950000,Lägenhet,Bostadsrätt,2 ,58 ,True,3 av 7,True,,3421,5500
+"Sickla Kanalgata 13A, 3tr",Hammarby Sjöstad,Stockholms kommun,2021-09-23,6700000,5895000,Lägenhet,Bostadsrätt,2 ,"80,5 ",False,3 av 4,True,2001,5069,6700
+Konvojgatan 5,Hammarby Sjöstad,Stockholms kommun,2021-09-22,6200000,4995000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,3 av 5,True,2007,4237,5100
+"Sickla kanalgata 31, 1 tr",Hammarby Sjöstad,Stockholms kommun,2021-09-21,4750000,4295000,Lägenhet,Bostadsrätt,2 ,63 ,False,1 av 4,True,2001,3794,
+"Hammarby allé 5, 5 tr",Hammarby Sjöstad,Stockholms kommun,2021-09-21,4400000,3495000,Lägenhet,Bostadsrätt,2 ,48 ,True,5,True,2016,2884,9600
+Fredriksdalsgatan 12,Hammarby Sjöstad,Stockholms kommun,2021-09-18,4175000,3995000,Lägenhet,Bostadsrätt,2 ,48 ,True,3 av 8,True,2018,2629,3200
+Heliosgatan 58,Hammarby Sjöstad,Stockholms kommun,2021-09-01,4550000,3995000,Lägenhet,Bostadsrätt,2 ,66 ,False,2 av 7,True,2008,3696,7200
+"Hästholmsvägen 17, 6 tr",Södermalm,Stockholms kommun,2021-08-31,4000000,3495000,Lägenhet,Bostadsrätt,2 ,44 ,True,6 av 8,True,1945,2697,5800
+Sjöfartsgatan 17,Hammarby Sjöstad,Stockholms kommun,2021-08-31,4450000,3895000,Lägenhet,Bostadsrätt,2 ,"55,5 ",True,5 av 10,True,2008,3094,7200
+Skeppsmäklargatan 51,Hammarby Sjöstad,Stockholms kommun,2021-08-29,3515000,3395000,Lägenhet,Bostadsrätt,2 ,39 ,True,2 av 6,True,2019,2390,4800
+Korphoppsgatan 22,Hammarby Sjöstad,Stockholms kommun,2021-08-19,4000000,3495000,Lägenhet,Bostadsrätt,2 ,45 ,True,4 av 5,True,2002,3383,4200
+"Hammarby allé 127, 2 tr",Hammarby Sjöstad,Stockholms kommun,2021-08-18,4050000,3495000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 7,True,2003,2805,8400
+Midskeppsgatan 23,Hammarby Sjöstad,Stockholms kommun,2021-08-10,3900000,3750000,Lägenhet,Bostadsrätt,2 ,"41,5 ",False,1 av 5,True,,2235,4200
+"Virkesvägen 17C, 9tr",Hammarby Sjöstad,Stockholms kommun,2021-08-05,4200000,3600000,Lägenhet,Bostadsrätt,2 ,48 ,True,9 av 10,True,2018,2596,6600
+Henriksdalsallén 33,Hammarby Sjöstad - Henriksdalshamnen,Stockholms kommun,2021-07-20,4400000,4400000,Lägenhet,Bostadsrätt,2 ,59 ,True,3 av 6,True,2013,2770,5280
+"Pollargatan 22, pl 3",Hammarby Sjöstad,Stockholms kommun,2021-07-12,4125000,3995000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 6,True,2011,3587,5000
+Virkesvägen 17C,Hammarby Sjöstad,Stockholms kommun,2021-06-30,3850000,3900000,Lägenhet,Bostadsrätt,2 ,49 ,True,1 av 6,True,2018,2764,
+"Fartygsgatan 2, 6 tr",Hammarby Sjöstad,Stockholms kommun,2021-06-17,5925000,5500000,Lägenhet,Bostadsrätt,2 ,"73,5 ",True,6 av 6,True,2007,4471,5400
+Virkesvägen 9b,Hammarby Sjöstad,Stockholms kommun,2021-06-17,4500000,3995000,Lägenhet,Bostadsrätt,2 ,"62,5 ",True,1,True,2020,3355,5400
+Sjöfartsgatan 9,Hammarby Sjöstad,Stockholms kommun,2021-06-10,3775000,3495000,Lägenhet,Bostadsrätt,2 ,46 ,True,4,True,2008,3306,9600
+Babordsgatan 8,Hammarby Sjöstad,Stockholms kommun,2021-06-09,3900000,3495000,Lägenhet,Bostadsrätt,2 ,55 ,False,,,2002,3028,10596
+"Hästholmsvägen 17, 6 tr",Södermalm - Sofia,Stockholms kommun,2021-06-09,4010000,3395000,Lägenhet,Bostadsrätt,2 ,49 ,True,6 av 8,True,1945,3004,5000
+Sickla Kanalgata 56,Hammarby Sjöstad,Stockholms kommun,2021-05-28,6200000,5995000,Lägenhet,Bostadsrätt,2 ,72 ,True,3 av 5,True,2001,4300,9500
+Lumaparksvägen 3,Hammarby Sjöstad,Stockholms kommun,2021-05-25,4275000,4295000,Lägenhet,Bostadsrätt,2 ,56 ,False,,,2016,3505,5000
+Fredriksdalsgatan 4,Hammarby Sjöstad,Stockholms kommun,2021-05-25,4225000,4300000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 6,True,2018,2952,4860
+"Fartygsgatan 8, 4tr",Hammarby Sjöstad,Stockholms kommun,2021-05-25,4130000,3895000,Lägenhet,Bostadsrätt,2 ,"55,5 ",True,4 av 6,True,2007,3733,3500
+Babordsgatan 9,Hammarby Sjöstad,Stockholms kommun,2021-05-23,3750000,2995000,Lägenhet,Bostadsrätt,2 ,42 ,True,2 av 4,True,2003,2731,6200
+"Heliosgatan 16A, 4 tr",Hammarby Sjöstad,Stockholms kommun,2021-05-18,3895000,3895000,Lägenhet,Bostadsrätt,2 ,56 ,True,4,True,2019,3714,2400
+Kölnagatan 6,Hammarby Sjöstad,Stockholms kommun,2021-05-11,3350000,2750000,Lägenhet,Bostadsrätt,2 ,42 ,True,0,True,2003,2731,3600
+"Kölnagatan 12, BV",Hammarby Sjöstad,Stockholms kommun,2021-05-05,3320000,2750000,Lägenhet,Bostadsrätt,2 ,42 ,False,,,2003,2731,3792
+"Fredriksdalsgatan 1, vån 7",Hammarby Sjöstad,Stockholms kommun,2021-05-05,5360000,4795000,Lägenhet,Bostadsrätt,2 ,63 ,True,7 av 8,True,2016,3533,4800
+Stapelgatan 4,Hammarby Sjöstad,Stockholms kommun,2021-05-03,4810000,4295000,Lägenhet,Bostadsrätt,2 ,60 ,True,1,True,2013,2803,
+"Hammarby Allé 173, pl 4",Hammarby Sjöstad,Stockholms kommun,2021-04-29,4525000,3995000,Lägenhet,Bostadsrätt,2 ,"56,5 ",True,4 av 8,True,2003,2269,2000
+"Hammarby allé 157, vån 4",Hammarby Sjöstad,Stockholms kommun,2021-04-26,3450000,3295000,Lägenhet,Bostadsrätt,2 ,45 ,True,4 av 7,True,2003,3383,7200
+"Hammarby Allé 9, Våning 6",Södra Hammarbyhamnen,Stockholms kommun,2021-04-26,4450000,3970000,Lägenhet,Bostadsrätt,2 ,"53,5 ",True,6 av 10,True,2016,3155,5160
+"Midskeppsgatan 10, 4 tr",Hammarby Sjöstad,Stockholms kommun,2021-04-16,4725000,4395000,Lägenhet,Bostadsrätt,2 ,58 ,True,4 av 6,True,2009,3310,2300
+Virkesvägen 5A,Hammarby Sjöstad,Stockholms kommun,2021-04-16,4300000,4300000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 4,True,2021,3387,4860
+"Rorgängargatan 15A, högst upp!",Hammarby Sjöstad,Stockholms kommun,2021-04-12,5550000,4795000,Lägenhet,Bostadsrätt,2 ,66 ,True,12 av 12,True,2009,3324,8160
+"Redargatan 11, 3tr",Hammarby Sjöstad,Stockholms kommun,2021-03-31,4750000,3950000,Lägenhet,Bostadsrätt,2 ,60 ,True,3 av 5,True,2008,3123,5400
+Midskeppsgatan 23,Hammarby Sjöstad,Stockholms kommun,2021-03-29,4500000,3995000,Lägenhet,Bostadsrätt,2 ,61 ,True,1 av 5,True,2004,3325,7800
+"Redargatan 5, 4tr",Hammarby Sjöstad,Stockholms kommun,2021-03-25,3750000,3150000,Lägenhet,Bostadsrätt,2 ,46 ,True,4,True,2008,2488,1668
+"Lugnets Allé 30, 6 tr",Hammarby Sjöstad,Stockholms kommun,2021-03-18,5300000,4895000,Lägenhet,Bostadsrätt,2 ,71 ,True,6 av 8,True,2003,2852,2200
+Hammarby allé 51b,Hammarby Sjöstad,Stockholms kommun,2021-03-16,5310000,4495000,Lägenhet,Bostadsrätt,2 ,64 ,True,3,True,2014,3518,4800
+"Virkesvägen 15, 6tr",Hammarby Sjöstad,Stockholms kommun,2021-03-14,3695000,3695000,Lägenhet,Bostadsrätt,2 ,50 ,True,6 av 11,True,2019,2811,3840
+Fredriksdalsgatan 12,Hammarby Sjöstad,Stockholms kommun,2021-03-05,4200000,3995000,Lägenhet,Bostadsrätt,2 ,48 ,True,6 av 7,True,2018,2629,6500
+Fredriksdalsgatan 24,Hammarby Sjöstad,Stockholms kommun,2021-03-03,4510000,4195000,Lägenhet,Bostadsrätt,2 ,48 ,True,8 av 8,True,2017,2629,400
+"Korphoppsgatan 25, 2 tr Gårdshus!",Hammarby Sjöstad,Stockholms kommun,2021-03-03,5820000,5150000,Lägenhet,Bostadsrätt,2 ,68 ,True,2 av 3,True,2002,3673,9000
+Hammarby Allé 127,Hammarby Sjöstad,Stockholms kommun,2021-02-22,4800000,4495000,Lägenhet,Bostadsrätt,2 ,59 ,True,3 av 7,True,2003,3156,7200
+"Hästholmsvägen 10, 1 tr",Södermalm - Danviksklippan,Stockholms kommun,2021-02-19,4025000,3350000,Lägenhet,Bostadsrätt,2 ,51 ,True,1 av 8,True,1945,2431,2400
+Fredriksdalsgatan 16,Hammarby Sjöstad,Stockholms kommun,2021-02-13,3800000,3495000,Lägenhet,Bostadsrätt,2 ,"43,5 ",True,2 av 6,True,2017,2423,5400
+"Virkesvägen 9B, 2tr",Hammarby Sjöstad,Stockholms kommun,2021-02-10,4200000,3995000,Lägenhet,Bostadsrätt,2 ,"55,5 ",True,2,True,2020,3028,5400
+"Hammarby Allé 51B, 2tr",Hammarby Sjöstad,Stockholms kommun,2021-02-05,5000000,4295000,Lägenhet,Bostadsrätt,2 ,64 ,True,2 av 6,True,2014,3518,3480
+"Aktergatan 20, pl 4&5",Hammarby Sjöstad,Stockholms kommun,2021-01-15,4800000,4295000,Lägenhet,Bostadsrätt,2 ,59 ,True,4 av 6,True,2002,3884,7200
+Hammarby Allé 149,Stockholm,Stockholms kommun,2021-01-15,4750000,4195000,Lägenhet,Bostadsrätt,2 ,59 ,True,4,True,2003,3940,5640
+"Lugnets Allé 61, vån 4/4",Hammarby Sjöstad,Stockholms kommun,2021-01-13,5200000,4550000,Lägenhet,Bostadsrätt,2 ,53 ,True,4 av 4,True,2000,3690,7200
+"Aktergatan 20, 4tr",Hammarby Sjöstad,Stockholms kommun,2021-01-10,5000000,4350000,Lägenhet,Bostadsrätt,2 ,55 ,True,4 av 6,True,2004,3735,4800
+"Fredriksdalsgatan 18, ACCEPTERAT PRIS",Hammarby Sjöstad,Stockholms kommun,2020-12-11,4050000,4050000,Lägenhet,Bostadsrätt,2 ,48 ,True,3,True,2018,2629,7600
+"Midskeppsgatan 19, vån 4",Hammarby Sjöstad,Stockholms kommun,2020-12-05,3675000,3675000,Lägenhet,Bostadsrätt,2 ,54 ,True,4 av 6,True,2004,2886,6000
+Henriksdalsallén 24A,Hammarby Sjöstad,Stockholms kommun,2020-11-27,3625000,3195000,Lägenhet,Bostadsrätt,2 ,"55,5 ",True,1 av 6,True,2012,3042,7020
+Skeppsmäklargatan 51,Hammarby Sjöstad,Stockholms kommun,2020-11-19,3270000,2795000,Lägenhet,Bostadsrätt,2 ,39 ,True,4 av 8,True,2019,2391,6000
+Heliosgatan 11,Hammarby Sjöstad,Stockholms kommun,2020-11-17,5000000,5000000,Lägenhet,Bostadsrätt,2 ,"58,5 ",True,5 av 7,True,2019,3239,5700
+"Jan Inghes torg 30, 3tr",Hammarby Sjöstad,Stockholms kommun,2020-11-16,4800000,4250000,Lägenhet,Bostadsrätt,2 ,66 ,True,3 av 5,True,2012,3987,6000
+Henriksdalsallén 33,Hammarby Sjöstad,Stockholms kommun,2020-11-10,3150000,2695000,Lägenhet,Bostadsrätt,2 ,"45,5 ",False,,,2013,2617,4860
+"Hammarby Allé 5, 3tr",Hammarby Sjöstad,Stockholms kommun,2020-11-03,3500000,2995000,Lägenhet,Bostadsrätt,2 ,52 ,True,3 av 9,True,2016,3051,8460
+"Virkesvägen 9G, 1tr",Hammarby Sjöstad,Stockholms kommun,2020-10-28,3300000,2895000,Lägenhet,Bostadsrätt,2 ,"44,5 ",True,1,True,2019,2588,3900
+"Aktergatan 9, pl4",Hammarby Sjöstad,Stockholms kommun,2020-10-28,4350000,4195000,Lägenhet,Bostadsrätt,2 ,"67,5 ",True,4 av 6,True,2003,2711,1200
+"Hammarby Allé 127, 3tr",Hammarby Sjöstad,Stockholms kommun,2020-10-27,3700000,3195000,Lägenhet,Bostadsrätt,2 ,48 ,True,3 av 7,True,2002,2750,6000
+Fendergatan 6,Hammarby Sjöstad,Stockholms kommun,2020-10-21,3900000,3650000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 5,True,2009,3516,4000
+"Korphoppsgatan 22, 5 tr",Södra Hammarbyhamnen,Stockholms kommun,2020-10-14,5170000,4495000,Lägenhet,Bostadsrätt,2 ,64 ,True,5 av 6,True,2003,4337,6000
+Lugnets allé 61,Hammarby Sjöstad,Stockholms kommun,2020-10-13,4600000,3750000,Lägenhet,Bostadsrätt,2 ,59 ,True,1,True,2002,4082,6876
+"Fendergatan 6, 5tr",Hammarby Sjöstad,Stockholms kommun,2020-10-09,4250000,3995000,Lägenhet,Bostadsrätt,2 ,55 ,True,5 av 6,True,2009,3516,2988
+Båtbyggargatan 10,Hammarby Sjöstad,Stockholms kommun,2020-10-08,3250000,2995000,Lägenhet,Bostadsrätt,2 ,51 ,False,,,2003,3689,6000
+"Lumaparksvägen 3, 5 tr",Hammarby Sjöstad,Stockholms kommun,2020-10-08,5650000,5375000,Lägenhet,Bostadsrätt,2 ,54 ,True,5 av 5,True,2016,3435,3000
+"Lugnets Allé 61, 2tr",Hammarby Sjöstad,Stockholms kommun,2020-10-07,4370000,3650000,Lägenhet,Bostadsrätt,2 ,59 ,True,2 av 4,True,2002,4082,5500
+Babordsgatan 20,Hammarby Sjöstad,Stockholms kommun,2020-10-05,4810000,4250000,Lägenhet,Bostadsrätt,2 ,"68,5 ",False,,,2001,4252,12300
+Styrbordsgatan 22,Hammarby Sjöstad,Stockholms kommun,2020-10-01,4600000,4295000,Lägenhet,Bostadsrätt,2 ,64 ,True,2 av 4,True,2002,2951,4800
+"Rorgängargatan 2, 1 tr",Hammarby Sjöstad,Stockholms kommun,2020-09-22,4850000,4350000,Lägenhet,Bostadsrätt,2 ,66 ,True,1 av 3,True,2004,4537,7200
+"Korphoppsgatan 20, vån 3",Hammarby Sjöstad,Stockholms kommun,2020-09-22,3400000,2995000,Lägenhet,Bostadsrätt,2 ,46 ,False,3 av 7,True,2003,3355,6000
+"Hammarby Allé 44, 4tr",Hammarby Sjöstad,Stockholms kommun,2020-09-20,4000000,3495000,Lägenhet,Bostadsrätt,2 ,52 ,True,4,True,2008,3603,7800
+"Konvojgatan 1, 7tr",Södra Hammarbyhamnen,Stockholms kommun,2020-09-17,5150000,4995000,Lägenhet,Bostadsrätt,2 ,"58,5 ",False,7 av 7,True,2007,4323,4200
+"Sickla Kanalgata 13A, 3tr",Hammarby Sjöstad,Stockholms kommun,2020-09-17,5710000,5495000,Lägenhet,Bostadsrätt,2 ,"80,5 ",True,3,True,2001,5069,6700
+Rorgängargatan 17A,Hammarby Sjöstad - Sickla Udde,Stockholms kommun,2020-09-11,4800000,4495000,Lägenhet,Bostadsrätt,2 ,66 ,True,10 av 12,True,2008,3833,7309
+"Lugnets allé 65, 5tr",Hammarby Sjöstad,Stockholms kommun,2020-09-08,4900000,4250000,Lägenhet,Bostadsrätt,2 ,64 ,True,5 av 5,True,2002,4302,4000
+"Fendergatan 6, 2 tr",Hammarby Sjöstad,Stockholms kommun,2020-09-04,3750000,3575000,Lägenhet,Bostadsrätt,2 ,51 ,True,2 av 6,True,2009,3383,4380
+Hammarby Allé 9,Hammarby Sjöstad,Stockholms kommun,2020-08-27,3750000,3250000,Lägenhet,Bostadsrätt,2 ,55 ,False,,,2014,3196,4800
+Heliosgatan 16A,Hammarby Sjöstad,Stockholms kommun,2020-07-25,3295000,3295000,Lägenhet,Bostadsrätt,2 ,48 ,False,,,2019,2750,6000
+Virkesvägen 19D,Hammarby Sjöstad,Stockholms kommun,2020-07-21,4995000,4995000,Lägenhet,Bostadsrätt,2 ,61 ,True,,,2018,3518,4800
+Virkesvägen 19D,Hammarby Sjöstad,Stockholms kommun,2020-07-16,3340000,3295000,Lägenhet,Bostadsrätt,2 ,53 ,False,,,2018,2952,1800
+Styrbordsgatan 7,Hammarby Sjöstad,Stockholms kommun,2020-06-10,3600000,3195000,Lägenhet,Bostadsrätt,2 ,62 ,False,,,2003,4059,8400
+Båtbyggargatan 21,Hammarby Sjöstad,Stockholms kommun,2020-05-09,3400000,3495000,Lägenhet,Bostadsrätt,2 ,50 ,True,4 av 6,True,2019,2704,4250
+"Hammarby Allé 9, 4 tr",Hammarby Sjöstad,Stockholms kommun,2020-04-21,4350000,3850000,Lägenhet,Bostadsrätt,2 ,56 ,False,,,2016,3245,4200
+Hammarby Allé 149,Hammarby Sjöstad,Stockholms kommun,2020-03-06,3375000,3295000,Lägenhet,Bostadsrätt,2 ,50 ,True,3 av 7,True,2003,3511,6971
+"Hästholmsvägen 10, 5 tr",Södermalm/Danviksklippan,Stockholms kommun,2020-03-04,3850000,3350000,Lägenhet,Bostadsrätt,2 ,51 ,True,,,1945,2431,4200
+Virkesvägen 17C,Hammarby Sjöstad,Stockholms kommun,2020-03-04,3550000,3550000,Lägenhet,Bostadsrätt,2 ,56 ,False,,,2018,3083,7260
+Fartygsgatan 4,Hammarby Sjöstad,Stockholms kommun,2020-02-15,3900000,3650000,Lägenhet,Bostadsrätt,2 ,"55,5 ",True,,,2007,3733,2400
+Båtklubbsgatan 17,Hammarby Sjöstad,Stockholms kommun,2020-02-12,4650000,3695000,Lägenhet,Bostadsrätt,2 ,54 ,True,,,2012,2764,5000
+Heliosgatan 16A,Hammarby Sjöstad,Stockholms kommun,2020-02-05,3175000,3275000,Lägenhet,Bostadsrätt,2 ,48 ,False,,,2019,2750,6000
+Styrbordsgatan 21,Hammarby Sjöstad,Stockholms kommun,2020-02-03,3295000,3295000,Lägenhet,Bostadsrätt,2 ,"59,5 ",False,,,2002,4044,5400
+Redargatan 10,Hammarby Sjöstad,Stockholms kommun,2020-01-17,4175000,4250000,Lägenhet,Bostadsrätt,2 ,61 ,False,,,2009,3787,4000
+Jan Inghes Torg 30,Hammarby Sjöstad - Henriksdalshamnen,Stockholms kommun,2019-12-28,3650000,3795000,Lägenhet,Bostadsrätt,2 ,"63,5 ",False,,,2012,3900,7500
+"Lugnets Allé 57, ep",Hammarby Sjöstad,Stockholms kommun,2019-12-13,3820000,3495000,Lägenhet,Bostadsrätt,2 ,60 ,False,,,2001,3860,4000
+Midskeppsgatan 21,Hammarby Sjöstad,Stockholms kommun,2019-12-12,3040000,3100000,Lägenhet,Bostadsrätt,2 ,46 ,False,,,2004,2387,3600

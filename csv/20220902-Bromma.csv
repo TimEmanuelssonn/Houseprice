@@ -1,0 +1,51 @@
+Adress,Område,Region,Avstånd till T-centralen,Datum,Slutpris,Begärt pris,Bostadstyp,Upplåtelseform,Antal rum,Boarea,Balkong,Våning,Hiss,Byggår,Avgift/månad,Driftskostnad
+"Granbacken 22, 3 tr.",Bromma / Ulvsunda,Stockholms kommun,1938,2022-09-01,2495000,2495000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1952,3490,6000
+Galonvägen 26,Bromma - Riksby,Stockholms kommun,1553,2022-09-01,3300000,,Lägenhet,Bostadsrätt,2 ,60 ,False,,,1942,3100,
+Nockeby torg 27,Nockeby,Stockholms kommun,2308,2022-09-01,2730000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1938,1924,6000
+Grönviksvägen 189,Nockebyhov,Stockholms kommun,2181,2022-09-01,3500000,2750000,Lägenhet,Bostadsrätt,2 ,59 ,False,1 av 3,False,1928,2786,5400
+Hunnebergsvägen 18,Traneberg,Stockholms kommun,1557,2022-08-31,2850000,2995000,Lägenhet,Bostadsrätt,2 ,51 ,,1 av 3,False,,2782,6000
+Klädesvägen 40,Brommaplan,Stockholms kommun,1303,2022-08-31,3400000,3400000,Lägenhet,Bostadsrätt,2 ,58 ,True,4,True,2017,3287,
+Knypplerskevägen 6,Bromma - Åkeshov,Stockholms kommun,1530,2022-08-31,2325000,2095000,Lägenhet,Bostadsrätt,2 ,42 ,False,3 av 3,False,1942,3232,7392
+Karen Blixens Gata 7,Blackeberg,Stockholms kommun,2034,2022-08-30,3150000,3150000,Lägenhet,Bostadsrätt,2 ,62 ,True,2,True,,3604,5800
+Tegelbergsvägen 36,Mariehäll,Stockholms kommun,1650,2022-08-30,2350000,2195000,Lägenhet,Bostadsrätt,2 ,27 ,False,1 av 3,False,1948,2928,1920
+Spinnrocksvägen 3,Bromma - Riksby,Stockholms kommun,1696,2022-08-30,2450000,2295000,Lägenhet,Bostadsrätt,2 ,40 ,True,3 av 3,False,1939,2740,5760
+Klintbacken 1,Bromma / Mariehäll,Stockholms kommun,1411,2022-08-30,2500000,2195000,Lägenhet,Bostadsrätt,2 ,"41,5 ",False,1 av 4,False,1944,2164,3000
+Porfyrvägen 28,Traneberg,Stockholms kommun,1631,2022-08-30,2880000,2750000,Lägenhet,Bostadsrätt,2 ,40 ,True,1 av 4,False,1939,2690,5100
+"Tranebergsvägen 107, vån 3/3",Traneberg,Stockholms kommun,1299,2022-08-28,3600000,3450000,Lägenhet,Bostadsrätt,2 ,"53,5 ",True,3 av 3,False,1945,3293,5400
+Johannesfredsvägen 26B,Bromma Johannesfred,Stockholms kommun,2134,2022-08-26,2930000,2650000,Lägenhet,Bostadsrätt,2 ,60 ,False,,,1946,3603,7548
+Klädesvägen 28,Bromma - Riksby,Stockholms kommun,1238,2022-08-26,2780000,2495000,Lägenhet,Bostadsrätt,2 ,42 ,False,,,2016,2380,5400
+Spångavägen 30,Bromma,Stockholms kommun,1619,2022-08-26,2420000,2395000,Lägenhet,Bostadsrätt,2 ,56 ,,3,False,1940,3810,6720
+Björkbacksvägen 48,Bromma - Ulvsunda,Stockholms kommun,1839,2022-08-26,2250000,1995000,Lägenhet,Bostadsrätt,2 ,45 ,False,1 av 3,False,1939,3864,7800
+Klädesvägen 38,Bromma - Riksby,Stockholms kommun,1354,2022-08-26,3100000,2995000,Lägenhet,Bostadsrätt,2 ,54 ,True,2 av 10,True,2016,3060,6000
+Holbergsgatan 77,Bromma - Blackeberg,Stockholms kommun,1792,2022-08-25,2500000,2390000,Lägenhet,Bostadsrätt,2 ,59 ,True,,,1952,3796,
+Knypplerskevägen 10,Bromma - Åkeshov,Stockholms kommun,1544,2022-08-25,2160000,1995000,Lägenhet,Bostadsrätt,2 ,42 ,False,3 av 3,False,1942,3232,5100
+Alpvägen 23,Bromma / Mariehäll,Stockholms kommun,1670,2022-08-25,3600000,3295000,Lägenhet,Bostadsrätt,2 ,66 ,True,1 av 5,True,2017,3236,12276
+Tranebergsvägen 91 - Accepterat pris!,Traneberg,Stockholms kommun,1329,2022-08-25,3575000,3650000,Lägenhet,Bostadsrätt,2 ,"53,5 ",True,1 av 3,False,1945,3146,4440
+"Dukvägen 41, vån 3/3",Riksby,Stockholms kommun,1498,2022-08-25,3035000,2750000,Lägenhet,Bostadsrätt,2 ,51 ,True,3 av 3,False,,2968,
+Karen Blixens Gata 7,Blackeberg,Stockholms kommun,2034,2022-08-24,3500000,2995000,Lägenhet,Bostadsrätt,2 ,62 ,True,11 av 12,True,2014,3604,8844
+Björnsonsgatan 116,Bromma - Blackeberg,Stockholms kommun,1874,2022-08-24,2830000,2495000,Lägenhet,Bostadsrätt,2 ,59 ,True,3 av 3,False,1952,3288,6948
+Suddagummans gata 10,Bromma / Annedal,Stockholms kommun,1900,2022-08-24,3250000,2995000,Lägenhet,Bostadsrätt,2 ,65 ,True,2 av 5,True,2013,4060,18240
+Sareksvägen 11,Bromma - Traneberg,Stockholms kommun,1535,2022-08-24,3310000,2995000,Lägenhet,Bostadsrätt,2 ,47 ,True,3 av 3,False,1937,2279,4200
+Mariehällsvägen 8,Bromma,Stockholms kommun,1374,2022-08-24,2900000,2995000,Lägenhet,Bostadsrätt,2 ,49 ,,0,True,,3339,
+Registervägen 32,Abrahamsberg,Stockholms kommun,1281,2022-08-23,3000000,2595000,Lägenhet,Bostadsrätt,2 ,55 ,True,2 av 3,False,1945,3007,8100
+Snörmakarvägen 49,Bromma - Åkeshov,Stockholms kommun,1486,2022-08-23,3125000,2950000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 3,False,1944,3754,4440
+Klas Klättermus Gata 7,Annedal,Stockholms kommun,1654,2022-08-22,3495000,3495000,Lägenhet,Bostadsrätt,2 ,64 ,False,,,2012,3404,8916
+Tomtebobarnens gata 11,Annedal,Stockholms kommun,1734,2022-08-21,2500000,2595000,Lägenhet,Bostadsrätt,2 ,"43,5 ",True,1,True,2017,2759,
+Kamomillagatan 5,Bromma - Annedal,Stockholms kommun,1702,2022-08-19,3330000,3195000,Lägenhet,Bostadsrätt,2 ,64 ,True,2,True,2015,3783,4200
+Björnsonsgatan 140,Bromma - Blackeberg,Stockholms kommun,1741,2022-08-19,2625000,2395000,Lägenhet,Bostadsrätt,2 ,57 ,True,1 av 9,True,1952,3000,4800
+Åkerhielmsgatan 24,Ulvsunda,Stockholms kommun,1446,2022-08-19,3900000,3795000,Lägenhet,Bostadsrätt,2 ,65 ,False,2 av 3,True,1929,4162,13587
+Tallbacksvägen 24,Ulvsunda,Stockholms kommun,2009,2022-08-19,2750000,2495000,Lägenhet,Bostadsrätt,2 ,"49,5 ",,1 av 3,False,,3193,
+Snörmakarvägen 11,Bromma - Åkeshov,Stockholms kommun,1628,2022-08-18,2400000,2095000,Lägenhet,Bostadsrätt,2 ,42 ,False,1 av 3,False,1942,3450,3600
+Klädesvägen 40,Bromma,Stockholms kommun,1303,2022-08-18,2880000,2495000,Lägenhet,Bostadsrätt,2 ,43 ,True,3 av 6,True,2017,2437,
+"Dukvägen 4, 1tr",Riksby,Stockholms kommun,1313,2022-08-17,3000000,2695000,Lägenhet,Bostadsrätt,2 ,51 ,True,1 av 3,False,1942,2969,6188
+Beckomberga ängsväg 14,Bromma - Beckomberga,Stockholms kommun,2549,2022-08-17,2950000,2950000,Lägenhet,Bostadsrätt,2 ,57 ,False,,,2016,3790,4800
+"Pippi Långstrumps Gata 44, 3 tr",Bromma - Annedal,Stockholms kommun,2100,2022-08-17,3265000,2895000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 5,True,2011,3107,
+Stångjärnsvägen 5,Bromma - Johannesfred,Stockholms kommun,1929,2022-08-17,2475000,2195000,Lägenhet,Bostadsrätt,2 ,46 ,True,2 av 3,False,1946,2860,6000
+"Stopvägen 98, 2tr",Bromma - Abrahamsberg/Åkeslund,Stockholms kommun,1510,2022-08-17,2450000,2250000,Lägenhet,Bostadsrätt,2 ,39 ,,2 av 3,False,1943,2890,4200
+Björkbacksvägen 44,Johannesfred,Stockholms kommun,1867,2022-08-17,2450000,2395000,Lägenhet,Bostadsrätt,2 ,"46,5 ",True,2 av 3,False,,4141,
+Tackjärnsvägen 14,Johannesfred,Stockholms kommun,1850,2022-08-16,2670000,2495000,Lägenhet,Bostadsrätt,2 ,"42,5 ",True,0 av 6,True,1989,2254,5400
+Stångjärnsvägen 8,Bromma - Johannesfred,Stockholms kommun,1906,2022-08-15,2500000,2250000,Lägenhet,Bostadsrätt,2 ,46 ,True,3 av 3,False,1946,2905,10800
+Spångavägen 42,Bromma Brommaplan,Stockholms kommun,1654,2022-08-15,2600000,,Lägenhet,Bostadsrätt,2 ,56 ,True,3 av 3,False,1941,3810,6000
+"Registervägen 22, vån 2",Abrahamsberg,Stockholms kommun,1191,2022-08-15,2570000,2295000,Lägenhet,Bostadsrätt,2 ,40 ,True,2 av 3,False,1944,1939,
+"Tranebergsvägen 43, vån 3/3",Traneberg,Stockholms kommun,1500,2022-08-15,3600000,3650000,Lägenhet,Bostadsrätt,2 ,60 ,True,3 av 3,False,,3273,5100
+Björkbacksvägen 24,Bromma - Johannesfred/Ulvsunda,Stockholms kommun,1969,2022-08-14,2150000,1995000,Lägenhet,Bostadsrätt,2 ,38 ,False,1 av 3,False,1939,3310,5400

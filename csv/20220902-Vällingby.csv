@@ -1,0 +1,51 @@
+Adress,Område,Region,Datum,Slutpris,Begärt pris,Bostadstyp,Upplåtelseform,Antal rum,Boarea,Balkong,Våning,Hiss,Byggår,Avgift/månad,Driftskostnad
+Lövkojsgränd 11,Hässelby Norra Villastad,Stockholms kommun,2022-09-01,4000000,3775000,Lägenhet,Bostadsrätt,4 ,106 ,,2 av 4,True,2020,5225,
+Mörsilsgatan 6,Vällingby,Stockholms kommun,2022-08-31,1250000,1195000,Lägenhet,Bostadsrätt,1 ,20 ,False,1 av 4,False,1955,1630,
+Ångermannagatan 176 vån 6,Vällingby Centrum,Stockholms kommun,2022-08-31,2895000,2895000,Lägenhet,Bostadsrätt,3 ,76 ,True,6 av 9,True,1954,4562,8300
+"Råckstavägen 25, vån 6/6",Vällingby - Råcksta,Stockholms kommun,2022-08-31,2620000,2175000,Lägenhet,Bostadsrätt,2 ,54 ,True,6 av 6,True,2009,3424,
+Lövkojsgränd 17,Hässelby Norra Villastad,Stockholms kommun,2022-08-31,2600000,2475000,Lägenhet,Bostadsrätt,3 ,67 ,,,,2020,3643,
+"Enspännargatan 12A, vån 6/7",Hässelby Gård,Stockholms kommun,2022-08-31,1550000,1495000,Lägenhet,Bostadsrätt,1 ,33 ,True,6 av 7,True,2017,2353,3102
+Rabattvägen 40,Vällingby-Johannelund,Stockholms kommun,2022-08-30,2595000,2595000,Lägenhet,Bostadsrätt,3 ,68 ,,5 av 5,True,2013,4746,4560
+Gulddragargränd 52,Hässelby Grimsta,Stockholms kommun,2022-08-29,4250000,4395000,Lägenhet,Bostadsrätt,4 ,95 ,True,9 av 9,True,2007,5640,
+Jämtlandsgatan 97,Vällingby Parkstad / Råcksta,Stockholms kommun,2022-08-28,2900000,2795000,Lägenhet,Bostadsrätt,2 ,66 ,,1 av 10,True,2018,3483,
+Blomsterkungsvägen 116A,Hässelby Villastad Norra,Stockholms kommun,2022-08-28,1495000,1495000,Lägenhet,Bostadsrätt,1 ,"34,9 ",,-1 av 3,True,2019,1952,3300
+"Melongatan 14, Vån 3",Hässelby Strand,Stockholms kommun,2022-08-28,3500000,3295000,Lägenhet,Bostadsrätt,4 ,92 ,True,3 av 4,True,2012,4876,7800
+Grimstagatan 46 (Vån 2),Vällingby - Grimsta,Stockholms kommun,2022-08-26,2350000,2195000,Lägenhet,Bostadsrätt,3 ,80 ,True,2 av 3,False,1958,3663,4200
+Multrågatan 21 - vån 9/9,Råcksta,Stockholms kommun,2022-08-26,2225000,2250000,Lägenhet,Bostadsrätt,3 ,73 ,True,9 av 9,True,1958,4621,
+Härjedalsgatan 1,Vällingby,Stockholms kommun,2022-08-26,2050000,2050000,Lägenhet,Bostadsrätt,2 ,60 ,True,3 av 3,False,,3010,
+Grimstagatan 60 (Vån 2),Vällingby - Grimsta,Stockholms kommun,2022-08-25,2375000,2250000,Lägenhet,Bostadsrätt,3 ,80 ,True,2 av 3,False,1958,3663,4200
+Lövkojsgränd 21,Hässelby Norra Villastad,Stockholms kommun,2022-08-25,2000000,2000000,Lägenhet,Bostadsrätt,2 ,50 ,,,,2020,2791,3400
+Aprikosgatan 29 (Vån 8),Hässelby Strand,Stockholms kommun,2022-08-25,3100000,2695000,Lägenhet,Bostadsrätt,3 ,73 ,True,8 av 8,True,1957,4859,7900
+"Multrågatan 124, vån 1",Vällingby Parkstad / Råcksta,Stockholms kommun,2022-08-25,2500000,2295000,Lägenhet,Bostadsrätt,"3,5 ",80 ,True,1 av 3,False,1953,5542,9840
+Multrågatan 17 (Våning 2),Vällingby Parkstad / Råcksta,Stockholms kommun,2022-08-25,2375000,2195000,Lägenhet,Bostadsrätt,2 ,63 ,True,2 av 4,True,2008,3601,4200
+"Jämtlandsgatan 99, Vån 10 (13102/1902)",Vällingby Parkstad / Råcksta,Stockholms kommun,2022-08-25,4000000,3700000,Lägenhet,Bostadsrätt,3 ,79 ,,10 av 11,True,2018,4171,3600
+Ångermannagatan 164,Vällingby Centrum,Stockholms kommun,2022-08-25,1650000,1650000,Lägenhet,Bostadsrätt,"1,5 ","35,5 ",False,1 av 9,True,1955,2203,3100
+Duvedsvägen 5 (0154/0913),Vällingby Centrum,Stockholms kommun,2022-08-25,1320000,1320000,Lägenhet,Bostadsrätt,1 ,26 ,,,,1955,1863,3000
+Abiskovägen 12,Vällingby Centrum,Stockholms kommun,2022-08-25,2175000,1895000,Lägenhet,Bostadsrätt,2 ,58 ,True,2 av 3,False,1954,2997,4200
+Mörsilsgatan 14,Vällingby Centrum,Stockholms kommun,2022-08-25,1700000,1495000,Lägenhet,Bostadsrätt,"1,5 ",39 ,True,-0,False,1955,2386,5400
+Fyrspannsgatan 172 vån 4 (Sjöutsikt),Hässelby Strand,Stockholms kommun,2022-08-24,2400000,2195000,Lägenhet,Bostadsrätt,2 ,"51,5 ",True,4,True,2016,2889,5142
+Jämtlandsgatan 96,Vällingby Centrum,Stockholms kommun,2022-08-24,2000000,1895000,Lägenhet,Bostadsrätt,2 ,59 ,,0,False,1952,3378,4200
+Kirunagatan 72,Vällingby Centrum,Stockholms kommun,2022-08-24,2265000,1995000,Lägenhet,Bostadsrätt,2 ,58 ,True,3 av 3,False,1954,2997,4800
+Råcksta Gårdsväg 21,Vällingby - Råcksta,Stockholms kommun,2022-08-23,2200000,1995000,Lägenhet,Bostadsrätt,2 ,42 ,True,,,2012,2955,7200
+Njurundagatan 6,Vällingby Parkstad / Råcksta,Stockholms kommun,2022-08-22,1750000,1595000,Lägenhet,Bostadsrätt,"1,5 ",40 ,True,1 av 2,False,1959,2659,4282
+"Råcksta Gårdsväg 21, Vån 1 (31106/1106)",Vällingby Parkstad / Råcksta,Stockholms kommun,2022-08-21,3515000,2995000,Lägenhet,Bostadsrätt,3 ,76 ,True,1 av 13,True,2012,4317,3600
+Nickelgränd 6,Vällingby,Stockholms kommun,2022-08-19,5160000,4595000,Lägenhet,Bostadsrätt,5 ,149 ,True,7 av 7,True,1958,6655,
+Maltesholmsvägen 164A,Hässelby Strand,Stockholms kommun,2022-08-19,2975000,2975000,Lägenhet,Bostadsrätt,2 ,68 ,,1,False,,4142,4260
+"Krikongränd 2, Vån 6",Hässelby Strand,Stockholms kommun,2022-08-18,2800000,2595000,Lägenhet,Bostadsrätt,3 ,"67,5 ",True,6 av 8,True,2004,4251,7200
+Fyrspannsgatan 183,Hässelby Strand,Stockholms kommun,2022-08-17,2275000,2300000,Lägenhet,Bostadsrätt,2 ,55 ,True,4 av 4,True,2015,4050,3800
+Kanngjutargränd 26,Vällingby,Stockholms kommun,2022-08-17,1910000,1795000,Lägenhet,Bostadsrätt,2 ,53 ,True,4 av 4,True,2006,3376,
+"Mirabellbacken 7, Vån 1",Hässelby Strand,Stockholms kommun,2022-08-16,1720000,1495000,Lägenhet,Bostadsrätt,1 ,41 ,True,1 av 5,True,,2912,5795
+Astrakangatan 110 C,Hässelby - Lövsta allé,Stockholms kommun,2022-08-16,2775000,2775000,Lägenhet,Bostadsrätt,3 ,79 ,False,1 av 2,True,2006,6160,
+"Funäsgatan 8, Vån 8 (183/1703)",Råcksta / Vällingby Parkstad,Stockholms kommun,2022-08-15,2800000,2495000,Lägenhet,Bostadsrätt,2 ,47 ,,8 av 13,True,2018,2469,3300
+Vittangigatan 13,Vällingby Centrum,Stockholms kommun,2022-08-15,1850000,1695000,Lägenhet,Bostadsrätt,2 ,41 ,True,,,1952,2587,1800
+Kirunagatan 54,Vällingby Centrum,Stockholms kommun,2022-08-15,1395000,1395000,Lägenhet,Bostadsrätt,1 ,26 ,,3 av 3,False,,1600,
+Ångermannagatan 170,Vällingby Centrum,Stockholms kommun,2022-08-11,1895000,1895000,Lägenhet,Bostadsrätt,1 ,36 ,True,5 av 10,True,1954,2266,2400
+Mörsilsgatan 26,Vällingby Centrum,Stockholms kommun,2022-08-10,1750000,1495000,Lägenhet,Bostadsrätt,"1,5 ",37 ,False,0,False,1954,1852,7312
+Hundlokegränd 30 (Våning 4),Hässelby - Lövsta Allé,Stockholms kommun,2022-08-09,2225000,1995000,Lägenhet,Bostadsrätt,2 ,54 ,True,4 av 4,True,2017,3477,3800
+Östersundsgatan 7 (Våning 5),Vällingby Parkstad / Råcksta,Stockholms kommun,2022-08-09,3600000,3295000,Lägenhet,Bostadsrätt,4 ,97 ,True,5,True,2015,4906,8688
+Loviselundsvägen 19B (Våning 2),Hässelby,Stockholms kommun,2022-08-05,1950000,1695000,Lägenhet,Bostadsrätt,2 ,61 ,True,2 av 3,True,2006,4671,4500
+"Aprikosgatan 23, 2tr",Hässelby Strand,Stockholms kommun,2022-08-05,2710000,2495000,Lägenhet,Bostadsrätt,3 ,73 ,True,2 av 8,True,1957,4651,5350
+Rabattvägen 38,Vällingby-Johannelund,Stockholms kommun,2022-08-05,2200000,1895000,Lägenhet,Bostadsrätt,2 ,55 ,True,2 av 5,True,2013,3838,4500
+Härnösandsgatan 2,Vällingby Parkstad / Råcksta,Stockholms kommun,2022-08-04,2640000,2295000,Lägenhet,Bostadsrätt,2 ,52 ,True,3 av 3,True,2019,2680,2700
+Maltesholmsgränd 4,Hässelby Strand,Stockholms kommun,2022-08-04,2850000,2550000,Lägenhet,Bostadsrätt,"2,5 ",62 ,True,2 av 3,True,2013,2247,5940
+"Nickelgränd 4, 6 tr",Vällingby - Grimsta,Stockholms kommun,2022-08-03,3090000,2595000,Lägenhet,Bostadsrätt,"3,5 ",75 ,True,6 av 9,True,1958,3650,5240

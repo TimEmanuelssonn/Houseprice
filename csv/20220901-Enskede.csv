@@ -1,0 +1,160 @@
+Adress,Område,Region,Datum,Slutpris,Begärt pris,Bostadstyp,Upplåtelseform,Antal rum,Boarea,Balkong,Våning,Elevator,Byggår,Avgift/månad,Driftskostnad
+Nynäsvägen 351,Gamla Enskede,Stockholms kommun,2022-09-01,3500000,3395000,Lägenhet,Bostadsrätt,2 ,62 ,False,2 av 3,False,1931,3650,4000
+"Grusåsgränd 86, 3tr",Enskededalen,Stockholms kommun,2022-08-31,3725000,2995000,Lägenhet,Bostadsrätt,2 ,64 ,True,3 av 3,True,1979,3052,4800
+Kyrkogårdsvägen 47,Enskededalen,Stockholms kommun,2022-08-30,3430000,2995000,Lägenhet,Bostadsrätt,2 ,41 ,False,3 av 3,False,1921,2471,4000
+Sockenvägen 482,Enskede,Stockholms kommun,2022-08-27,2750000,2695000,Lägenhet,Bostadsrätt,2 ,49 ,True,2 av 3,False,1945,3560,3000
+Oppundavägen 35,Svedmyra,Stockholms kommun,2022-08-24,2830000,2495000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 4,False,1950,3431,4998
+"Brevvägen 7, vån 3/3",Svedmyra,Stockholms kommun,2022-08-24,2900000,2650000,Lägenhet,Bostadsrätt,2 ,49 ,True,3 av 3,True,1949,2803,4000
+Enskedevägen 170,Svedmyra,Stockholms kommun,2022-08-11,3120000,2995000,Lägenhet,Bostadsrätt,2 ,52 ,True,1 av 4,True,2018,3270,5850
+Postiljonsvägen 31,Svedmyra,Stockholms kommun,2022-08-02,3200000,2875000,Lägenhet,Bostadsrätt,2 ,53 ,True,3 av 4,False,1948,1896,4000
+Grusåsgränd 89,Gamla Enskede,Stockholms kommun,2022-07-08,2710000,2495000,Lägenhet,Bostadsrätt,2 ,64 ,True,3 av 3,True,1980,3233,4000
+"Stora gungans väg 11, 1 tr",Enskede - Gamla Enskede,Stockholms kommun,2022-07-07,3000000,2850000,Lägenhet,Bostadsrätt,2 ,43 ,False,2 av 3,False,1926,1660,6000
+Täppgränd 7,Enskede/Enskededalen,Stockholms kommun,2022-07-04,2895000,2895000,Lägenhet,Bostadsrätt,2 ,64 ,True,2 av 4,True,1981,2492,9336
+Stora Gungans väg 5,Gamla Enskede,Stockholms kommun,2022-06-27,4900000,3950000,Lägenhet,Bostadsrätt,2 ,53 ,False,2 av 3,False,1913,3248,5400
+Postiljonsvägen 5,Svedmyra,Stockholms kommun,2022-06-21,3010000,2595000,Lägenhet,Bostadsrätt,2 ,"53,5 ",,0 av 3,True,1949,2151,5400
+Stockholmsvägen 59,Enskede - Gamla Enskede,Stockholms kommun,2022-06-08,3250000,3200000,Lägenhet,Bostadsrätt,2 ,39 ,False,2 av 3,False,1912,1680,6960
+"Bersågränd 8, 2tr",Enskededalen,Stockholms kommun,2022-06-03,3050000,2795000,Lägenhet,Bostadsrätt,2 ,64 ,True,2 av 3,True,1981,2734,5460
+"Nynäsvägen 369, 1,5 tr",Enskede,Stockholms kommun,2022-05-30,3750000,3800000,Lägenhet,Bostadsrätt,2 ,65 ,False,1,False,1927,4317,6480
+"Sockenvägen 367, vån 2",Gamla Enskede,Stockholms kommun,2022-05-28,2450000,2395000,Lägenhet,Bostadsrätt,2 ,40 ,True,2 av 3,False,1942,2361,4236
+Gamla Tyresövägen 351C,Enskede/Kärringstan,Stockholms kommun,2022-05-20,3900000,3195000,Lägenhet,Bostadsrätt,2 ,50 ,True,3 av 4,True,2012,2102,12108
+Brevvägen 9,Svedmyra,Stockholms kommun,2022-05-20,2620000,2395000,Lägenhet,Bostadsrätt,2 ,47 ,True,2 av 3,True,1949,2863,3000
+"Jönåkersvägen 25, 3tr",Svedmyra,Stockholms kommun,2022-05-20,3000000,2650000,Lägenhet,Bostadsrätt,2 ,56 ,True,3 av 3,False,1950,3717,5500
+"Selebovägen 11, 1 tr",Svedmyra/Enskede,Stockholms kommun,2022-05-18,2920000,2395000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1950,3193,3648
+Brevvägen 7,Svedmyra,Stockholms kommun,2022-05-16,2930000,2295000,Lägenhet,Bostadsrätt,2 ,42 ,True,1 av 3,True,1949,2437,3800
+Stockholmsvägen 49,Gamla Enskede,Stockholms kommun,2022-05-12,4225000,4000000,Lägenhet,Bostadsrätt,2 ,45 ,False,2 av 2,False,1910,2735,7200
+Astri Taubes Torg 10,Enskededalen,Stockholms kommun,2022-05-10,3200000,2795000,Lägenhet,Bostadsrätt,2 ,55 ,False,,,2012,3489,5880
+Brevvägen 1,Svedmyra,Stockholms kommun,2022-04-23,3050000,2295000,Lägenhet,Bostadsrätt,2 ,50 ,True,2 av 3,True,1949,3046,3200
+Jönåkersvägen 11,Svedmyra,Stockholms kommun,2022-04-13,2870000,2495000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 3,False,1950,2930,6300
+Dalgränd 8,Enskededalen,Stockholms kommun,2022-04-06,4025000,3195000,Lägenhet,Bostadsrätt,2 ,65 ,True,1 av 3,True,1981,2200,8100
+Bäckaskiftsvägen 11A,Enskede - Stureby,Stockholms kommun,2022-04-05,2450000,,Lägenhet,Bostadsrätt,2 ,25 ,False,-1 av 3,False,1952,1310,6456
+Dalgränd 52,Enskededalen,Stockholms kommun,2022-04-01,3450000,2795000,Lägenhet,Bostadsrätt,2 ,64 ,True,1 av 3,True,1980,4228,4000
+"Sofielundsvägen 12, 3 tr.",Enskede - Blåsut - Johanneshov,Stockholms kommun,2022-03-31,3785000,3095000,Lägenhet,Bostadsrätt,2 ,"53,5 ",True,3 av 3,False,1943,3072,
+Brevvägen 1,Svedmyra,Stockholms kommun,2022-03-20,3100000,2295000,Lägenhet,Bostadsrätt,2 ,48 ,True,3 av 3,True,1949,2924,2400
+Nynäsvägen 339,Gamla Enskede,Stockholms kommun,2022-03-17,3040000,2450000,Lägenhet,Bostadsrätt,2 ,45 ,False,1 av 3,False,1927,2768,5764
+"Paketgränd 7, Gavel 2:a Högst upp!",Svedmyra,Stockholms kommun,2022-03-16,4725000,3695000,Lägenhet,Bostadsrätt,2 ,62 ,True,4 av 4,True,2018,3726,5880
+Grusåsgränd 162,Gamla Enskede,Stockholms kommun,2022-03-15,3300000,2695000,Lägenhet,Bostadsrätt,2 ,68 ,True,2 av 4,True,1980,3202,5640
+Jönåkersvägen 17,Svedmyra,Stockholms kommun,2022-03-09,3050000,2450000,Lägenhet,Bostadsrätt,2 ,56 ,True,3 av 3,False,1950,3717,2400
+Bersågränd 2,Enskededalen,Stockholms kommun,2022-03-08,3420000,2495000,Lägenhet,Bostadsrätt,2 ,64 ,True,1 av 3,True,1981,2700,4000
+Oxelvägen 4,Enskede/Enskededalen,Stockholms kommun,2022-03-01,3400000,2995000,Lägenhet,Bostadsrätt,2 ,55 ,False,2 av 3,False,1922,4300,9828
+"Nynäsvägen 305, 2tr",Enskede,Stockholms kommun,2022-02-27,3950000,3245000,Lägenhet,Bostadsrätt,2 ,51 ,False,2 av 3,False,1925,3087,4320
+Sockenvägen 425,Gamla Enskede,Stockholms kommun,2022-02-22,3350000,2895000,Lägenhet,Bostadsrätt,2 ,"42,5 ",False,2 av 3,False,1911,2655,3900
+Jönåkersvägen 5,Svedmyra,Stockholms kommun,2022-02-17,2975000,2595000,Lägenhet,Bostadsrätt,2 ,57 ,True,3 av 3,False,1950,3029,7560
+Nynäsvägen 359,Enskede - Gamla Enskede,Stockholms kommun,2022-02-17,3900000,3450000,Lägenhet,Bostadsrätt,2 ,56 ,False,2 av 3,False,1933,3157,5016
+Oppundavägen 35,Svedmyra,Stockholms kommun,2022-02-01,2810000,2350000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 3,False,1949 - 1950,3431,5208
+Postiljonsvägen 16,Svedmyra,Stockholms kommun,2022-01-26,3145000,2495000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 3,False,1948,3957,8244
+Selebovägen 6,Svedmyra,Stockholms kommun,2022-01-18,2960000,2395000,Lägenhet,Bostadsrätt,2 ,52 ,True,1 av 3,False,1950,3250,4500
+Sockenvägen 385,Gamla Enskede,Stockholms kommun,2022-01-18,2850000,2395000,Lägenhet,Bostadsrätt,2 ,41 ,False,1 av 3,False,1939,2703,6372
+Oppundavägen 13,Svedmyra,Stockholms kommun,2022-01-13,3025000,2495000,Lägenhet,Bostadsrätt,2 ,57 ,True,2 av 3,False,1950,3236,2050
+Sockenvägen 383,Sockenplan,Stockholms kommun,2022-01-12,2580000,2095000,Lägenhet,Bostadsrätt,2 ,41 ,False,2 av 3,False,1939,2703,5880
+Täppgränd 113,Enskededalen,Stockholms kommun,2021-12-02,3600000,2595000,Lägenhet,Bostadsrätt,2 ,65 ,True,3 av 3,True,1981,3021,3500
+Selebovägen 14,Enskede,Stockholms kommun,2021-11-22,2900000,2395000,Lägenhet,Bostadsrätt,2 ,52 ,True,3 av 3,False,1950,3221,4392
+Paketgränd 15,Svedmyra,Stockholms kommun,2021-11-12,2750000,2195000,Lägenhet,Bostadsrätt,2 ,54 ,False,1 av 5,True,2018,3205,8000
+Dalgränd 18,Gamla Enskede,Stockholms kommun,2021-11-09,3925000,2695000,Lägenhet,Bostadsrätt,2 ,79 ,True,1 av 3,True,1981,2628,3500
+Glasmålarvägen 10,Gamla Enskede,Stockholms kommun,2021-11-03,2670000,2495000,Lägenhet,Bostadsrätt,2 ,52 ,False,1 av 3,False,1943,2938,3240
+Jönåkersvägen 26,Svedmyra,Stockholms kommun,2021-10-28,2800000,2475000,Lägenhet,Bostadsrätt,2 ,57 ,True,1 av 3,False,1950,3550,2040
+Grusåsgränd 82,Gamla Enskede,Stockholms kommun,2021-10-22,2800000,2495000,Lägenhet,Bostadsrätt,2 ,60 ,True,2 av 3,True,1980,2854,3500
+Nynäsvägen 312,Gamla Enskede,Stockholms kommun,2021-10-15,3450000,3295000,Lägenhet,Bostadsrätt,2 ,54 ,False,2 av 2,False,1909,2844,4200
+Dalgränd 56,Enskede/Enskededalen,Stockholms kommun,2021-10-13,2620000,2495000,Lägenhet,Bostadsrätt,2 ,65 ,True,3 av 3,True,1981,4196,5280
+Nynäsvägen 311,Gamla Enskede,Stockholms kommun,2021-10-08,3200000,2995000,Lägenhet,Bostadsrätt,2 ,"45,5 ",False,2 av 3,False,1911,2843,2400
+Selebovägen 9,Svedmyra,Stockholms kommun,2021-10-07,2870000,2475000,Lägenhet,Bostadsrätt,2 ,58 ,True,3 av 3,False,1950,3193,4300
+Astri Taubes Torg 4,Enskededalen,Stockholms kommun,2021-10-06,2680000,2295000,Lägenhet,Bostadsrätt,2 ,41 ,False,2 av 4,True,2012,2923,4320
+Täppgränd 109,Gamla Enskede,Stockholms kommun,2021-09-30,2900000,2495000,Lägenhet,Bostadsrätt,2 ,64 ,True,2 av 3,True,1982,2975,3500
+Lindevägen 54,Enskede Gård,Stockholms kommun,2021-09-29,3530000,2850000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,2 av 4,True,1989,3974,5600
+Nynäsvägen 334,Enskede,Stockholms kommun,2021-09-27,3980000,3700000,Lägenhet,Andel i bostadsförening,2 ,65 ,False,1 av 3,False,1925,3120,7364
+Täppgränd 48,Enskede/Enskededalen,Stockholms kommun,2021-09-24,3512000,2995000,Lägenhet,Bostadsrätt,2 ,67 ,False,,,1982,3561,5880
+Oppundavägen 29,Svedmyra,Stockholms kommun,2021-09-24,2900000,2495000,Lägenhet,Bostadsrätt,2 ,58 ,True,2 av 3,False,1950,3612,7300
+Enskedevägen 164,Svedmyra,Stockholms kommun,2021-09-22,4010000,3095000,Lägenhet,Bostadsrätt,2 ,70 ,,1 av 4,True,2018,3860,9316
+Nynäsvägen 323,Enskede - Gamla Enskede,Stockholms kommun,2021-09-22,4825000,4825000,Lägenhet,Bostadsrätt,2 ,69 ,False,2 av 3,False,1913,4012,6036
+"Dalgränd 52, 3tr",Enskededalen,Stockholms kommun,2021-09-22,2700000,2495000,Lägenhet,Bostadsrätt,2 ,64 ,True,3 av 3,True,1981,4145,5160
+Slåttervägen 3,Enskededalen,Stockholms kommun,2021-09-20,4000000,3475000,Lägenhet,Bostadsrätt,2 ,54 ,True,1 av 3,False,1930,3308,4300
+Grusåsgränd 162,Enskededalen,Stockholms kommun,2021-09-16,2810000,2495000,Lägenhet,Bostadsrätt,2 ,64 ,False,,,1980,3013,3480
+Skolvägen 7,Gamla Enskede,Stockholms kommun,2021-09-09,4000000,3495000,Lägenhet,Bostadsrätt,2 ,61 ,False,2 av 3,False,1925,3696,7066
+Postiljonsvägen 29,Svedmyra,Stockholms kommun,2021-09-08,2970000,2795000,Lägenhet,Bostadsrätt,2 ,54 ,True,2 av 4,False,1948,2760,4200
+Dalgränd 10,Gamla Enskede,Stockholms kommun,2021-09-08,3080000,2795000,Lägenhet,Bostadsrätt,2 ,60 ,True,3 av 3,True,1981,2046,3500
+Glasmålarvägen 10,Enskede - Enskededalen,Stockholms kommun,2021-09-07,2650000,2650000,Lägenhet,Bostadsrätt,2 ,52 ,False,1 av 4,False,1943,2868,4200
+Nynäsvägen 362,Enskede - Gamla Enskede,Stockholms kommun,2021-08-28,2950000,2950000,Lägenhet,Bostadsrätt,2 ,44 ,True,1 av 2,False,1939,3018,3840
+Sockenvägen 367,Gamla Enskede,Stockholms kommun,2021-08-23,2850000,2495000,Lägenhet,Bostadsrätt,2 ,40 ,True,3 av 3,False,1942,2384,2300
+Nynäsvägen 330,Gamla Enskede,Stockholms kommun,2021-08-20,4350000,3695000,Lägenhet,Bostadsrätt,2 ,66 ,False,1 av 3,False,1926,1309,9000
+Odelbergsvägen 27,Enskede Gård,Stockholms kommun,2021-08-18,3380000,2995000,Lägenhet,Bostadsrätt,2 ,49 ,True,1 av 3,False,1931,2133,4000
+"Nynäsvägen 352, 2 tr",Gamla Enskede,Stockholms kommun,2021-08-17,2890000,2295000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 2,False,1939,2960,4200
+Oppundavägen 25,Svedmyra,Stockholms kommun,2021-08-13,2950000,2495000,Lägenhet,Bostadsrätt,2 ,58 ,True,2 av 3,False,1949 - 1950,3612,5208
+Enskedevägen 170,Svedmyra,Stockholms kommun,2021-07-01,3650000,3375000,Lägenhet,Bostadsrätt,2 ,65 ,True,,,2018,3678,4400
+Enskedevägen 172,Svedmyra,Stockholms kommun,2021-06-20,2820000,2795000,Lägenhet,Bostadsrätt,2 ,50 ,True,2 av 4,True,2018,3059,3840
+Jönåkersvägen 21,Svedmyra,Stockholms kommun,2021-06-16,2540000,1990000,Lägenhet,Bostadsrätt,2 ,56 ,True,3 av 3,False,1950,3717,3000
+Jönåkersvägen 19,Svedmyra,Stockholms kommun,2021-06-13,2800000,2495000,Lägenhet,Bostadsrätt,2 ,56 ,True,3 av 3,False,1950,3717,6600
+Bersågränd 4,Enskededalen,Stockholms kommun,2021-06-12,3150000,2650000,Lägenhet,Bostadsrätt,2 ,65 ,True,3 av 4,True,1981,2735,6192
+"Tussmötevägen 134C, 1 tr",Svedmyra/Enskede,Stockholms kommun,2021-06-10,3000000,2795000,Lägenhet,Bostadsrätt,2 ,51 ,True,1 av 5,True,2019,3422,3660
+Oppundavägen 13,Svedmyra/enskede,Stockholms kommun,2021-06-08,2950000,2495000,Lägenhet,Bostadsrätt,2 ,56 ,True,3 av 3,False,1950,3237,3600
+Postiljonsvägen 31,Enskede - Svedmyra,Stockholms kommun,2021-06-07,3400000,3195000,Lägenhet,Bostadsrätt,2 ,53 ,True,3 av 4,False,1948,2735,4200
+Nynäsvägen 303,Gamla Enskede,Stockholms kommun,2021-06-02,3600000,3700000,Lägenhet,Bostadsrätt,2 ,69 ,False,3 av 3,False,1925,4001,4756
+Postiljonsvägen 29,Svedmyra,Stockholms kommun,2021-05-28,3375000,2995000,Lägenhet,Bostadsrätt,2 ,54 ,True,4 av 4,False,1948,2787,4200
+Sockenvägen 369,Enskede - Gamla Enskede,Stockholms kommun,2021-05-28,2600000,2250000,Lägenhet,Bostadsrätt,2 ,40 ,False,1 av 3,False,1942,2317,4044
+"Frimärksvägen 1, 2 TR",Svedmyra,Enskede,2021-05-27,2400000,1995000,Lägenhet,Bostadsrätt,2 ,38 ,False,2 av 3,True,1949,2939,3480
+"Glasmålarvägen 2, 3tr",Gamla Enskede,Stockholms kommun,2021-05-20,2560000,2100000,Lägenhet,Bostadsrätt,2 ,35 ,False,3 av 3,False,1943,2231,8680
+Odelbergsvägen 21,Enskede Gård,Stockholms kommun,2021-05-19,2700000,2350000,Lägenhet,Bostadsrätt,2 ,49 ,True,2 av 3,True,1932,2895,4200
+Gamla Tyresövägen 351C,Kärringstan/Enskededalen,Stockholms kommun,2021-05-19,3850000,3290000,Lägenhet,Bostadsrätt,2 ,68 ,True,0,True,2012,2860,15132
+Kyrkogårdsvägen 137,Enskede/ Enskededalen,Stockholms kommun,2021-05-13,3000000,2675000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,3 av 3,True,1986,5459,4800
+Brevvägen 7,Svedmyra/enskede,Stockholms kommun,2021-05-07,2875000,2495000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 3,True,1949,2924,6520
+Brevvägen 9,Svedmyra/enskede,Stockholms kommun,2021-05-05,3010000,2495000,Lägenhet,Bostadsrätt,2 ,47 ,True,3 av 3,True,1949,2863,7035
+Sockenvägen 383,Enskede - Gamla Enskede,Stockholms kommun,2021-05-05,2540000,2250000,Lägenhet,Bostadsrätt,2 ,41 ,False,1 av 3,False,1939,2703,5100
+Jönåkersvägen 9,Svedmyra/enskede,Stockholms kommun,2021-05-04,3000000,2695000,Lägenhet,Bostadsrätt,2 ,57 ,True,2 av 3,False,1950,2940,6900
+Dalgränd 6,Enskededalen,Stockholms kommun,2021-05-04,3375000,2950000,Lägenhet,Bostadsrätt,2 ,65 ,True,1 av 4,True,1981,2200,11224
+Sofielundsvägen 14,Enskededalen,Stockholms kommun,2021-04-30,3770000,2795000,Lägenhet,Bostadsrätt,2 ,"53,6 ",True,2 av 3,False,1943,2995,5400
+"Guldsmedsvägen 9, 3tr",Enskededalen,Stockholms kommun,2021-04-29,2850000,2625000,Lägenhet,Bostadsrätt,2 ,48 ,True,3 av 3,False,1947,3176,5500
+Handelsvägen 14,Gamla Enskede,Stockholms kommun,2021-04-28,4860000,3750000,Lägenhet,Bostadsrätt,2 ,65 ,False,3 av 3,False,1909,3328,6700
+Jönåkersvägen 1,Svedmyra,Stockholms kommun,2021-04-22,2960000,2495000,Lägenhet,Bostadsrätt,2 ,55 ,True,2 av 3,False,1950,2844,6000
+Dalgränd 56,Enskededalen,Stockholms kommun,2021-04-21,2735000,2395000,Lägenhet,Bostadsrätt,2 ,65 ,True,2 av 3,True,1981,4196,4200
+Oppundavägen 25,Svedmyra/enskede,Stockholms kommun,2021-04-21,3000000,2495000,Lägenhet,Bostadsrätt,2 ,58 ,True,3 av 3,False,1949,3612,6600
+Enskedevägen 166,Svedmyra,Stockholms kommun,2021-04-21,3200000,2775000,Lägenhet,Bostadsrätt,2 ,52 ,True,3 av 4,True,2018,3133,4400
+Enskedevägen 166,Svedmyra,Stockholms kommun,2021-04-14,3800000,3575000,Lägenhet,Bostadsrätt,2 ,67 ,True,4 av 4,True,2018,3752,6200
+Oppundavägen 35,Svedmyra,Stockholms kommun,2021-04-14,2875000,2495000,Lägenhet,Bostadsrätt,2 ,55 ,True,0,True,1950,3431,6192
+Stockholmsvägen 27,Enskede,Stockholms kommun,2021-04-01,3650000,3300000,Lägenhet,Bostadsrätt,2 ,48 ,False,0,False,1910,3081,9600
+Odelbergsvägen 22,Enskede Gård/Enskede,Stockholms kommun,2021-03-26,2870000,2595000,Lägenhet,Bostadsrätt,2 ,"41,5 ",True,3 av 3,False,1939,2680,4596
+Kyrkogårdsvägen 137,Enskede/ Enskededalen,Stockholms kommun,2021-03-23,3250000,2750000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,3 av 3,True,1986,5459,4000
+Oppundavägen 35,Svedmyra,Stockholms kommun,2021-03-15,2900000,2495000,Lägenhet,Bostadsrätt,2 ,55 ,True,2 av 4,True,1950,3431,5400
+Handelsvägen 20,Gamla Enskede,Stockholms kommun,2021-03-12,5000000,4795000,Lägenhet,Bostadsrätt,2 ,65 ,True,3 av 3,False,1929,3738,9600
+Fågelkärrsvägen 2D,Gamla Enskede,Stockholms kommun,2021-03-10,5100000,4695000,Lägenhet,Andel i bostadsförening,2 ,65 ,,3 av 3,False,1927,2958,9252
+Lindevägen 50,Enskede Gård,Stockholms kommun,2021-03-02,3300000,2795000,Lägenhet,Bostadsrätt,2 ,72 ,True,2 av 5,True,1989,4551,5580
+"Enskedevägen 172, 3 tr",Svedmyra/Enskede,Stockholms kommun,2021-02-23,3200000,2895000,Lägenhet,Bostadsrätt,2 ,50 ,True,3 av 3,True,2018,3059,2400
+Stora Gungans väg 5,Gamla Enskede,Stockholms kommun,2021-02-20,2900000,2495000,Lägenhet,Bostadsrätt,2 ,42 ,False,,,1913,2460,3480
+Guldsmedsvägen 5,Enskede,Stockholms kommun,2021-02-19,2875000,2695000,Lägenhet,Bostadsrätt,2 ,48 ,True,1 av 3,False,1947,3176,6720
+Oppundavägen 35,Svedmyra,Stockholms kommun,2021-02-10,2850000,2475000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 4,False,1949,3431,5600
+Oppundavägen 27,Svedmyra/enskede,Stockholms kommun,2021-01-26,2600000,2495000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1949,3612,7200
+Nynäsvägen 345,Gamla Enskede,Stockholms kommun,2021-01-25,2950000,2595000,Lägenhet,Bostadsrätt,2 ,42 ,,2 av 3,False,1930,2743,4392
+Nynäsvägen 375B,Gamla Enskede,Stockholms kommun,2021-01-15,2450000,2195000,Lägenhet,Bostadsrätt,2 ,45 ,False,2 av 3,False,1947,3318,4200
+Enskedevägen 166,Svedmyra,Stockholms kommun,2021-01-13,3820000,3495000,Lägenhet,Bostadsrätt,2 ,67 ,True,2 av 3,True,2018,3752,7300
+Dalgårdsvägen 4,Enskededalen,Stockholms kommun,2021-01-12,3700000,3150000,Lägenhet,Bostadsrätt,2 ,53 ,False,2 av 3,False,1921,3137,7000
+Nynäsvägen 323,Gamla Enskede,Stockholms kommun,2021-01-06,4100000,3295000,Lägenhet,Bostadsrätt,2 ,"66,9 ",False,2 av 3,False,1913,3823,7042
+Brevvägen 3,Svedmyra,Stockholms kommun,2020-12-18,2600000,2250000,Lägenhet,Bostadsrätt,2 ,40 ,True,2 av 3,True,1949,2437,7500
+Lindevägen 50,Enskede Gård,Stockholms kommun,2020-12-10,3150000,2695000,Lägenhet,Bostadsrätt,2 ,62 ,True,2 av 4,True,1989,4001,6000
+Stora Gungans väg 5,Gamla Enskede,Stockholms kommun,2020-12-02,4230000,3495000,Lägenhet,Bostadsrätt,2 ,48 ,False,1 av 2,False,1913,2835,4700
+Stockholmsvägen 19,Enskede - Gamla Enskede,Stockholms kommun,2020-11-20,6300000,6300000,Lägenhet,Bostadsrätt,2 ,"72,4 ",True,2 av 3,False,1909,2840,4800
+"Oppundavägen 11, 3tr",Enskede - Svedmyra,Stockholms kommun,2020-11-04,2750000,2750000,Lägenhet,Bostadsrätt,2 ,56 ,True,3 av 3,False,1949,3236,4800
+Nynäsvägen 361,Enskede - Gamla Enskede,Stockholms kommun,2020-10-30,3500000,2995000,Lägenhet,Bostadsrätt,2 ,57 ,False,2 av 3,True,1929,3365,6900
+Johanneshovsvägen 149,Årsta,Stockholms kommun,2020-10-28,3300000,2895000,Lägenhet,Bostadsrätt,2 ,54 ,True,2 av 7,True,2017,3360,3468
+Handelsvägen 16,Gamla Enskede,Stockholms kommun,2020-10-28,4450000,4250000,Lägenhet,Bostadsrätt,2 ,61 ,False,2 av 2,False,1909,3036,5000
+"Sockenvägen 476, 2tr",Gamla Enskede,Stockholms kommun,2020-10-27,2800000,2495000,Lägenhet,Bostadsrätt,2 ,49 ,True,2 av 3,False,1945,3560,4644
+Grusåsgränd 63,Gamla Enskede,Stockholms kommun,2020-10-21,3200000,2495000,Lägenhet,Bostadsrätt,2 ,67 ,False,1 av 3,False,,3329,5000
+Odelbergsvägen 22A,Enskede Gård,Stockholms kommun,2020-10-21,2575000,2395000,Lägenhet,Bostadsrätt,2 ,"41,5 ",True,3 av 3,False,1939,2680,3900
+Nynäsvägen 366,Gamla Enskede,Stockholms kommun,2020-10-09,2600000,2350000,Lägenhet,Bostadsrätt,2 ,44 ,True,1 av 2,False,1939,3018,1980
+"Nynäsvägen 349, vån 3/3",Gamla Enskede,Stockholms kommun,2020-10-07,3225000,2595000,Lägenhet,Bostadsrätt,2 ,48 ,False,3 av 3,False,1930,2656,3000
+Nynäsvägen 366,Gamla Enskede,Stockholms kommun,2020-10-02,2650000,2495000,Lägenhet,Bostadsrätt,2 ,44 ,True,2 av 2,False,1939,3018,5500
+Nynäsvägen 356,Gamla Enskede,Stockholms kommun,2020-09-24,2900000,2395000,Lägenhet,Bostadsrätt,2 ,38 ,True,2 av 2,False,1937,2610,6852
+Brevvägen 1,Svedmyra/enskede,Stockholms kommun,2020-09-23,2460000,2195000,Lägenhet,Bostadsrätt,2 ,36 ,True,1 av 3,True,1949,2193,4430
+"Nynäsvägen 349, vån 3/3",Gamla Enskede,Stockholms kommun,2020-09-15,3250000,3195000,Lägenhet,Bostadsrätt,2 ,57 ,False,3 av 3,False,1930,2353,3000
+Nynäsvägen 293,Gamla Enskede,Stockholms kommun,2020-09-09,2700000,2395000,Lägenhet,Bostadsrätt,2 ,38 ,False,3 av 3,False,1944,2181,4800
+Nynäsvägen 307,Enskede - Gamla Enskede,Stockholms kommun,2020-09-03,3300000,3300000,Lägenhet,Bostadsrätt,2 ,61 ,False,1 av 3,False,1911,3810,4200
+Tallkrogsvägen 6C,Enskede - Gamla Enskede,Stockholms kommun,2020-08-28,3290000,2995000,Lägenhet,Bostadsrätt,2 ,56 ,False,,,1927,2412,5100
+Täppgränd 6,Enskede/Enskededalen,Stockholms kommun,2020-08-08,2900000,2495000,Lägenhet,Bostadsrätt,2 ,64 ,True,,,1982,3401,3636
+Odelbergsvägen 21,Enskede Gård,Stockholms kommun,2020-07-31,2750000,2595000,Lägenhet,Bostadsrätt,2 ,47 ,True,2 av 3,True,1932,2863,5000
+Jönåkersvägen 1,Svedmyra/enskede,Stockholms kommun,2020-05-18,2750000,2495000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 3,False,1950,2761,6209
+Stora Gungans Väg 4,Gamla Enskede,Stockholms kommun,2020-04-09,3350000,2950000,Lägenhet,Bostadsrätt,2 ,65 ,False,,,1914,2817,6588
+Sockenvägen 482,Gamla Enskede,Stockholms kommun,2020-02-26,3075000,2695000,Lägenhet,Bostadsrätt,2 ,49 ,True,2 av 3,False,1945,3560,4800
+Täppgränd 105,Enskededalen,Stockholms kommun,2020-01-31,2560000,2395000,Lägenhet,Bostadsrätt,2 ,75 ,True,,,1982,3488,1500
+Postiljonsvägen 5,Svedmyra,Stockholms kommun,2019-05-22,2680000,2290000,Lägenhet,Bostadsrätt,2 ,"35,3 ",,,,1949,2151,2000
+Tallkrogsvägen 6 D,Gamla Enskede,Stockholms kommun,2018-10-01,3450000,3395000,Lägenhet,Bostadsrätt,2 ,55 ,,,,1927,2632,4800
+Talmansgränd 3,Enskede/Enskededalen,Stockholms kommun,2018-09-26,4100000,3195000,Lägenhet,Bostadsrätt,2 ,59 ,,,,1930,3542,6000
+Stora Gungans väg 5 VIND,Gamla Enskede,Stockholms kommun,2018-02-23,3000000,2650000,Lägenhet,Bostadsrätt,2 ,39 ,,,,1909,2386,3480
+"Nynäsvägen 335, 3 tr",Gamla Enskede,Stockholms kommun,2016-08-18,2700000,2395000,Lägenhet,Bostadsrätt,2 ,41 ,,,,1927,2131,4700
+"Nynäsvägen 341, 3tr",Gamla Enskede,Stockholms kommun,2015-06-17,3150000,2690000,Lägenhet,Bostadsrätt,2 ,62 ,,,,1930,3237,5400
+"Nynäsvägen 337, 3 tr",Gamla Enskede,Stockholms kommun,2014-10-09,2900000,2150000,Lägenhet,Bostadsrätt,2 ,46 ,,,,1927,2182,8400

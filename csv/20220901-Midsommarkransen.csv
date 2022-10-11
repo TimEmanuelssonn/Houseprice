@@ -1,0 +1,290 @@
+Adress,Område,Region,Datum,Slutpris,Begärt pris,Bostadstyp,Upplåtelseform,Antal rum,Boarea,Balkong,Våning,Elevator,Byggår,Avgift/månad,Driftskostnad
+Bäckvägen 63,Midsommarkransen/Telefonplan,Stockholms kommun,2022-08-17,3050000,2995000,Lägenhet,Bostadsrätt,2 ,46 ,True,2 av 3,False,1945,3337,9349
+"Valborgsmässovägen 38, vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2022-08-17,2850000,2495000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,2 av 3,False,1940,2291,6854
+"Midsommarvägen 19, vån 2",Midsommarkransen,Stockholms kommun,2022-08-17,3125000,2995000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 4,False,1944,3182,4900
+"Oktobergatan 8, vån 2",Midsommarkransen,Stockholms kommun,2022-08-17,3240000,2695000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1939,2382,7500
+Tellusborgsvägen 35,Midsommarkransen,Stockholms kommun,2022-08-15,3700000,3490000,Lägenhet,Bostadsrätt,2 ,56 ,True,4 av 4,False,1949,2692,4091
+"LM Ericssons Väg 21, vån 2",Telefonplan,Stockholms kommun,2022-08-12,3450000,3450000,Lägenhet,Bostadsrätt,2 ,51 ,False,2 av 3,False,1940,2842,3470
+Svandammsvägen 31B,Midsommarkransen,Stockholms kommun,2022-07-26,3700000,3595000,Lägenhet,Bostadsrätt,2 ,58 ,True,3 av 3,True,1939,3770,6298
+Valborgsmässovägen 9,Midsommarkransen/Telefonplan,Stockholms kommun,2022-07-18,3300000,3195000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1939,2981,5500
+"Kransbindarvägen 11, 2 tr.",Midsommarkransen/Telefonplan,Stockholms kommun,2022-07-12,2900000,2395000,Lägenhet,Bostadsrätt,2 ,35 ,False,2 av 3,False,1940,2235,4500
+Cedergrensvägen 31,Midsommarkransen/Telefonplan,Stockholms kommun,2022-07-11,3300000,3195000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1939,2981,5500
+"Cedergrensvägen 59, vån 3",Midsommarkransen/Telefonplan,Stockholms kommun,2022-07-07,3500000,3500000,Lägenhet,Bostadsrätt,2 ,51 ,False,3 av 3,False,1939,2981,8609
+"Svandammsvägen 8, 1 tr",Midsommarkransen,Stockholms kommun,2022-06-22,3200000,2995000,Lägenhet,Bostadsrätt,2 ,39 ,False,1 av 4,False,1929,1892,8664
+"Kransbindarvägen 29, 3 tr.",Midsommarkransen/Telefonplan,Stockholms kommun,2022-06-10,2750000,2395000,Lägenhet,Bostadsrätt,2 ,35 ,False,3 av 3,False,1940,2235,9377
+"LM Ericssons Väg 2, vån 3 av 4",Telefonplan,Stockholms kommun,2022-06-10,4615000,3895000,Lägenhet,Bostadsrätt,2 ,60 ,True,3 av 4,True,2009,3823,7104
+Midsommarvägen 9,Midsommarkransen,Stockholms kommun,2022-06-03,2600000,2495000,Lägenhet,Bostadsrätt,2 ,42 ,False,1 av 3,False,1939,3046,4000
+Svandammsvägen 17A,Midsommarkransen,Stockholms kommun,2022-05-31,2900000,2395000,Lägenhet,Bostadsrätt,2 ,31 ,True,2 av 4,True,1938,2169,5500
+Cedergrensvägen 35,Midsommarkransen - Telefonplan,Stockholms kommun,2022-05-27,3750000,3195000,Lägenhet,Bostadsrätt,2 ,51 ,False,3 av 3,False,1939,2981,6317
+Cedergrensvägen 22,Midsommarkransen,Stockholms kommun,2022-05-25,2775000,2395000,Lägenhet,Bostadsrätt,2 ,35 ,False,3 av 3,False,1939,2235,6000
+"Svandammsvägen 31C, vån 2",Midsommarkransen,Stockholms kommun,2022-05-25,4050000,3495000,Lägenhet,Bostadsrätt,2 ,64 ,True,2 av 3,False,1939,4093,2200
+Tegelbruksvägen 40,Midsommarkransen,Stockholms kommun,2022-05-25,4900000,4195000,Lägenhet,Bostadsrätt,2 ,56 ,False,2 av 3,False,1910,4087,12200
+Bäckvägen 79,Hägerstensåsen/Telefonplan,Stockholms kommun,2022-05-24,2750000,2295000,Lägenhet,Bostadsrätt,2 ,38 ,False,0,False,1939,3198,5922
+LM Ericssons väg 10D,Telefonplan,Stockholms kommun,2022-05-22,4700000,4295000,Lägenhet,Bostadsrätt,2 ,56 ,False,,,2022,2330,4300
+Övre bergsvägen 12,Midsommarkransen,Stockholms kommun,2022-05-20,4150000,3950000,Lägenhet,Bostadsrätt,2 ,52 ,,,,1912,2222,8700
+Kyndelsmässogränd 17,Midsommarkransen,Stockholms kommun,2022-05-19,3100000,2695000,Lägenhet,Bostadsrätt,2 ,42 ,True,2,False,1944,3222,8398
+Fastlagsvägen 46,Midsommarkransen,Stockholms kommun,2022-05-19,4150000,3995000,Lägenhet,Bostadsrätt,2 ,67 ,,,,1993,3628,4200
+Svandammsvägen 17B,Midsommarkransen,Stockholms kommun,2022-05-18,3450000,2595000,Lägenhet,Bostadsrätt,2 ,44 ,False,1 av 3,True,2014,3078,5880
+"Bäckvägen 77, 1tr",Midsommarkransen - Telefonplan,Stockholms kommun,2022-05-17,3300000,2895000,Lägenhet,Bostadsrätt,2 ,"44,5 ",True,1 av 3,False,1942,3523,3000
+Midsommarvägen 19,Midsommarkransen,Stockholms kommun,2022-05-12,3550000,2850000,Lägenhet,Bostadsrätt,2 ,44 ,True,3 av 4,False,1944,3274,7200
+"Tellusborgsvägen 92, vån 6",Midsommarkransen,Stockholms kommun,2022-05-08,3600000,2995000,Lägenhet,Bostadsrätt,2 ,42 ,True,6 av 6,True,2012,2385,4300
+Nioörtsvägen 28 C,Midsommarkransen,Stockholms kommun,2022-05-05,3900000,3495000,Lägenhet,Bostadsrätt,2 ,"62,4 ",True,2 av 4,True,1973,3002,4650
+Valborgsmässovägen 7,Midsommarkransen,Stockholms kommun,2022-05-03,3100000,2395000,Lägenhet,Bostadsrätt,2 ,35 ,False,1 av 3,False,1940,2235,6107
+Midsommarvägen 21,Midsommarkransen,Stockholms kommun,2022-04-29,3400000,2995000,Lägenhet,Bostadsrätt,2 ,44 ,True,3 av 4,False,1943,3274,3800
+Midsommarvägen 46,Midsommarkransen,Stockholms kommun,2022-04-28,3820000,2995000,Lägenhet,Bostadsrätt,2 ,50 ,True,3 av 3,False,1944,3774,3000
+"Pingstvägen 54, vån 3",Midsommarkransen/Telefonplan,Stockholms kommun,2022-04-28,3000000,2395000,Lägenhet,Bostadsrätt,2 ,35 ,False,3 av 3,False,1940,2235,6000
+"Tellusborgsvägen 88, högst upp!",Midsommarkransen,Stockholms kommun,2022-04-27,3100000,2595000,Lägenhet,Bostadsrätt,2 ,39 ,True,3 av 3,False,1944,2996,4700
+"Midsommarvägen 25, vån 4",Midsommarkransen,Stockholms kommun,2022-04-27,3590000,2895000,Lägenhet,Bostadsrätt,2 ,43 ,True,4 av 4,False,1944,3212,4500
+"Tegelbruksvägen 1, 3 tr.",Midsommarkransen,Stockholms kommun,2022-04-21,4175000,3495000,Lägenhet,Bostadsrätt,2 ,49 ,False,3 av 3,False,1929,2377,5870
+"Midsommarvägen 54, 2 tr.",Midsommarkransen,Stockholms kommun,2022-04-13,4110000,2995000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 3,False,1944,3774,9480
+"Tellusborgsvägen 64, vån 2",Midsommarkransen,Stockholms kommun,2022-04-13,4200000,3295000,Lägenhet,Bostadsrätt,2 ,45 ,True,2 av 3,False,1939,2493,4800
+"Tellusborgsvägen 13, vån 2",Gamla Midsommarkransen,Stockholms kommun,2022-04-13,4850000,4195000,Lägenhet,Bostadsrätt,2 ,54 ,True,2 av 3,False,1948,3074,4700
+Cedergrensvägen 22,Midsommarkransen,Stockholms kommun,2022-04-12,3150000,2395000,Lägenhet,Bostadsrätt,2 ,35 ,False,1 av 3,False,1940,2235,4788
+Svandammsvägen 10,Midsommarkransen,Stockholms kommun,2022-04-11,4250000,2995000,Lägenhet,Bostadsrätt,2 ,45 ,False,2 av 4,False,1936,3329,8100
+Midsommarvägen 17,Midsommarkransen,Stockholms kommun,2022-04-07,3400000,2795000,Lägenhet,Bostadsrätt,2 ,44 ,True,3 av 4,False,1943,3274,5700
+"Vattenledningsvägen 71, vån 3 av 3",Midsommarkransen,Stockholms kommun,2022-04-07,3510000,2995000,Lägenhet,Bostadsrätt,2 ,40 ,True,3 av 3,True,1938,1653,4560
+LM Ericssons väg 9,Midsommarkransen/Telefonplan,Stockholms kommun,2022-04-04,3650000,2995000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1940,2950,6612
+"Bäckvägen 57, vån 3/3",Midsommarkransen,Stockholms kommun,2022-03-31,3800000,2995000,Lägenhet,Bostadsrätt,2 ,46 ,True,3 av 3,False,1945,3337,7300
+Bäckvägen 80,Hägerstensåsen / Telefonplan,Stockholms kommun,2022-03-28,3550000,2595000,Lägenhet,Bostadsrätt,2 ,47 ,True,2 av 3,False,1942,2850,4320
+"Midsommarvägen 52, vån 3",Midsommarkransen,Stockholms kommun,2022-03-24,3750000,2995000,Lägenhet,Bostadsrätt,2 ,48 ,True,3 av 3,False,1944,3700,8268
+"Svandammsvägen 40, 1 tr",Midsommarkransen,Stockholms kommun,2022-03-24,3150000,2495000,Lägenhet,Bostadsrätt,2 ,"40,5 ",False,1 av 3,True,1938,3009,4000
+"Tellusborgsvägen 90, 2 tr",Midsommarkransen,Stockholms kommun,2022-03-23,3450000,2895000,Lägenhet,Bostadsrätt,2 ,50 ,True,2 av 6,True,2012,2840,4700
+Midsommarvägen 42,Midsommarkransen,Stockholms kommun,2022-03-23,3410000,2750000,Lägenhet,Bostadsrätt,2 ,40 ,True,1 av 3,False,1944,3093,5100
+"Kyndelsmässogränd 11, 2 tr",Midsommarkransen,Stockholms kommun,2022-03-16,3400000,2695000,Lägenhet,Bostadsrätt,2 ,42 ,True,2 av 3,False,1944,3222,8868
+"Tellusborgsvägen 94, vån 6",Midsommarkransen / Telefonplan,Stockholms kommun,2022-03-16,3890000,2995000,Lägenhet,Bostadsrätt,2 ,36 ,True,6 av 6,True,2015,2139,4800
+"LM Ericssons Väg 7, 2 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2022-03-15,3125000,2395000,Lägenhet,Bostadsrätt,2 ,35 ,False,2 av 3,False,1939,2235,4800
+Tegelbruksvägen 20,Midsommarkransen,Stockholms kommun,2022-03-14,5150000,3550000,Lägenhet,Bostadsrätt,2 ,51 ,False,2 av 3,False,1912,3762,6612
+Midsommarvägen 13,Midsommarkransen,Stockholms kommun,2022-03-14,3900000,3175000,Lägenhet,Bostadsrätt,2 ,49 ,False,1,True,1935,2728,3900
+Valborgsmässovägen 20B,Midsommarkransen / Telefonplan,Stockholms kommun,2022-03-10,4100000,3295000,Lägenhet,Bostadsrätt,2 ,47 ,,2 av 3,True,2018,2458,6000
+Valborgsmässovägen 25,Midsommarkransen/Hägersten,Stockholms kommun,2022-03-09,3600000,2895000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1938,2981,4320
+Bäckvägen 79,Telefonplan,Stockholms kommun,2022-03-09,3550000,2750000,Lägenhet,Bostadsrätt,2 ,"44,5 ",True,2 av 3,False,1942,3683,5500
+"Snickerigatan 10, 1TR",Telefonplan,Stockholms kommun,2022-03-08,3700000,2995000,Lägenhet,Bostadsrätt,2 ,47 ,True,1 av 5,True,2012,3141,7700
+SVANDAMMSVÄGEN 17 A,Midsommarkransen,Stockholms kommun,2022-02-28,2970000,2295000,Lägenhet,Bostadsrätt,2 ,31 ,True,1 av 4,True,1938,2169,5867
+Svandammsvägen 23,HÄGERSTEN,Stockholms kommun,2022-02-23,3870000,2850000,Lägenhet,Bostadsrätt,2 ,48 ,False,2 av 4,False,1938,2816,8916
+Responsgatan 14,Telefonplan,Stockholms kommun,2022-02-23,4400000,4400000,Lägenhet,Bostadsrätt,2 ,46 ,False,,,2020,5045,
+Pingstvägen 10,Midsommarkransen/Telefonplan,Stockholms kommun,2022-02-18,3370000,2295000,Lägenhet,Bostadsrätt,2 ,35 ,False,1 av 3,False,1943,2235,7224
+"Tellusborgsvägen 90, högst upp!",Midsommarkransen/Telefonplan,Stockholms kommun,2022-02-16,3700000,2995000,Lägenhet,Bostadsrätt,2 ,38 ,True,6 av 6,True,2012,2158,4600
+Valborgsmässovägen 1,Midsommarkransen - Telefonplan,Stockholms kommun,2022-02-10,3860000,2950000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1939,2950,6900
+"Midsommarvägen 25, 1tr",Midsommarkransen,Stockholms kommun,2022-02-08,3400000,2795000,Lägenhet,Bostadsrätt,2 ,43 ,True,1 av 4,False,1944,2995,4500
+"Valsbergs gränd 5, 1 tr",Midsommarkransen,Stockholms kommun,2022-02-03,3375000,2750000,Lägenhet,Bostadsrätt,2 ,44 ,True,1 av 4,False,1944,3058,4250
+"Vattenledningsvägen 42B, vån 3 av 3",Gamla Midsommarkransen,Stockholms kommun,2022-02-03,5650000,4795000,Lägenhet,Bostadsrätt,2 ,59 ,False,3 av 3,False,1912,3105,7717
+"Valborgsmässovägen 10, vån 3/3",Midsommarkransen,Stockholms kommun,2022-02-03,3100000,2250000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,3 av 3,False,1939,2291,3360
+"Midsommarvägen 78, 2tr",Midsommarkransen,Stockholms kommun,2022-02-02,3005000,2395000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1944,2235,4300
+"Responsgatan 14, Etage",Telefonplan,Stockholms kommun,2022-01-31,4325000,4325000,Lägenhet,Bostadsrätt,2 ,46 ,False,,,2020,5045,
+"Responsgatan 14, Uteplats",Telefonplan,Stockholms kommun,2022-01-31,4325000,4325000,Lägenhet,Bostadsrätt,2 ,46 ,False,,,2020,5045,
+"Kransbindarvägen 21, 2 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2022-01-26,3160000,2295000,Lägenhet,Bostadsrätt,2 ,35 ,False,2 av 3,False,1940,2235,5800
+"Svandammsvägen 21A, vån 3/4",Midsommarkransen,Stockholms kommun,2022-01-19,4150000,3495000,Lägenhet,Bostadsrätt,2 ,53 ,False,3 av 4,False,1939,3109,4000
+Kyndelsmässogränd 18,Midsommarkransen/Hägersten,Stockholms kommun,2022-01-18,3350000,2695000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1944,3222,7431
+Bäckvägen 89,Hägerstensåsen/Telefonplan,Stockholms kommun,2022-01-15,3200000,2695000,Lägenhet,Bostadsrätt,2 ,45 ,False,3 av 3,False,1940,3604,5880
+Tellusborgsvägen 41,Midsommarkransen,Stockholms kommun,2022-01-15,4200000,3395000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1946,2384,6617
+"Tellusborgsvägen 65E, 1tr",Midsommarkransen/Telefonplan,Stockholms kommun,2022-01-12,3325000,2895000,Lägenhet,Bostadsrätt,2 ,38 ,False,1 av 4,True,2009,1966,
+Mobilgatan 10,Telefonplan,Stockholms kommun,2022-01-11,3730000,2795000,Lägenhet,Bostadsrätt,2 ,49 ,True,2 av 5,True,2015,3258,7663
+"Aprilgatan 4, 2 tr",Gamla Midsommarkransen,Stockholms kommun,2022-01-05,5320000,4495000,Lägenhet,Bostadsrätt,2 ,59 ,False,2 av 3,False,1912,3374,14670
+"Nioörtsvägen 42, 3tr",Midsommarkransen,Stockholms kommun,2021-12-23,2890000,2395000,Lägenhet,Bostadsrätt,2 ,40 ,False,3 av 5,True,1984,2643,4100
+"Mobilgatan 5, vån 4",Telefonplan,Stockholms kommun,2021-12-10,3570000,2950000,Lägenhet,Bostadsrätt,2 ,48 ,True,4 av 5,True,2013,3147,3650
+"Midsommargränd 2, 4 tr",Midsommarkransen - Telefonplan,Stockholms kommun,2021-12-10,3550000,2995000,Lägenhet,Bostadsrätt,2 ,45 ,True,4 av 4,True,2009,1953,13700
+"Cedergrensvägen 36, 2 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2021-12-09,2930000,2250000,Lägenhet,Bostadsrätt,2 ,35 ,False,2 av 3,False,1940,2235,2000
+Midsommarvägen 14,Midsommarkransen,Stockholms kommun,2021-12-09,3500000,2750000,Lägenhet,Bostadsrätt,2 ,40 ,False,3 av 3,False,1939,2427,5400
+"Valborgsmässovägen 20A, vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2021-12-08,3850000,3195000,Lägenhet,Bostadsrätt,2 ,55 ,False,2 av 2,True,2017,2794,4600
+Bäckvägen 79,Telefonplan,Stockholms kommun,2021-12-05,3000000,2695000,Lägenhet,Bostadsrätt,2 ,"44,5 ",,1 av 3,False,1940,3650,4100
+Vattenledningsvägen 71,Midsommarkransen,Stockholms kommun,2021-12-02,3425000,2750000,Lägenhet,Bostadsrätt,2 ,"39,5 ",True,3 av 4,True,1938,1576,7704
+"Cedergrensvägen 20, vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2021-11-30,2950000,2250000,Lägenhet,Bostadsrätt,2 ,35 ,False,2 av 3,False,1939,2235,4900
+"Cedergrensvägen 40, vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2021-11-26,3830000,2995000,Lägenhet,Bostadsrätt,2 ,51 ,False,2 av 3,False,1939,2950,7800
+Bäckvägen 80,Midsommarkransen/Hägersten,Stockholms kommun,2021-11-24,3150000,2595000,Lägenhet,Bostadsrätt,2 ,47 ,True,2 av 3,False,1942,2788,3664
+"Cedergrensvägen 46, 3 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2021-11-24,2910000,2245000,Lägenhet,Bostadsrätt,2 ,35 ,False,4 av 4,False,1940,2235,4200
+Svandammsvägen 10,Midsommarkransen,Stockholms kommun,2021-11-18,3200000,2750000,Lägenhet,Bostadsrätt,2 ,44 ,False,3 av 4,False,1935,3255,10735
+Kransbindarvägen 47,Midsommarkransen,Stockholms kommun,2021-11-18,2825000,2295000,Lägenhet,Bostadsrätt,2 ,35 ,False,1 av 3,False,1939,2235,4968
+Nyårsvägen 12,Aspudden/Kransen,Stockholms kommun,2021-11-17,4550000,3395000,Lägenhet,Bostadsrätt,2 ,52 ,True,3 av 3,False,1947,3287,5004
+Vattenledningsvägen 85,Hägersten,Stockholms kommun,2021-11-16,3450000,2695000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 3,False,1946,2881,7284
+Lötmogatan 7 - Accepterat pris!,Midsommarkransen,Stockholms kommun,2021-11-11,2845000,2845000,Lägenhet,Bostadsrätt,2 ,36 ,False,1 av 4,True,1940,3060,4000
+Kransbindarvägen 41,Midsommarkransen/Telefonplan,Stockholms kommun,2021-11-09,3000000,2195000,Lägenhet,Bostadsrätt,2 ,35 ,False,1 av 3,False,1940,2235,9100
+Tellusborgsvägen 94,Midsommarkransen / Telefonplan,Stockholms kommun,2021-11-05,2900000,2495000,Lägenhet,Bostadsrätt,2 ,40 ,,1 av 6,True,2015,2377,5000
+"Midsommarvägen 25, 4tr - ACCEPTERAT PRIS",Midsommarkransen,Stockholms kommun,2021-11-03,3225000,3250000,Lägenhet,Bostadsrätt,2 ,44 ,True,4 av 4,False,1944,3274,4800
+"Valborgsmässovägen 17, 2 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2021-11-03,3770000,2995000,Lägenhet,Bostadsrätt,2 ,51 ,False,2 av 3,False,1940,2980,7500
+"Bäckvägen 91, högst upp!",Midsommarkransen/Telefonplan,Stockholms kommun,2021-11-02,3500000,2695000,Lägenhet,Bostadsrätt,2 ,45 ,True,3 av 3,False,1940,3604,4800
+Svandammsvägen 21,Midsommarkransen,Stockholms kommun,2021-11-02,3275000,2695000,Lägenhet,Bostadsrätt,2 ,32 ,,1 av 4,False,1939,2992,7500
+Cedergrensvägen 59,Midsommarkransen/Telefonplan,Stockholms kommun,2021-10-29,2850000,2195000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,1 av 3,False,1940,2291,4800
+"Flygelgatan 4, vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2021-10-27,3150000,2595000,Lägenhet,Bostadsrätt,2 ,39 ,True,2 av 6,True,2012,2633,4800
+Svandammsvägen 31C,Midsommarkransen,Stockholms kommun,2021-10-27,3450000,2595000,Lägenhet,Bostadsrätt,2 ,38 ,True,2 av 2,False,1939,2641,6180
+Fastlagsvägen 72,Midsommarkransen,Stockholms kommun,2021-10-27,3600000,2895000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1943,3471,4000
+Nyborgsgränd 1,Gamla Midsommarkransen,Stockholms kommun,2021-10-26,3150000,3150000,Lägenhet,Bostadsrätt,2 ,39 ,False,1,False,1912,3076,6112
+Cedergrensvägen 29,Telefonplan - Midsommarkransen,Stockholms kommun,2021-10-26,3900000,2995000,Lägenhet,Bostadsrätt,2 ,51 ,False,3 av 3,False,1939,2981,9800
+Midsommarparken 5A,Midsommarkransen,Stockholms kommun,2021-10-24,3100000,2495000,Lägenhet,Bostadsrätt,2 ,36 ,False,1 av 3,True,1939,2185,4320
+"Midsommarvägen 76, 1tr",Midsommarkransen,Stockholms kommun,2021-10-22,2700000,2395000,Lägenhet,Bostadsrätt,2 ,41 ,True,1 av 3,False,1944,2235,4950
+"Tellusborgsvägen 94, vån 4 - Accepterat pris",Midsommarkransen/Telefonplan,Stockholms kommun,2021-10-20,3000000,3050000,Lägenhet,Bostadsrätt,2 ,39 ,True,4 av 6,True,2015,2317,4368
+Kransbindarvägen 9,Telefonplan - Midsommarkransen,Stockholms kommun,2021-10-20,2875000,2250000,Lägenhet,Bostadsrätt,2 ,35 ,False,2 av 3,False,1938,2235,7580
+LM Ericssons Väg 21,Midsommarkransen,Stockholms kommun,2021-10-18,3000000,2295000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,1 av 3,False,1939,2291,7050
+Cedergrensvägen 30,Telefonplan - Midsommarkransen,Stockholms kommun,2021-10-13,3000000,2250000,Lägenhet,Bostadsrätt,2 ,35 ,False,2 av 3,False,1939,2235,5891
+Tellusborgsvägen 64,Midsommarkransen - Telefonplan,Stockholms kommun,2021-10-08,3370000,3300000,Lägenhet,Bostadsrätt,2 ,45 ,True,1 av 3,False,1939,2444,2400
+"LM Ericssons väg 3, vån 3",Midsommarkransen/Telefonplan,Stockholms kommun,2021-10-07,2830000,2195000,Lägenhet,Bostadsrätt,2 ,35 ,False,3 av 3,False,1940,2235,7300
+"Tellusborgsvägen 94, vån 4",Midsommarkransen/Telefonplan,Stockholms kommun,2021-10-01,3300000,2795000,Lägenhet,Bostadsrätt,2 ,47 ,True,4 av 6,True,2015,2793,5720
+Fastlagsvägen 57,Aspudden/Kransen,Stockholms kommun,2021-10-01,3625000,3150000,Lägenhet,Bostadsrätt,2 ,54 ,True,1 av 3,False,1942,3817,5828
+Midsommarvägen 78,Midsommarkransen,Stockholms kommun,2021-09-30,2950000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,True,1 av 3,False,1944,2235,5436
+Kyndelsmässogränd 13,Midsommarkransen,Stockholms kommun,2021-09-29,3200000,2695000,Lägenhet,Bostadsrätt,2 ,42 ,True,1,False,1944,3128,3420
+Cedergrensvägen 51,Midsommarkransen/Telefonplan,Stockholms kommun,2021-09-29,2825000,2195000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,1 av 3,False,1940,2291,3800
+Pingstvägen 23,Hägersten - Telefonplan,Stockholms kommun,2021-09-29,3845000,2995000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1938,2949,5000
+"Midsommarparken 5B, Accepterat pris!",Midsommarkransen/Telefonplan,Stockholms kommun,2021-09-28,3350000,3550000,Lägenhet,Bostadsrätt,2 ,56 ,False,-1 av 5,False,1939,3398,
+Cedergrensvägen 18,Telefonplan - Midsommarkransen,Stockholms kommun,2021-09-28,2920000,2250000,Lägenhet,Bostadsrätt,2 ,35 ,False,3 av 3,False,1939,2235,4593
+"Bäckvägen 44, Accepterat pris.",Midsommarkransen,Stockholms kommun,2021-09-23,3300000,3400000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1942,3571,4800
+"Valborgsmässovägen 20D, vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2021-09-22,3450000,2995000,Lägenhet,Bostadsrätt,2 ,51 ,False,2 av 3,True,2017,2626,5500
+Midsommarvägen 46,Midsommarkransen,Stockholms kommun,2021-09-21,5000000,3395000,Lägenhet,Bostadsrätt,2 ,56 ,True,2 av 3,False,1944,4088,8150
+Cedergrensvägen 47,Midsommarkransen/Telefonplan,Stockholms kommun,2021-09-17,3650000,2895000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1940,2981,7513
+Kransbindarvägen 11,Midsommarkransen/Telefonplan,Stockholms kommun,2021-09-16,2800000,2195000,Lägenhet,Bostadsrätt,2 ,35 ,False,1 av 3,False,1940,2235,5500
+"Nyborgsgränd 1, 2 tr",Gamla Midsommarkransen,Stockholms kommun,2021-09-15,4450000,3895000,Lägenhet,Bostadsrätt,2 ,56 ,False,2 av 3,False,1912,3966,2000
+"Vattenledningsvägen 87, 3 tr",Midsommarkransen,Stockholms kommun,2021-09-15,3560000,2695000,Lägenhet,Bostadsrätt,2 ,45 ,True,3 av 3,False,1946,3044,5500
+"Bäckvägen 65, 2 tr",Hägerstensåsen,Stockholms kommun,2021-09-09,3350000,2595000,Lägenhet,Bostadsrätt,2 ,46 ,True,2,False,1945,3337,10308
+Midsommarvägen 54,Midsommarkransen,Stockholms kommun,2021-09-09,3600000,2950000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 2,False,1944,3700,3900
+"Snickerigatan 10, 4 tr",Telefonplan,Stockholms kommun,2021-09-09,3600000,2995000,Lägenhet,Bostadsrätt,2 ,53 ,True,4,True,2012,3374,9800
+"Midsommarvägen 50, Vån 2 av 3",Midsommarkransen,Stockholms kommun,2021-09-08,3555000,2795000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 3,False,1944,3700,7584
+Svandammsvägen 17A,Midsommarkransen,Stockholms kommun,2021-09-08,2645000,2195000,Lägenhet,Bostadsrätt,2 ,30 ,False,3 av 6,True,1938,2099,6000
+"Valsbergs gränd 7, vån 3 av 3",Midsommarkransen,Stockholms kommun,2021-09-03,3750000,3195000,Lägenhet,Bostadsrätt,2 ,46 ,True,3 av 3,False,1936,3443,6315
+Vattenledningsvägen 51,Midsommarkransen,Stockholms kommun,2021-08-30,3450000,2850000,Lägenhet,Bostadsrätt,2 ,47 ,False,3 av 3,False,1942,3573,4200
+"Flygelgatan 4, vån 4",Midsommarkransen/Telefonplan,Stockholms kommun,2021-08-27,3500000,3500000,Lägenhet,Bostadsrätt,2 ,"41,4 ",True,4 av 6,True,2012,2867,5500
+"Midsommargränd 6, vån 2.",Midsommarkransen,Stockholms kommun,2021-08-26,4300000,3795000,Lägenhet,Bostadsrätt,2 ,55 ,True,2 av 4,True,2009,2279,9000
+"Radiusbacken 4, vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2021-08-24,3550000,2995000,Lägenhet,Bostadsrätt,2 ,44 ,True,2 av 4,True,2011,2470,6876
+Cedergrensvägen 45,Midsommarkransen/Telefonplan,Stockholms kommun,2021-08-15,3600000,2795000,Lägenhet,Bostadsrätt,2 ,51 ,False,1,False,1940,2981,7372
+"Midsommarvägen 25, vån 3",Midsommarkransen,Stockholms kommun,2021-08-14,3410000,2795000,Lägenhet,Bostadsrätt,2 ,44 ,True,3 av 4,False,1944,3274,3900
+"Valborgsmässovägen 20D, vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2021-08-13,3225000,2795000,Lägenhet,Bostadsrätt,2 ,45 ,False,2 av 3,True,2017,2374,5500
+Tellusborgsvägen 11,Midsommarkransen,Stockholms kommun,2021-08-10,4250000,3495000,Lägenhet,Bostadsrätt,2 ,54 ,True,2 av 3,False,1947,3075,6460
+Midsommarvägen 52,Midsommarkransen,Stockholms kommun,2021-08-04,4075000,2995000,Lägenhet,Bostadsrätt,2 ,48 ,True,1 av 3,False,1944,3354,7440
+"Midsommarvägen 25, 2 tr",Midsommarkransen,Stockholms kommun,2021-07-09,3450000,2895000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 4,False,1944,3120,4400
+Pingstvägen 27A,Midsommarkransen,Stockholms kommun,2021-07-07,3550000,2995000,Lägenhet,Bostadsrätt,2 ,47 ,False,,,1940,2833,3083
+"Tellusborgsvägen 65e, 1 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2021-06-24,4575000,3895000,Lägenhet,Bostadsrätt,2 ,60 ,False,1 av 4,True,2009,2514,
+Bäckvägen 50,Midsommarkransen,Stockholms kommun,2021-06-23,3510000,2950000,Lägenhet,Bostadsrätt,2 ,52 ,True,3 av 3,True,1943,2924,4652
+"Tellusborgsvägen 94, vån 3",Midsommarkransen/Telefonplan,Stockholms kommun,2021-06-23,3115000,2495000,Lägenhet,Bostadsrätt,2 ,39 ,True,3 av 6,True,2015,2317,4600
+Kransbindarvägen 27,Midsommarkransen/Telefonplan,Stockholms kommun,2021-06-23,3550000,2895000,Lägenhet,Bostadsrätt,2 ,51 ,False,1,False,1940,2950,11230
+"Valborgsmässovägen 20C, vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2021-06-21,3300000,2995000,Lägenhet,Bostadsrätt,2 ,54 ,False,2 av 3,True,2017,2752,5500
+"Midsommarvägen 78, vån 3",Midsommarkransen,Stockholms kommun,2021-06-17,2860000,2395000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1944,2235,4400
+"Tellusborgsvägen 78A, 3 tr",Midsommarkransen,Stockholms kommun,2021-06-17,3270000,2695000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1944,2367,4100
+"Tellusborgsvägen 50, vån 2 av 3",Midsommarkransen,Stockholms kommun,2021-06-17,3550000,2995000,Lägenhet,Bostadsrätt,2 ,50 ,True,2 av 3,False,1939,2686,6000
+Kyndelsmässogränd 13,Midsommarkransen,Stockholms kommun,2021-06-17,3300000,2695000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1944,3222,2700
+"Tellusborgsvägen 78, vån 3",Midsommarkransen,Stockholms kommun,2021-06-10,3250000,2695000,Lägenhet,Bostadsrätt,2 ,43 ,True,3 av 3,False,1944,2384,7020
+Pingstvägen 42,Midsommarkransen,Stockholms kommun,2021-06-10,2840000,2195000,Lägenhet,Bostadsrätt,2 ,35 ,False,1 av 3,False,1940,2235,3083
+"Nioörtsvägen 28A, vån 2",Midsommarkransen,Stockholms kommun,2021-06-09,3700000,2995000,Lägenhet,Bostadsrätt,2 ,"49,6 ",True,2 av 4,True,1973,2251,6000
+Valborgsmässovägen 17,Telefonplan - Midsommarkransen,Stockholms kommun,2021-06-09,3700000,2950000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1939,2981,6200
+Pingstvägen 23A,Telefonplan - Midsommarkransen,Stockholms kommun,2021-06-09,3655000,2850000,Lägenhet,Bostadsrätt,2 ,48 ,False,,,1938,2958,7358
+Cedergrensvägen 39,Telefonplan,Stockholms kommun,2021-05-28,3350000,3300000,Lägenhet,Bostadsrätt,2 ,51 ,False,2 av 3,False,1939,2981,7175
+Valsbergs Gränd 7,Midsommarkransen,Stockholms kommun,2021-05-27,3700000,2950000,Lägenhet,Bostadsrätt,2 ,60 ,False,1 av 3,False,1936,4436,3120
+Vattenledningsvägen 71,Midsommarkransen,Stockholms kommun,2021-05-27,3245000,2595000,Lägenhet,Bostadsrätt,2 ,40 ,True,1 av 4,True,1938,1380,4500
+Tellusborgsvägen 50,Midsommarkransen,Stockholms kommun,2021-05-26,3750000,2995000,Lägenhet,Bostadsrätt,2 ,50 ,True,3 av 3,False,1939,2753,10008
+Midsommarvägen 27,Midsommarkransen,Stockholms kommun,2021-05-25,2900000,3100000,Lägenhet,Bostadsrätt,2 ,44 ,True,4 av 4,False,1943 - 1944,3274,7058
+Valborgsmässovägen 1,Telefonplan / Midsommarkransen,Stockholms kommun,2021-05-25,3310000,2695000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1940,2950,10100
+Oktobergatan 14,Midsommarkransen,Stockholms kommun,2021-05-21,2650000,2595000,Lägenhet,Bostadsrätt,2 ,41 ,False,1 av 3,False,1939,2155,5373
+"Midsommarvägen 23, vån 2",Midsommarkransen,Stockholms kommun,2021-05-20,3120000,2695000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 4,False,1944,3120,4600
+"Cedergrensvägen 53, vån 3",Midsommarkransen/Telefonplan,Stockholms kommun,2021-05-20,2800000,2195000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,3 av 3,False,1940,2291,5000
+Vattenledningsvägen 81,Telefonplan,Stockholms kommun,2021-05-20,3190000,2695000,Lägenhet,Bostadsrätt,2 ,43 ,True,1 av 3,False,1946,2853,12936
+Kransbindarvägen 49,Midsommarkransen/Telefonplan,Stockholms kommun,2021-05-19,2750000,2195000,Lägenhet,Bostadsrätt,2 ,35 ,False,1,False,1940,2235,3312
+Bäckvägen 67,Telefonplan - Midsommarkransen,Stockholms kommun,2021-05-18,3400000,2750000,Lägenhet,Bostadsrätt,2 ,46 ,True,1 av 3,False,1945,3178,4800
+Midsommarvägen 50,Midsommarkransen,Stockholms kommun,2021-05-14,3600000,2795000,Lägenhet,Bostadsrätt,2 ,48 ,True,1 av 3,False,1944,3547,9640
+Cedergrensvägen 40,Midsommarkransen/Telefonplan,Stockholms kommun,2021-05-14,3500000,2795000,Lägenhet,Bostadsrätt,2 ,51 ,False,3 av 3,False,1940,2950,7855
+Tellusborgsvägen 92,Midsommarkransen/Telefonplan,Stockholms kommun,2021-05-11,2900000,2495000,Lägenhet,Bostadsrätt,2 ,35 ,True,1 av 6,True,2012,1949,3571
+"Tellusborgsvägen 78A, vån 3",Midsommarkransen,Stockholms kommun,2021-05-10,3500000,2695000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1944,2367,4800
+Tellusborgsvägen 35,Midsommarkransen,Stockholms kommun,2021-05-09,3370000,2895000,Lägenhet,Bostadsrätt,2 ,54 ,True,4 av 4,False,1949,2841,5000
+Bäckvägen 92A,Telefonplan,Stockholms kommun,2021-05-07,2760000,2295000,Lägenhet,Bostadsrätt,2 ,40 ,False,1 av 3,False,1942,2193,8092
+"Kyndelsmässogränd 11, vån 3 av 3!",Midsommarkransen,Stockholms kommun,2021-05-06,3150000,2695000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1944,3222,8868
+"Cedergrensvägen 53, 2 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2021-05-04,2740000,2195000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,2 av 3,False,1939,2291,7754
+"Vattenledningsvägen 87, vån 2",Midsommarkransen,Stockholms kommun,2021-04-28,3110000,2695000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 3,False,1946,2880,5300
+Kransbindarvägen 12,Midsommarkransen,Stockholms kommun,2021-04-27,3760000,2895000,Lägenhet,Bostadsrätt,2 ,50 ,False,1 av 3,True,1939,2772,2000
+Midsommarparken 5A,Midsommarkransen,Stockholms kommun,2021-04-27,3025000,2495000,Lägenhet,Bostadsrätt,2 ,36 ,False,3 av 3,False,1939,2185,7488
+Ringdansvägen 5B,Hägersten,Stockholms kommun,2021-04-27,5050000,4395000,Lägenhet,Bostadsrätt,2 ,60 ,False,2 av 4,False,1911,3506,10000
+Valborgsmässovägen 34,Midsommarkransen,Stockholms kommun,2021-04-22,3500000,2795000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1939,2981,2000
+Oktobergatan 8,Midsommarkransen,Stockholms kommun,2021-04-22,2900000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,False,1 av 3,False,1939,2155,7640
+Midsommarvägen 25,Midsommarkransen,Stockholms kommun,2021-04-21,3100000,2750000,Lägenhet,Bostadsrätt,2 ,44 ,True,1 av 4,False,1944,3058,4800
+"Midsommarvägen 44, vån 2 av 3",Midsommarkransen,Stockholms kommun,2021-04-15,3030000,2495000,Lägenhet,Bostadsrätt,2 ,40 ,True,2 av 3,False,1944,3160,5940
+"Valborgsmässovägen 20C, vån 3",Midsommarkransen/Telefonplan,Stockholms kommun,2021-04-15,2875000,2895000,Lägenhet,Bostadsrätt,2 ,35 ,False,3 av 3,True,2017,1250,4300
+Tegelbruksvägen 12,Midsommarkransen,Stockholms kommun,2021-04-14,3070000,2750000,Lägenhet,Bostadsrätt,2 ,48 ,False,3 av 3,True,1938,3106,7200
+Vattenledningsvägen 71,Midsommarkransen,Stockholms kommun,2021-04-04,3100000,2495000,Lägenhet,Bostadsrätt,2 ,"37,5 ",True,3 av 4,True,1938,1400,6384
+"Cedergrensvägen 49, vån 2",Midsommarkransen,Stockholms kommun,2021-03-31,3760000,2795000,Lägenhet,Bostadsrätt,2 ,51 ,False,2 av 3,False,1939,2980,6387
+Radiusbacken 23,Midsommarkransen,Stockholms kommun,2021-03-31,5200000,4450000,Lägenhet,Bostadsrätt,2 ,63 ,False,4 av 4,True,1938,2989,4820
+"Fastlagsvägen 72, Vån 1 av 3",Hägersten,Stockholms kommun,2021-03-29,3500000,2745000,Lägenhet,Bostadsrätt,2 ,54 ,True,1 av 3,False,1943,3470,3900
+"Midsommarvägen 14, 2tr",Midsommarkransen,Stockholms kommun,2021-03-27,3125000,2695000,Lägenhet,Bostadsrätt,2 ,44 ,False,2 av 3,False,1939,2670,4600
+Tegelbruksvägen 22,Midsommarkransen,Stockholms kommun,2021-03-23,3840000,3150000,Lägenhet,Bostadsrätt,2 ,44 ,False,2 av 3,False,1912,3389,7100
+Cedergrensvägen 37,Telefonplan - Midsommarkransen,Stockholms kommun,2021-03-23,3610000,2895000,Lägenhet,Bostadsrätt,2 ,51 ,False,3 av 3,False,1939,2981,10276
+Midsommarvägen 31,Midsommarkransen,Stockholms kommun,2021-03-17,3500000,2695000,Lägenhet,Bostadsrätt,2 ,48 ,True,4 av 4,False,1946,2456,8200
+LM Ericssons Väg 3,Telefonplan - Midsommarkransen,Stockholms kommun,2021-03-17,2810000,2295000,Lägenhet,Bostadsrätt,2 ,35 ,False,3 av 3,False,1938,2235,4000
+"Valborgsmässovägen 32, 3 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2021-03-16,2800000,2195000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,3 av 3,False,1939,2291,7848
+"Valborgsmässovägen 8, vån 3 av 3",Midsommarkransen/Telefonplan,Stockholms kommun,2021-03-16,2885000,2395000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,3 av 3,False,1939,2291,3300
+Cedergrensvägen 55,Midsommarkransen,Stockholms kommun,2021-03-11,2850000,2850000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,2 av 3,False,1939,2291,2500
+"Midsommarvägen 17, vån 2",Midsommarkransen,Stockholms kommun,2021-03-11,3600000,2995000,Lägenhet,Bostadsrätt,2 ,53 ,True,2 av 4,False,1944,3772,4400
+"Midsommarvägen 14, vån 3 av 3",Midsommarkransen,Stockholms kommun,2021-03-07,2900000,2495000,Lägenhet,Bostadsrätt,2 ,38 ,False,3 av 3,False,1939,2306,6000
+"Radiusbacken 6, Vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2021-03-07,3665000,3195000,Lägenhet,Bostadsrätt,2 ,55 ,True,2 av 5,True,2011,3143,3900
+"Midsommargränd 4, 2 tr",Midsommarkransen,Stockholms kommun,2021-03-04,4300000,3595000,Lägenhet,Bostadsrätt,2 ,56 ,True,2 av 4,True,2009,2315,4500
+"Telefonvägen 33, 2 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2021-02-24,4550000,3995000,Lägenhet,Bostadsrätt,2 ,68 ,True,2 av 4,True,1993,3726,7000
+Midsommarvägen 40,Midsommarkransen,Stockholms kommun,2021-02-22,3125000,2495000,Lägenhet,Bostadsrätt,2 ,40 ,False,2 av 3,False,1944,2941,7644
+Midsommarvägen 56,Midsommarkransen,Stockholms kommun,2021-02-18,2995000,2995000,Lägenhet,Bostadsrätt,2 ,41 ,True,1,False,1944,2941,1600
+Vattenledningsvägen 81,Midsommarkransen,Stockholms kommun,2021-02-15,3650000,2695000,Lägenhet,Bostadsrätt,2 ,45 ,True,3 av 3,False,1946,3043,4500
+Midsommarvägen 21,Midsommarkransen,Stockholms kommun,2021-02-12,3200000,2875000,Lägenhet,Bostadsrätt,2 ,44 ,True,4 av 4,False,1944,3274,6180
+"Tellusborgsvägen 94, vån 4",Midsommarkransen/Telefonplan,Stockholms kommun,2021-02-10,3400000,2795000,Lägenhet,Bostadsrätt,2 ,42 ,True,4 av 6,True,2015,2495,5000
+LM Ericssons väg 5,Midsommarkransen/Telefonplan,Stockholms kommun,2021-02-09,2710000,2195000,Lägenhet,Bostadsrätt,2 ,35 ,False,2,False,1940,2235,4932
+"Tellusborgsvägen 90, vån 4",Midsommarkransen/Telefonplan,Stockholms kommun,2021-02-04,3420000,2795000,Lägenhet,Bostadsrätt,2 ,49 ,True,4 av 6,True,2012,2728,5232
+"Midsommarvägen 27, vån 3",Midsommarkransen,Stockholms kommun,2021-02-02,3750000,3295000,Lägenhet,Bostadsrätt,2 ,53 ,True,3 av 4,False,1944,3928,4700
+Pingstvägen 39,Midsommarkransen/Telefonplan,Stockholms kommun,2021-01-29,3375000,2795000,Lägenhet,Bostadsrätt,2 ,51 ,False,1,False,1940,2949,8524
+"Tellusborgsvägen 94, vån 4",Midsommarkransen/Telefonplan,Stockholms kommun,2021-01-28,3525000,2895000,Lägenhet,Bostadsrätt,2 ,43 ,True,4 av 6,True,2015,2555,5000
+"Tellusborgsvägen 94, vån 5",Midsommarkransen/Telefonplan,Stockholms kommun,2021-01-26,3600000,2795000,Lägenhet,Bostadsrätt,2 ,43 ,True,5 av 6,True,2015,2555,5220
+"Midsommarvägen 17, vån 4",Midsommarkransen,Stockholms kommun,2021-01-20,3330000,2995000,Lägenhet,Bostadsrätt,2 ,44 ,True,4 av 4,False,1944,3274,2500
+"Cedergrensvägen 61, 1 tr",Telefonplan,Stockholms kommun,2021-01-20,3600000,2850000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1939,2981,8556
+Valborgsmässovägen 20B,Midsommarkransen/Telefonplan,Stockholms kommun,2021-01-20,3820000,2995000,Lägenhet,Bostadsrätt,2 ,49 ,False,2 av 3,True,2017,2542,
+"Midsommargränd 2, 4 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2021-01-20,4460000,3795000,Lägenhet,Bostadsrätt,2 ,56 ,True,4 av 4,True,2009,2315,2000
+Valborgsmässovägen 19,Midsommarkransen,Stockholms kommun,2021-01-04,3335000,2795000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1938,2981,3620
+Midsommarvägen 14,Midsommarkransen,Stockholms kommun,2020-12-16,3000000,2495000,Lägenhet,Bostadsrätt,2 ,44 ,False,1 av 3,False,1939,2810,2500
+"Midsommarvägen 19, vån 2",Midsommarkransen,Stockholms kommun,2020-12-11,3350000,2795000,Lägenhet,Bostadsrätt,2 ,53 ,True,2 av 4,False,1944,3849,2500
+"Tegelbruksvägen 7, vån 1",Midsommarkransen,Stockholms kommun,2020-12-09,4050000,3495000,Lägenhet,Bostadsrätt,2 ,60 ,True,1 av 4,True,1946,2950,9264
+Valborgsmässovägen 30,Midsommarkransen/Telefonplan,Stockholms kommun,2020-12-03,2762500,2800000,Lägenhet,Bostadsrätt,2 ,35 ,False,1 av 3,False,1939,2291,7500
+Lötmogatan 7,Midsommarkransen,Stockholms kommun,2020-11-25,2400000,1995000,Lägenhet,Bostadsrätt,2 ,28 ,False,1 av 3,True,1940,2380,2000
+Midsommarvägen 40,Midsommarkransen,Stockholms kommun,2020-11-24,3210000,2395000,Lägenhet,Bostadsrätt,2 ,40 ,True,3 av 3,False,1944,3068,3800
+"Nyårsvägen 16, 1tr",Midsommarkransen - Telefonplan,Stockholms kommun,2020-11-24,2760000,2195000,Lägenhet,Bostadsrätt,2 ,35 ,False,1 av 3,False,1947,2086,4200
+"Adventsvägen 3, 4 tr",Midsommarkransen,Stockholms kommun,2020-11-20,3680000,2695000,Lägenhet,Bostadsrätt,2 ,47 ,True,4 av 6,True,2017,2601,3000
+Bäckvägen 79,Telefonplan - Midsommarkransen,Stockholms kommun,2020-11-20,2950000,2250000,Lägenhet,Bostadsrätt,2 ,38 ,True,2 av 3,False,1942,3320,9474
+"Nioörtsvägen 28A, vån 4 av 4",Midsommarkransen,Stockholms kommun,2020-11-19,3850000,2995000,Lägenhet,Bostadsrätt,2 ,"62,5 ",True,4 av 4,True,1973,2833,3500
+Cedergrensvägen 59,Midsommarkransen/Telefonplan,Stockholms kommun,2020-11-18,3300000,2695000,Lägenhet,Bostadsrätt,2 ,51 ,False,3 av 3,False,1939,2981,8609
+"Pingstvägen 21, vån 3 av 3",Telefonplan,Stockholms kommun,2020-11-11,3520000,2695000,Lägenhet,Bostadsrätt,2 ,51 ,False,3 av 3,False,1940,2950,3600
+"Svandammsvägen 17A, 1 tr",Midsommarkransen,Stockholms kommun,2020-11-06,2650000,2195000,Lägenhet,Bostadsrätt,2 ,30 ,False,3 av 6,True,1938,2099,6000
+"Midsommarvägen 80, vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2020-11-05,2660000,1995000,Lägenhet,Bostadsrätt,2 ,42 ,True,2 av 3,False,1944,2290,4800
+Cedergrensvägen 4,Midsommarkransen,Stockholms kommun,2020-11-04,2950000,2395000,Lägenhet,Bostadsrätt,2 ,34 ,True,3,True,2020,1773,2000
+"Kransbindarvägen 29, 2 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2020-11-03,3450000,2695000,Lägenhet,Bostadsrätt,2 ,51 ,False,2,False,1940,2949,4100
+Bäckvägen 42,Midsommarkransen,Stockholms kommun,2020-10-22,3180000,2750000,Lägenhet,Bostadsrätt,2 ,60 ,True,2 av 3,True,1942,3699,4769
+Vattenledningsvägen 71,Midsommarkransen,Stockholms kommun,2020-10-21,3110000,2495000,Lägenhet,Bostadsrätt,2 ,"39,5 ",True,1 av 3,True,1938,1400,6740
+"Svandammsvägen 31B, vån 1",Midsommarkransen,Stockholms kommun,2020-10-20,3950000,3495000,Lägenhet,Bostadsrätt,2 ,58 ,False,1 av 3,True,1939,3673,3000
+"Fastlagsvägen 19, 2½ tr",Midsommarkransen,Stockholms kommun,2020-10-14,3550000,2895000,Lägenhet,Bostadsrätt,2 ,51 ,True,3 av 3,False,1944,3415,4200
+Vattenledningsvägen 63,Midsommarkransen,Stockholms kommun,2020-10-14,4700000,3995000,Lägenhet,Bostadsrätt,2 ,59 ,True,1,False,1913,3838,5900
+"Tellusborgsvägen 94, vån 3",Midsommarkransen/Telefonplan,Stockholms kommun,2020-10-09,3200000,3200000,Lägenhet,Bostadsrätt,2 ,38 ,True,3 av 6,True,2015,2258,5280
+Tegelbruksvägen 14,Midsommarkransen,Stockholms kommun,2020-10-05,2800000,2250000,Lägenhet,Bostadsrätt,2 ,38 ,False,1 av 3,False,1936,3025,4200
+Valborgsmässovägen 21,Midsommarkransen/Telefonplan,Stockholms kommun,2020-10-02,3500000,2795000,Lägenhet,Bostadsrätt,2 ,51 ,False,1 av 3,False,1939,2981,8000
+"Pingstvägen 33, 2 tr",Midsommarkransen/Telefonplan,Stockholms kommun,2020-10-01,3220000,2795000,Lägenhet,Bostadsrätt,2 ,51 ,False,2 av 3,False,1940,2949,8528
+Svandammsvägen 10,Midsommarkransen,Stockholms kommun,2020-09-30,3250000,2750000,Lägenhet,Bostadsrätt,2 ,45 ,False,3 av 4,False,1936,3329,7569
+"Kyndelsmässogränd 17, ACCEPTERAT PRIS!",Midsommarkransen,Stockholms kommun,2020-09-29,2900000,2900000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1944,3159,4860
+"Fastlagsvägen 53, högst upp!",Midsommarkransen,Stockholms kommun,2020-09-26,3410000,2495000,Lägenhet,Bostadsrätt,2 ,52 ,False,3 av 3,False,1943,3032,5484
+Cedergrensvägen 57,Telefonplan - Midsommarkransen,Stockholms kommun,2020-09-24,2800000,2250000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,2 av 3,False,1939,2291,7550
+"Midsommarvägen 27, vån 4",Midsommarkransen,Stockholms kommun,2020-09-24,3100000,2995000,Lägenhet,Bostadsrätt,2 ,53 ,True,4 av 4,False,1944,4008,7402
+"Tegelbruksvägen 14, högst upp!",Midsommarkransen,Stockholms kommun,2020-09-20,2635000,2295000,Lägenhet,Bostadsrätt,2 ,35 ,False,3 av 3,False,1936,3283,6864
+"Tellusborgsvägen 94, vån 6/6",Midsommarkransen/Telefonplan,Stockholms kommun,2020-09-19,3125000,2695000,Lägenhet,Bostadsrätt,2 ,35 ,True,6 av 6,True,2015,2080,3012
+"Adventsvägen 3, vån 5",Midsommarkransen,Stockholms kommun,2020-09-17,3700000,2795000,Lägenhet,Bostadsrätt,2 ,48 ,True,5 av 6,True,2017,2657,7000
+"Midsommarvägen 25, vån 2",Midsommarkransen/Telefonplan,Stockholms kommun,2020-09-10,3030000,2495000,Lägenhet,Bostadsrätt,2 ,44 ,True,2 av 4,False,1944,3247,4550
+Midsommarvägen 48,Midsommarkransen,Stockholms kommun,2020-09-09,3650000,2995000,Lägenhet,Bostadsrätt,2 ,56 ,True,2 av 3,False,1944,3842,8792
+"Valborgsmässovägen 36, vån 3 av 3",Midsommarkransen/Telefonplan,Stockholms kommun,2020-09-09,2850000,2195000,Lägenhet,Bostadsrätt,2 ,"34,5 ",False,3 av 3,False,1939,2291,5964
+Midsommarvägen 42,Midsommarkransen/Telefonplan,Stockholms kommun,2020-09-03,2840000,2295000,Lägenhet,Bostadsrätt,2 ,41 ,False,1 av 3,False,1944,2880,4941
+Midsommarvägen 17,Midsommarkransen/Telefonplan,Stockholms kommun,2020-09-02,3100000,2695000,Lägenhet,Bostadsrätt,2 ,44 ,True,1 av 4,False,1944,3120,4040
+"Nioörtsvägen 42, 1 tr",Midsommarkransen,Stockholms kommun,2020-09-01,2850000,2595000,Lägenhet,Bostadsrätt,2 ,55 ,False,1,True,1983,3259,4200
+Oktobergatan 14,Midsommarkransen,Stockholms kommun,2020-08-19,3050000,2595000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1939,2269,6983
+"Bäckvägen 57, 2tr",Midsommarkransen,Stockholms kommun,2020-08-14,3100000,2495000,Lägenhet,Bostadsrätt,2 ,46 ,True,2 av 3,False,1945,3178,5858
+Midsommarvägen 12,Midsommarkransen,Stockholms kommun,2020-08-14,3100000,2495000,Lägenhet,Bostadsrätt,2 ,49 ,False,,,1939,3129,4200
+Midsommarvägen 21,Midsommarkransen,Stockholms kommun,2020-08-06,2950000,2495000,Lägenhet,Bostadsrätt,2 ,44 ,True,1 av 4,False,1944,3120,6252
+"Tegelbruksvägen 37, 1 TR",Midsommarkransen,Stockholms kommun,2020-07-23,3120000,2495000,Lägenhet,Bostadsrätt,2 ,45 ,False,,,1996,2709,4000
+"Vattenledningsvägen 71, vån 2",Midsommarkransen,Stockholms kommun,2020-06-10,3330000,2395000,Lägenhet,Bostadsrätt,2 ,40 ,True,2 av 5,False,1938,1436,4450
+Valborgsmässovägen 20B,Midsommarkransen/Telefonplan,Stockholms kommun,2020-05-28,3300000,2795000,Lägenhet,Bostadsrätt,2 ,48 ,False,,,2017,2500,5500
+Midsommarvägen 17,Midsommarkransen,Stockholms kommun,2020-05-19,2710000,2175000,Lägenhet,Bostadsrätt,2 ,44 ,True,2 av 4,False,1944,3247,3816
+Cedergrensvägen 58 - RENOVERINGSOBJEKT,Telefonplan/midsommarkransen,Stockholms kommun,2020-05-12,2860000,2595000,Lägenhet,Bostadsrätt,2 ,51 ,True,1 av 3,False,1940,2950,2500
+Johannesbergsgatan 3,Midsommarkransen,Stockholms kommun,2020-05-07,2550000,2195000,Lägenhet,Bostadsrätt,2 ,52 ,False,,,2011,4020,
+Bäckvägen 63,Midsommarkransen/Telefonplan,Stockholms kommun,2020-05-05,2930000,2450000,Lägenhet,Bostadsrätt,2 ,46 ,True,2 av 3,False,1945,3178,10612
+"Midsommarvägen 12, 1 tr",Midsommarkransen,Stockholms kommun,2020-04-22,2750000,2195000,Lägenhet,Bostadsrätt,2 ,42 ,False,1 av 3,False,1939,2683,6000
+"Vattenledningsvägen 81, högst upp!",Midsommarkransen,Stockholms kommun,2020-04-21,2910000,2395000,Lägenhet,Bostadsrätt,2 ,43 ,True,3 av 3,False,1946,2906,6200
+Svandammsvägen 21,Midsommarkransen,Stockholms kommun,2020-04-10,2950000,2495000,Lägenhet,Bostadsrätt,2 ,32 ,False,,,1939,2992,5920
+Valborgsmässovägen 15,Midsommarkransen,Stockholms kommun,2020-04-08,3450000,2795000,Lägenhet,Bostadsrätt,2 ,51 ,False,2,False,1940,2981,3800
+Midsommarvägen 60,Midsommarkransen,Stockholms kommun,2020-03-28,2700000,2495000,Lägenhet,Bostadsrätt,2 ,40 ,True,2,False,1944,3068,9684
+Telefonvägen 19 - Uteplats,Telefonplan/midsommarkransen,Stockholms kommun,2020-03-24,4400000,3795000,Lägenhet,Bostadsrätt,2 ,71 ,False,1 av 5,True,1993,3255,
+Valborgsmässovägen 20B,Midsommarkransen/Telefonplan,Stockholms kommun,2020-03-24,3410000,2695000,Lägenhet,Bostadsrätt,2 ,47 ,False,,,2017,2458,5280
+"Midsommarvägen 58, vån 3/3",Midsommarkransen,Stockholms kommun,2020-03-19,2730000,2195000,Lägenhet,Bostadsrätt,2 ,40 ,True,3 av 3,False,1944,3068,5500
+Kyndelsmässogränd 12,Midsommarkransen,Stockholms kommun,2020-03-06,2775000,2095000,Lägenhet,Bostadsrätt,2 ,"47,5 ",False,1,False,1944,3420,6420
+"Midsommarvägen 52, vån 2",Midsommarkransen,Stockholms kommun,2020-02-26,3415000,2495000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 3,False,1944,3592,7255
+Svandammsvägen 43,Midsommarkransen,Stockholms kommun,2020-02-14,3850000,2995000,Lägenhet,Bostadsrätt,2 ,56 ,True,2 av 3,True,1934,3492,3500
+"Midsommarvägen 12, vv",Midsommarkransen,Stockholms kommun,2016-05-18,4200000,3395000,Lägenhet,Bostadsrätt,2 ,58 ,,,,1939,3894,3500

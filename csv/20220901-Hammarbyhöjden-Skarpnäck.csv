@@ -1,0 +1,532 @@
+Adress,Område,Region,Datum,Slutpris,Begärt pris,Bostadstyp,Upplåtelseform,Antal rum,Boarea,Balkong,Våning,Elevator,Byggår,Avgift/månad,Driftskostnad
+"Åkerbladsgatan 8, 2tr",Hammarbyhöjden,Stockholms kommun,2022-08-29,3050000,2795000,Lägenhet,Bostadsrätt,2 ,43 ,True,2,False,1936,3163,4200
+Svalövsvägen 12,Björkhagen,Stockholms kommun,2022-08-26,3040000,2800000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1949,2649,7536
+Holmögaddsvägen 22,Kärrtorp,Stockholms kommun,2022-08-26,3200000,2450000,Lägenhet,Bostadsrätt,2 ,"58,9 ",True,2 av 4,True,1997,3885,5160
+Per Lindeströms väg 105,Hammarbyhöjden,Stockholms kommun,2022-08-25,3000000,2750000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1944,3092,7500
+"Garagevägen 26, 2 tr",Blåsut,Stockholms kommun,2022-08-24,4255000,3995000,Lägenhet,Bostadsrätt,2 ,"60,5 ",True,2 av 6,True,2019,3117,4944
+Fyrskeppsvägen 134,Kärrtorp,Stockholms kommun,2022-08-22,2900000,2695000,Lägenhet,Bostadsrätt,2 ,56 ,True,3 av 3,False,1949,3975,5490
+"Pilotgatan 20, 3tr",Skarpnäck,Stockholms kommun,2022-08-22,2625000,2650000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,3 av 4,True,1984,3726,7968
+Garagevägen 26,Blåsut,Stockholms kommun,2022-08-22,3100000,2995000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 6,True,2019,2241,4800
+Svartågatan 61,Bagarmossen,Stockholms kommun,2022-08-20,2425000,2195000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1954,3870,3487
+"Forsskålsgatan 10, 1,5 tr",Johanneshov,Stockholms kommun,2022-08-20,2565000,2350000,Lägenhet,Bostadsrätt,2 ,33 ,True,1,False,1942,2250,4800
+"Mariestadsvägen 12, 2tr",Hammarbyhöjden,Stockholms kommun,2022-08-19,2825000,2650000,Lägenhet,Bostadsrätt,2 ,"40,5 ",True,2 av 3,False,1942,3202,5500
+Luftskeppsgatan 4,Skarpnäck,Stockholms kommun,2022-08-11,2525000,2150000,Lägenhet,Bostadsrätt,2 ,62 ,True,2 av 3,True,1989,4164,4300
+Kolbäcksgränd 26,Bagarmossen,Stockholms kommun,2022-08-11,2520000,2100000,Lägenhet,Bostadsrätt,2 ,58 ,True,2 av 3,False,1954,3952,5760
+Sofielundsvägen 15,Blåsut,Stockholms kommun,2022-08-10,4300000,3995000,Lägenhet,Bostadsrätt,2 ,65 ,True,3 av 5,True,2013,3821,5400
+Garagevägen 21,Blåsut,Stockholms kommun,2022-08-10,3300000,,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 5,True,2015,3359,4668
+Finn Malmgrens väg 58,Hammarbyhöjden,Stockholms kommun,2022-08-08,2950000,2475000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1939,2847,5900
+Båstadsvägen 21,Björkhagen / Hammarbyhöjden,Stockholms kommun,2022-07-30,3150000,2995000,Lägenhet,Bostadsrätt,2 ,48 ,True,1 av 4,True,2006,    for index, keys in enumerate(property_key_details):
+
+                if (keys == "Begärt pris"):
+                    listings[keys] = "".join(property_value_details[index].strip('kr').split())
+
+                elif (keys == "Bostadstyp"):
+                    listings[keys] = property_value_details[index]
+
+                elif(keys == "Upplåtelseform"):
+                    listings[keys] = property_value_details[index]
+                    
+                elif(keys == "Antal rum"):
+                    listings[keys] = property_value_details[index].strip('rum')
+
+                elif(keys == "Boarea"):
+                    listings[keys] = property_value_details[index].strip('m²')
+
+                elif(keys == "Balkong"):
+                    balle = property_value_details[index]
+                    if(balle == "Ja"):
+                        listings[keys] = True
+                    else:
+                        listings[keys] = False
+
+                elif(keys == "Våning"):
+                    listings[keys] = property_value_details[index].split(',')[0]
+                    hiss = property_value_details[index].split(',')[-1].strip()
+                    if (hiss == "hiss finns"):
+                        listings["Elevator"] = True 
+                    else:
+                        listings["Elevator"] = False 
+                        
+                elif(keys == "Byggår"):
+                    listings[keys] = property_value_details[index]
+
+                elif(keys == "Avgift/månad"):
+                    listings[keys] = "".join(property_value_details[index].strip('kr/mån').split())
+
+                elif(keys == "Driftskostnad"):
+                    listings[keys] = "".join(property_value_details[index].strip('kr/år').split())
+
+            self.listings.append(dict(listings))3503,3960
+Glidflyktsgatan 2,Skarpnäck,Stockholms kommun,2022-07-22,1775000,1995000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,2 av 3,True,1985,4319,4200
+Alingsåsvägen 56,Hammarbyhöjden,Stockholms kommun,2022-07-22,3900000,4000000,Lägenhet,Bostadsrätt,2 ,54 ,True,2 av 3,False,1944,3442,5064
+"Thunbergsgatan 6, högst upp i huset!",Hammarbyhöjden,Stockholms kommun,2022-07-20,3100000,2795000,Lägenhet,Bostadsrätt,2 ,45 ,True,3 av 3,False,1939,3210,2160
+"Simrishamnsvägen 19, 3 tr",Björkhagen,Stockholms kommun,2022-07-07,3550000,3350000,Lägenhet,Bostadsrätt,2 ,54 ,True,3,True,1946,2822,6588
+Garagevägen 32,Blåsut,Stockholms kommun,2022-07-01,3650000,3500000,Lägenhet,Bostadsrätt,2 ,"45,5 ",True,5 av 6,True,2019,2601,7400
+Hässleholmsvägen 7,Björkhagen,Stockholms kommun,2022-06-21,3350000,2995000,Lägenhet,Bostadsrätt,2 ,52 ,True,1,True,1947,3128,8772
+"Pilvingegatan 42, 5tr",Skarpnäck,Stockholms kommun,2022-06-20,2300000,2300000,Lägenhet,Bostadsrätt,2 ,56 ,True,5 av 5,True,1986,3479,5700
+Hållövägen 17,Blåsut,Stockholms kommun,2022-06-16,3150000,2995000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 6,True,2013,2240,4200
+Vingavägen 8,Blåsut,Stockholms kommun,2022-06-16,3200000,2895000,Lägenhet,Bostadsrätt,2 ,46 ,True,3 av 5,True,2012,2835,9960
+Simrishamnsvägen 19,Björkhagen,Stockholms kommun,2022-06-16,3150000,2950000,Lägenhet,Bostadsrätt,2 ,52 ,True,1 av 6,True,1948,2758,4471
+Drakflygargatan 6,Skarpnäck,Stockholms kommun,2022-06-10,2400000,2195000,Lägenhet,Bostadsrätt,2 ,59 ,True,2 av 3,True,1986,3464,6000
+"Bergsrådsvägen 40, 1tr",Bagarmossen,Stockholms kommun,2022-06-09,3340000,2700000,Lägenhet,Bostadsrätt,2 ,54 ,True,1 av 3,False,1953,3614,6600
+Palandergatan 19,Hammarbyhöjden,Stockholms kommun,2022-06-09,2750000,2395000,Lägenhet,Bostadsrätt,2 ,45 ,False,1 av 3,False,1938,3095,5850
+Forsskålsgatan 14 1tr,Hammarbyhöjden,Stockholms kommun,2022-06-04,2960000,2750000,Lägenhet,Bostadsrätt,2 ,41 ,True,1 av 3,False,1942,3410,3000
+Svalövsvägen 10,Björkhagen,Stockholms kommun,2022-06-03,3700000,3495000,Lägenhet,Bostadsrätt,2 ,58 ,True,2 av 3,False,1949,2649,5400
+Båstadsvägen 2,Björkhagen,Stockholms kommun,2022-06-02,4400000,3350000,Lägenhet,Bostadsrätt,2 ,56 ,True,2 av 3,False,1949,3229,6480
+Malmövägen 30,Hammarbyhöjden,Stockholms kommun,2022-06-01,4200000,3495000,Lägenhet,Bostadsrätt,2 ,51 ,True,1 av 3,False,1946,3482,3500
+"Finn Malmgrens väg 52, 2 tr",Hammarbyhöjden,Stockholms kommun,2022-06-01,3320000,2595000,Lägenhet,Bostadsrätt,2 ,45 ,True,2 av 3,False,1939,3235,4764
+Kalmgatan 19,Hammarbyhöjden,Stockholms kommun,2022-06-01,2650000,2350000,Lägenhet,Bostadsrätt,2 ,38 ,False,3 av 3,False,1942,2100,6800
+"Ronnebyvägen 28, 3tr",Björkhagen,Stockholms kommun,2022-05-31,4200000,3650000,Lägenhet,Bostadsrätt,2 ,57 ,True,3 av 3,False,1948,3446,10332
+Fyrskeppsvägen 36,Kärrtorp,Stockholms kommun,2022-05-30,3600000,2950000,Lägenhet,Bostadsrätt,2 ,62 ,True,2 av 3,False,1949,3875,9276
+Vinggatan 14,Skarpnäck,Stockholms kommun,2022-05-26,2550000,2275000,Lägenhet,Bostadsrätt,2 ,"63,5 ",True,2 av 6,True,1986,4009,3600
+Understensvägen 107,Björkhagen,Stockholms kommun,2022-05-25,6250000,4495000,Lägenhet,Bostadsrätt,2 ,"58,5 ",False,,,1995,3894,12672
+Lidköpingsvägen 49,Hammarbyhöjden,Stockholms kommun,2022-05-24,3500000,2995000,Lägenhet,Bostadsrätt,2 ,48 ,True,1 av 3,False,1942,3719,6600
+Finngrundsvägen 5,Hammarbyhöjden,Stockholms kommun,2022-05-24,4450000,3995000,Lägenhet,Bostadsrätt,2 ,"60,5 ",True,2 av 6,True,2019,3078,4680
+"Svartågatan 61, 1tr",Bagarmossen,Stockholms kommun,2022-05-20,2920000,2600000,Lägenhet,Bostadsrätt,2 ,54 ,True,1 av 3,False,1954,3871,7800
+Svartågatan 49,Bagarmossen,Stockholms kommun,2022-05-19,2725000,2495000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 3,False,1954,3902,5300
+Fallskärmsgatan 1,Skarpnäcks Gård,Stockholms kommun,2022-05-19,2300000,1995000,Lägenhet,Bostadsrätt,2 ,"64,7 ",True,3 av 3,True,1983,4194,6720
+"Olaus Magnus väg 44, 2 tr",Hammarbyhöjden,Stockholms kommun,2022-05-17,2700000,2450000,Lägenhet,Bostadsrätt,2 ,39 ,True,2 av 3,False,1939,3142,12024
+Svalövsvägen 4,Björkhagen,Stockholms kommun,2022-05-13,3630000,2950000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1949,2849,6864
+"Palandergatan 23, Vån 3 av 3",Johanneshov,Stockholms kommun,2022-05-13,3210000,2495000,Lägenhet,Bostadsrätt,2 ,40 ,True,3 av 3,False,1939,2741,9451
+"Tidaholmsvägen 36, 1 tr",Hammarbyhöjden - Johanneshov,Stockholms kommun,2022-05-12,2800000,2250000,Lägenhet,Bostadsrätt,2 ,40 ,False,1 av 3,False,1939,2991,5640
+Kärrtorpsvägen 93B,Kärrtorp,Stockholms kommun,2022-05-10,3000000,2795000,Lägenhet,Bostadsrätt,2 ,54 ,False,,,1950,3460,8448
+"Nathorstvägen 52, vån 3 av 3",Johanneshov,Stockholms kommun,2022-05-05,3450000,2995000,Lägenhet,Bostadsrätt,2 ,45 ,True,3 av 3,False,1938,2915,4000
+"Palandergatan 7, 3 tr",Gullmarsplan / Johanneshov,Stockholms kommun,2022-05-04,3000000,2695000,Lägenhet,Bostadsrätt,2 ,38 ,True,3 av 3,False,1938,3326,4000
+Finngrundsvägen 3,Blåsut,Stockholms kommun,2022-05-03,3480000,2995000,Lägenhet,Bostadsrätt,2 ,41 ,True,4 av 6,True,2019,2241,4800
+Finngrundsvägen 5,Blåsut/Enskededalen,Stockholms kommun,2022-04-28,4625000,3995000,Lägenhet,Bostadsrätt,2 ,"60,5 ",True,3 av 6,True,2019,3117,8784
+"Per Lindeströms väg 121, 3tr",Hammarbyhöjden,Stockholms kommun,2022-04-28,4320000,3450000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 3,False,1939,3560,8844
+Pilotgatan 23,Skarpnäck,Stockholms kommun,2022-04-28,2750000,2275000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,3 av 4,True,1984,3654,4500
+Olaus magnus väg 20,Hammarbyhöjden,Stockholms kommun,2022-04-27,2960000,2650000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1938,2889,4800
+Nathorstvägen 15,Gullmarsplan / Johanneshov,Stockholms kommun,2022-04-26,3025000,2495000,Lägenhet,Bostadsrätt,2 ,40 ,True,0,False,1938,2347,4200
+Ronnebyvägen 32,Björkhagen,Stockholms kommun,2022-04-23,3300000,2750000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1947,2479,7300
+Vikstensvägen 1,Kärrtorp,Stockholms kommun,2022-04-22,2970000,2495000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1949,3894,7000
+Finn Malmgrens väg 3C,Hammarbyhöjden,Stockholms kommun,2022-04-22,3450000,2795000,Lägenhet,Bostadsrätt,2 ,68 ,True,4 av 4,True,1992,5763,4896
+"Bergsrådsvägen 46, 3tr",Bagarmossen,Stockholms kommun,2022-04-22,3600000,2550000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1953,3614,6600
+Pilvingegatan 57,Skarpnäck,Stockholms kommun,2022-04-20,2710000,1895000,Lägenhet,Bostadsrätt,2 ,"44,5 ",False,,,2007,4011,7200
+Simrishamnsvägen 21,Björkhagen,Stockholms kommun,2022-04-19,3950000,3950000,Lägenhet,Bostadsrätt,2 ,52 ,True,1 av 6,True,1948,2758,5300
+"Hasselquistvägen 25, 3tr",Hammarbyhöjden,Stockholms kommun,2022-04-14,3330000,2700000,Lägenhet,Bostadsrätt,2 ,40 ,True,3 av 3,False,1939,2900,8040
+"Wahlbergsgatan 10, 2 tr",Hammarbyhöjden,Stockholms kommun,2022-04-13,3000000,2500000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1937,2476,5796
+Vinggatan 10,Skarpnäck,Stockholms kommun,2022-04-08,2550000,2150000,Lägenhet,Bostadsrätt,2 ,"63,5 ",True,1 av 3,True,1986,4006,4560
+Nathorstvägen 1,Hammarbyhöjden,Stockholms kommun,2022-04-08,3330000,2995000,Lägenhet,Bostadsrätt,2 ,46 ,True,2 av 3,False,1939,3174,5400
+Lidköpingsvägen 24,Hammarbyhöjden,Stockholms kommun,2022-04-06,3660000,2995000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 3,False,1942,2689,6500
+"Pilottorget 5, 2tr",Skarpnäck,Stockholms kommun,2022-04-06,2400000,2250000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,2 av 2,True,1983,3795,6000
+Fyrvaktarkroken 64,Blåsut/Enskede/Globen,Stockholms kommun,2022-04-06,3250000,2995000,Lägenhet,Bostadsrätt,2 ,40 ,True,4 av 6,True,2009,2413,6550
+"Lidköpingsvägen 60, 2 tr",Hammarbyhöjden,Stockholms kommun,2022-04-06,3925000,3495000,Lägenhet,Bostadsrätt,2 ,58 ,True,2 av 3,False,1944,2979,4650
+Bergsrådsvägen 32,Bagarmossen,Stockholms kommun,2022-04-06,2205000,1995000,Lägenhet,Bostadsrätt,2 ,32 ,,0 av 3,False,1954,2332,3600
+Svalövsvägen 10,Björkhagen,Stockholms kommun,2022-04-01,4250000,3450000,Lägenhet,Bostadsrätt,2 ,58 ,True,3 av 3,False,1949,2649,6744
+Thunbergsgatan 18,Hammarbyhöjden,Stockholms kommun,2022-03-31,3200000,2495000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1938,3763,7247
+Finn Malmgrens väg 53,Hammarbyhöjden,Stockholms kommun,2022-03-30,2810000,2250000,Lägenhet,Bostadsrätt,2 ,"37,5 ",False,1 av 3,False,1943,2892,6780
+Finn malmgrens väg 102,Hammarbyhöjden,Stockholms kommun,2022-03-29,3370000,2500000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1943,2419,6000
+"Horisontvägen 97, 3tr",Skarpnäck,Stockholms kommun,2022-03-28,2515000,2150000,Lägenhet,Bostadsrätt,2 ,65 ,True,3 av 4,True,1989,4452,5520
+Fyrvaktarkroken 26,Blåsut,Stockholms kommun,2022-03-26,3200000,2895000,Lägenhet,Bostadsrätt,2 ,"39,5 ",True,5 av 6,True,2008,2738,4200
+Hasselquistvägen 37,Hammarbyhöjden,Stockholms kommun,2022-03-24,3125000,2695000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1939,2642,5400
+Simrishamnsvägen 21,Björkhagen,Stockholms kommun,2022-03-23,3870000,2995000,Lägenhet,Bostadsrätt,2 ,52 ,True,2 av 6,True,1948,2758,2431
+Fyrskeppsvägen 116,Kärrtorp/Johanneshov,Stockholms kommun,2022-03-23,3000000,2675000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 3,False,1949,3905,6948
+Varmfrontsgatan 18,Skarpnäck,Stockholms kommun,2022-03-23,2650000,2275000,Lägenhet,Bostadsrätt,2 ,65 ,True,1 av 3,True,1984,4436,4000
+Per lindeströms väg 117,Hammarbyhöjden,Stockholms kommun,2022-03-18,4000000,2995000,Lägenhet,Bostadsrätt,2 ,57 ,True,2 av 3,False,1944,3469,4320
+Uppvindsgatan 8,Skarpnäck,Stockholms kommun,2022-03-18,2575000,2395000,Lägenhet,Bostadsrätt,2 ,57 ,True,1 av 4,True,1985,4223,3900
+Vinggatan 12,Skarpnäck,Stockholms kommun,2022-03-17,2730000,2175000,Lägenhet,Bostadsrätt,2 ,"63,5 ",True,3 av 3,True,1986,4014,4560
+Hjovägen 1,Hammarbyhöjden,Stockholms kommun,2022-03-12,3390000,2500000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1943,2419,2196
+Tätorpsvägen 11,Skarpnäck,Stockholms kommun,2022-03-10,2860000,2495000,Lägenhet,Bostadsrätt,2 ,44 ,,0 av 4,True,1990,2983,5400
+Per lindeströms väg 121,Hammarbyhöjden,Stockholms kommun,2022-03-10,2850000,2495000,Lägenhet,Bostadsrätt,2 ,37 ,False,,,1939,1875,3960
+"Pilotgatan 30, 1tr",Skarpnäcks Gård,Stockholms kommun,2022-03-09,2560000,2095000,Lägenhet,Bostadsrätt,2 ,57 ,True,1,True,1983,3784,
+"Björnståhlsgatan 2, 3 tr",Hammarbyhöjden,Stockholms kommun,2022-03-09,3800000,3800000,Lägenhet,Bostadsrätt,2 ,51 ,True,3 av 3,False,1939,3186,6600
+Alingsåsvägen 56,Hammarbyhöjden,Stockholms kommun,2022-03-07,4200000,3450000,Lägenhet,Bostadsrätt,2 ,54 ,True,2 av 3,False,1944,3442,9468
+Hållövägen 7,Blåsut,Stockholms kommun,2022-03-04,4350000,4350000,Lägenhet,Bostadsrätt,2 ,"60,5 ",True,2 av 6,True,2019,3289,7440
+Olaus Magnus Väg 48,Hammarbyhöjden,Stockholms kommun,2022-03-03,2825000,2295000,Lägenhet,Bostadsrätt,2 ,39 ,True,2 av 3,False,1940,3141,9159
+Hasselquistvägen 33,Hammarbyhöjden,Stockholms kommun,2022-03-02,3340000,2795000,Lägenhet,Bostadsrätt,2 ,42 ,True,2 av 3,False,1939,3012,4000
+"Fyrvaktarkroken 22, 4 tr",Blåsut,Stockholms kommun,2022-03-01,3300000,2995000,Lägenhet,Bostadsrätt,2 ,"39,5 ",True,4 av 5,True,2008,2738,3600
+Pilvingegatan 71,Skarpnäck,Stockholms kommun,2022-02-26,2700000,2200000,Lägenhet,Bostadsrätt,2 ,"44,5 ",True,,,2005,4011,4000
+Tidaholmsvägen 31,Hammarbyhöjden,Stockholms kommun,2022-02-26,3400000,2475000,Lägenhet,Bostadsrätt,2 ,42 ,True,2 av 3,False,1939,2950,5200
+"Söderarmsvägen 11, 3 tr",Kärrtorp,Stockholms kommun,2022-02-25,3800000,3095000,Lägenhet,Bostadsrätt,2 ,59 ,True,3 av 3,False,1949,3086,7200
+Voxnegränd 22,Kärrtorp/Bagarmossen,Stockholms kommun,2022-02-25,2875000,2350000,Lägenhet,Bostadsrätt,2 ,43 ,True,1 av 3,False,1953,3369,4500
+Kärrtorpsvägen 26D,Kärrtorp,Stockholms kommun,2022-02-25,3360000,2750000,Lägenhet,Bostadsrätt,2 ,55 ,True,4 av 6,True,2019,3402,5700
+Söderarmsvägen 25,Kärrtorp,Stockholms kommun,2022-02-24,3030000,2795000,Lägenhet,Bostadsrätt,2 ,46 ,True,1 av 5,True,2008,3451,9598
+"Vänersborgsvägen 15, 3 tr",Hammarbyhöjden,Stockholms kommun,2022-02-24,3650000,2995000,Lägenhet,Bostadsrätt,2 ,50 ,True,3 av 3,False,1943,2948,6600
+Paternostervägen 80B,Hammarbyhöjden,Stockholms kommun,2022-02-23,3460000,2650000,Lägenhet,Bostadsrätt,2 ,60 ,False,,,1950,3928,5400
+Fyrskeppsvägen 116,Kärrtorp,Stockholms kommun,2022-02-17,3150000,2675000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 3,False,1949,3905,4200
+Sofielundsvägen 37,Blåsut/Johanneshov,Stockholms kommun,2022-02-17,4580000,3850000,Lägenhet,Bostadsrätt,2 ,"60,5 ",True,2 av 5,True,2019,3265,5500
+Palandergatan 29,Skärmarbrink,Stockholms kommun,2022-02-16,2910000,2395000,Lägenhet,Bostadsrätt,2 ,38 ,True,3 av 3,False,1938,2929,3600
+Paternostervägen 28,Hammarbyhöjden,Stockholms kommun,2022-02-16,3400000,2650000,Lägenhet,Bostadsrätt,2 ,41 ,True,1 av 3,False,1952,1995,7200
+"Bergsrådsvägen 46, 3tr",Bagarmossen,Stockholms kommun,2022-02-16,3430000,2550000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1953,3614,6600
+Lidköpingsvägen 32,Hammarbyhöjden,Stockholms kommun,2022-02-15,3450000,2995000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 3,False,1942,3048,4200
+Nathorstvägen 38,Hammarbyhöjden/Skärmarbrink,Stockholms kommun,2022-02-14,3150000,2475000,Lägenhet,Bostadsrätt,2 ,41 ,True,4 av 6,True,1995,3466,5100
+Hållövägen 17,Blåsut/Enskede,Stockholms kommun,2022-02-13,3400000,,Lägenhet,Bostadsrätt,2 ,42 ,False,1 av 6,True,2014,2240,6144
+"Rusthållarvägen 69, 2tr",Bagarmossen,Stockholms kommun,2022-02-11,3250000,2795000,Lägenhet,Bostadsrätt,2 ,55 ,True,2 av 3,False,1953,3072,5700
+"Lidköpingsvägen 49, 3 tr",Hammarbyhöjden,Stockholms kommun,2022-02-10,4160000,3195000,Lägenhet,Bostadsrätt,2 ,49 ,True,3 av 3,False,1942,3737,4356
+"Pilvingegatan 48, 5 tr",Skarpnäck,Stockholms kommun,2022-02-10,2660000,2195000,Lägenhet,Bostadsrätt,2 ,56 ,True,5 av 5,True,1986,3479,5976
+Garagevägen 21,Blåsut,Stockholms kommun,2022-02-09,3285000,2995000,Lägenhet,Bostadsrätt,2 ,48 ,True,3 av 6,True,2014,3139,5400
+Fyrskeppsvägen 36,Kärrtorp,Stockholms kommun,2022-02-09,3520000,2695000,Lägenhet,Bostadsrätt,2 ,62 ,True,1 av 3,False,1950,3875,7320
+Vingavägen 7,Blåsut,Stockholms kommun,2022-02-08,4630000,3895000,Lägenhet,Bostadsrätt,2 ,64 ,True,5 av 6,True,2014,3413,6000
+"Garagevägen 26, 2tr",Blåsut,Stockholms kommun,2022-02-07,3290000,2995000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 6,True,2019,2241,6864
+Mariestadsvägen 12,Hammarbyhöjden,Stockholms kommun,2022-02-05,2900000,2395000,Lägenhet,Bostadsrätt,2 ,"40,5 ",True,2 av 3,False,1942,3188,1800
+Johan Printz väg 12,Hammarbyhöjden,Stockholms kommun,2022-02-04,2900000,2395000,Lägenhet,Bostadsrätt,2 ,37 ,True,2 av 3,False,1938,2136,4200
+"Garagevägen 24, 2tr",Johanneshov / Blåsut,Stockholms kommun,2022-02-03,3300000,3400000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 6,True,2019,2241,5340
+Fyrvaktarkroken 40,Hammarbyhöjden,Stockholms kommun,2022-02-01,3300000,3300000,Lägenhet,Bostadsrätt,2 ,"43,5 ",True,5 av 6,True,2009,2634,4200
+Thunbergsgatan 16,Hammarbyhöjden,Stockholms kommun,2022-02-01,3200000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1942,3673,5100
+Per Lindeströms väg 86,Hammarbyhöjden,Stockholms kommun,2022-01-27,2780000,2395000,Lägenhet,Bostadsrätt,2 ,42 ,False,1 av 3,False,1939,3298,9900
+"Kolbäcksgränd 9, 2 tr",Bagarmossen,Stockholms kommun,2022-01-27,3000000,2650000,Lägenhet,Bostadsrätt,2 ,57 ,True,2 av 3,False,1954,3836,3700
+Söderarmsvägen 16,Kärrtorp,Stockholms kommun,2022-01-26,3150000,2795000,Lägenhet,Bostadsrätt,2 ,57 ,True,1 av 3,False,1949,3456,4000
+"Pilotgatan 40, 2tr",Skarpnäck,Stockholms kommun,2022-01-26,2500000,2095000,Lägenhet,Bostadsrätt,2 ,"59,5 ",True,2 av 4,True,1984,3805,4800
+"Fyrskeppsvägen 78, 3 tr",Kärrtorp,Stockholms kommun,2022-01-26,3500000,2695000,Lägenhet,Bostadsrätt,2 ,61 ,True,3 av 3,False,1950,3875,4200
+Wahlbergsgatan 7,Hammarbyhöjden,Stockholms kommun,2022-01-24,3400000,2795000,Lägenhet,Bostadsrätt,2 ,53 ,False,1 av 3,False,1937,3120,4200
+Vingavägen 3,Blåsut/ Enskededalen,Stockholms kommun,2022-01-20,3550000,2795000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 5,True,2013,2240,2400
+Sofielundsvägen 37,Blåsut,Stockholms kommun,2022-01-20,3450000,2995000,Lägenhet,Bostadsrätt,2 ,41 ,True,5 av 5,True,2019,2395,3600
+"Drakflygargatan 7, 1tr",Skarpnäck,Stockholms kommun,2022-01-19,2530000,2195000,Lägenhet,Bostadsrätt,2 ,"63,5 ",True,1 av 3,True,1986,4171,6971
+"Palandergatan 7, 2 tr",Gullmarsplan / Johanneshov,Stockholms kommun,2022-01-19,3070000,2495000,Lägenhet,Bostadsrätt,2 ,38 ,True,2 av 3,False,1938,3326,4000
+"Bergsrådsvägen 30, nb",Bagarmossen,Stockholms kommun,2022-01-18,2400000,2400000,Lägenhet,Bostadsrätt,2 ,33 ,False,,,1954,2390,4320
+Bergsrådsvägen 22 lgh 1202,Bagarmossen,Stockholms kommun,2022-01-17,3000000,2400000,Lägenhet,Bostadsrätt,2 ,56 ,True,3 av 3,False,1954,3731,3480
+Mariestadsvägen 1,Hammarbyhöjden,Stockholms kommun,2022-01-14,3700000,2850000,Lägenhet,Bostadsrätt,2 ,48 ,True,3 av 3,False,1942,3785,4200
+"Pilotgatan 5E, 3tr",Skarpnäck,Stockholms kommun,2022-01-13,2350000,1975000,Lägenhet,Bostadsrätt,2 ,66 ,True,3 av 3,True,1985,4720,4200
+Finn Malmgrens Väg 51,Hammarbyhöjden ,Stockholms kommun,2022-01-13,2700000,2295000,Lägenhet,Bostadsrätt,2 ,"37,5 ",False,2 av 3,False,1943,2744,2400
+"Skanörvägen 5, 6 av 6tr",Björkhagen,Stockholms kommun,2022-01-13,4030000,2995000,Lägenhet,Bostadsrätt,2 ,54 ,True,6 av 6,True,1949,3491,5520
+Vikstensvägen 1,Kärrtorp,Stockholms kommun,2022-01-11,2900000,2295000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1950,3784,3500
+Svalövsvägen 4,Björkhagen,Stockholms kommun,2022-01-06,3900000,2950000,Lägenhet,Bostadsrätt,2 ,58 ,True,3 av 3,False,1949,2648,6096
+Sofielundsvägen 15,Blåsut,Stockholms kommun,2022-01-05,3800000,3495000,Lägenhet,Bostadsrätt,2 ,57 ,True,2 av 5,True,2013,3380,4800
+Pilotgatan 5B,Skarpnäck,Stockholms kommun,2021-12-15,2250000,2250000,Lägenhet,Bostadsrätt,2 ,50 ,False,,,1985,3622,4200
+Sofielundsvägen 37,Blåsut,Stockholms kommun,2021-12-11,3300000,2795000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 5,True,2019,2348,4440
+"Pilottorget 6, 8 tr",Skarpnäck,Stockholms kommun,2021-12-08,3200000,2495000,Lägenhet,Bostadsrätt,2 ,64 ,True,8 av 10,True,1988,4510,5364
+"Läckövägen 33, 2tr",Hammarbyhöjden,Stockholms kommun,2021-12-08,3250000,2450000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1943,2381,7224
+Ronnebyvägen 30,Björkhagen,Stockholms kommun,2021-12-02,3725000,3195000,Lägenhet,Bostadsrätt,2 ,57 ,True,2 av 3,False,1947,3446,2610
+Simrishamnsvägen 14,Björkhagen,Stockholms kommun,2021-12-01,3900000,3095000,Lägenhet,Bostadsrätt,2 ,54 ,True,5 av 6,True,1948,2749,6937
+Fyrvaktarkroken 26,Blåsut,Stockholms kommun,2021-12-01,3415000,2795000,Lägenhet,Bostadsrätt,2 ,"46,5 ",True,4 av 6,True,2008,3165,4200
+"Skanörvägen 8, 2 tr",Björkhagen,Stockholms kommun,2021-11-30,3800000,3195000,Lägenhet,Bostadsrätt,2 ,58 ,True,2 av 3,False,1949,3442,6300
+Finn malmgrens väg 77,Hammarbyhöjden,Stockholms kommun,2021-11-27,3600000,2950000,Lägenhet,Bostadsrätt,2 ,47 ,True,3 av 3,False,1943,3130,6372
+Nathorstvägen 48,Hammarbyhöjden,Stockholms kommun,2021-11-26,3550000,3150000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1939,3645,6600
+"Nathorstvägen 11, 2tr",Hammarbyhöjden,Stockholms kommun,2021-11-24,3300000,2650000,Lägenhet,Bostadsrätt,2 ,44 ,True,2 av 3,False,1939,3450,5244
+"Pilotgatan 24, 2tr",Skarpnäck,Stockholms kommun,2021-11-23,2650000,1995000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,2 av 4,True,1983,3795,5628
+Alingsåsvägen 56,Hammarbyhöjden,Stockholms kommun,2021-11-23,3950000,2995000,Lägenhet,Bostadsrätt,2 ,54 ,True,2 av 3,False,1946,3442,4000
+Varmfrontsgatan 18,Skarpnäck,Stockholms kommun,2021-11-19,2650000,2150000,Lägenhet,Bostadsrätt,2 ,65 ,True,3 av 3,True,1984,4649,3800
+Kalmgatan 30,Hammarbyhöjden,Stockholms kommun,2021-11-19,3850000,2995000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 3,False,1936,3054,5040
+"Svartågatan 80, 5tr",Bagarmossen,Stockholms kommun,2021-11-19,3350000,2495000,Lägenhet,Bostadsrätt,2 ,51 ,True,5 av 6,True,1954,3744,6000
+"Emågatan 35, 2tr",Bagarmossen,Stockholms kommun,2021-11-17,2975000,2725000,Lägenhet,Bostadsrätt,2 ,57 ,True,2 av 3,False,1954,3676,5700
+Rusthållarvägen 69,Bagarmossen,Stockholms kommun,2021-11-17,3115000,2695000,Lägenhet,Bostadsrätt,2 ,56 ,True,2 av 3,False,1953,3128,5000
+Fyrskeppsvägen 75,Kärrtorp,Stockholms kommun,2021-11-17,3000000,2500000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 3,False,1949,3905,3700
+Simrishamnsvägen 14,Björkhagen,Stockholms kommun,2021-11-16,3500000,2900000,Lägenhet,Bostadsrätt,2 ,54 ,True,4 av 6,True,1946,2687,4404
+Hasselquistvägen 5,Hammarbyhöjden,Stockholms kommun,2021-11-16,3370000,2750000,Lägenhet,Bostadsrätt,2 ,48 ,False,1 av 3,False,1939,2994,6820
+"Falköpingsvägen 2, 3 tr",Hammarbyhöjden,Stockholms kommun,2021-11-16,3400000,2695000,Lägenhet,Bostadsrätt,2 ,45 ,True,3 av 3,False,1939,3228,5220
+Hållövägen 5,Hammarbyhöjden,Stockholms kommun,2021-11-11,4010000,3495000,Lägenhet,Bostadsrätt,2 ,"60,5 ",True,2 av 6,True,2019,3224,5040
+Läckövägen 27,Hammarbyhöjden,Stockholms kommun,2021-11-09,3275000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1943,2419,4200
+Per Lindeströms väg 110,Johanneshov,Stockholms kommun,2021-11-05,2700000,2395000,Lägenhet,Bostadsrätt,2 ,45 ,False,1 av 3,False,1939,3170,10026
+Skarabacken 7,Hammarbyhöjden,Stockholms kommun,2021-11-04,3800000,3295000,Lägenhet,Bostadsrätt,2 ,60 ,True,2 av 3,True,1991,3300,5400
+"Söderarmsvägen 29, ACCEPTERAT PRIS",Kärrtorp,Stockholms kommun,2021-11-03,2700000,2700000,Lägenhet,Bostadsrätt,2 ,46 ,True,2 av 4,True,2008,3451,4200
+"Luftskeppsgatan 5, 2tr",Skarpnäck,Stockholms kommun,2021-11-03,2270000,1950000,Lägenhet,Bostadsrätt,2 ,65 ,False,2 av 4,True,1988,4252,4483
+"Wahlbergsgatan 14, 2 tr",Hammarbyhöjden/Johanneshov,Stockholms kommun,2021-11-03,3200000,2450000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1937,2009,4800
+"Per Lindeströms Väg 113, 3tr",Hammarbyhöjden,Stockholms kommun,2021-11-03,4000000,3450000,Lägenhet,Bostadsrätt,2 ,56 ,True,3 av 3,False,1940,3427,6000
+Söderarmsvägen 27,Kärrtorp,Stockholms kommun,2021-11-01,2500000,2595000,Lägenhet,Bostadsrätt,2 ,49 ,True,1 av 5,True,2008,3768,3600
+"Petrejusvägen 9, 1TR",Hammarbyhöjden,Stockholms kommun,2021-10-29,3050000,3175000,Lägenhet,Bostadsrätt,2 ,53 ,False,1 av 3,False,1939,3962,4000
+Emågatan 36,Bagarmossen,Stockholms kommun,2021-10-28,2870000,2350000,Lägenhet,Bostadsrätt,2 ,45 ,True,1 av 3,False,1953,2553,6192
+Ätravägen 16,Bagarmossen,Stockholms kommun,2021-10-27,2500000,2500000,Lägenhet,Bostadsrätt,2 ,49 ,True,1 av 3,True,2007,3334,7800
+Hållövägen 11,Blåsut,Stockholms kommun,2021-10-27,3130000,2750000,Lägenhet,Bostadsrätt,2 ,"41,5 ",True,2 av 6,True,2013,2612,5976
+Skarpnäcks Allé 6,Skarpnäck,Stockholms kommun,2021-10-27,2400000,2075000,Lägenhet,Bostadsrätt,2 ,"59,5 ",True,1 av 3,True,1984,3489,3800
+"Stångåvägen 24, 3tr",Bagarmossen,Stockholms kommun,2021-10-27,2975000,2495000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1954,3870,6000
+Pilotgatan 46,Skarpnäck,Stockholms kommun,2021-10-22,2205000,1895000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,1 av 3,True,1984,3623,4200
+Nathorstvägen 50,Hammarbyhöjden,Stockholms kommun,2021-10-22,2900000,2900000,Lägenhet,Bostadsrätt,2 ,49 ,False,,,1938,2880,1600
+Emågatan 31,Bagarmossen,Stockholms kommun,2021-10-22,3070000,2650000,Lägenhet,Bostadsrätt,2 ,57 ,True,3 av 3,False,1954,3676,4800
+Finn Malmgrens väg 58,Hammarbyhöjden,Stockholms kommun,2021-10-22,3100000,2450000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1939,2847,4700
+Per lindeströms väg 121,Hammarbyhöjden,Stockholms kommun,2021-10-19,2825000,2395000,Lägenhet,Bostadsrätt,2 ,37 ,False,,,1939,1875,3960
+Ulricehamnsvägen 2,Hammarbyhöjden,Stockholms kommun,2021-10-19,3520000,2875000,Lägenhet,Bostadsrätt,2 ,52 ,True,2 av 3,False,1943,2904,4300
+Forsskålsgatan 12,Hammarbyhöjden,Stockholms kommun,2021-10-19,3390000,2500000,Lägenhet,Bostadsrätt,2 ,46 ,True,1 av 3,False,1942,2944,7080
+Fyrvaktarkroken 68,Enskededalen,Stockholms kommun,2021-10-19,4760000,3950000,Lägenhet,Bostadsrätt,2 ,"62,5 ",True,6 av 6,True,2014,3652,6100
+Sportflygargatan 5,Skarpnäck,Stockholms kommun,2021-10-18,2620000,2620000,Lägenhet,Bostadsrätt,2 ,"63,5 ",True,3 av 3,True,1986,4179,4800
+"Svalövsvägen 6, 1 tr. Accepterat pris",Johanneshov,Stockholms kommun,2021-10-15,3400000,3500000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1949,2604,6480
+"Kalmgatan 4, 3tr",Hammarbyhöjden/Johanneshov,Stockholms kommun,2021-10-14,3200000,2450000,Lägenhet,Bostadsrätt,2 ,43 ,True,3 av 3,False,1936,2609,4800
+"Olaus Magnus väg 21, 2 tr",Hammarbyhöjden,Stockholms kommun,2021-10-13,3050000,2450000,Lägenhet,Bostadsrätt,2 ,43 ,False,2 av 3,False,1936,3096,3828
+Boråsvägen 25,Hammarbyhöjden,Stockholms kommun,2021-10-12,2725000,2725000,Lägenhet,Bostadsrätt,2 ,44 ,True,2 av 3,False,1939,3686,4800
+"Ronnebyvägen 22, 1 tr",Björkhagen,Stockholms kommun,2021-10-10,3330000,2995000,Lägenhet,Bostadsrätt,2 ,57 ,False,1 av 3,False,1948,3446,8076
+Mariestadsvägen 23,Hammarbyhöjden,Stockholms kommun,2021-10-09,3100000,2395000,Lägenhet,Bostadsrätt,2 ,42 ,True,2 av 3,False,1944,3192,3300
+"Gondolgatan 3, 2tr",Skarpnäck,Stockholms kommun,2021-10-08,2550000,1950000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,2 av 3,True,1984,3724,5148
+Bergsrådsvägen 20,Bagarmossen,Stockholms kommun,2021-10-08,3000000,2675000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1954,3614,4200
+Karlsborgsvägen 17,Hammarbyhöjden,Stockholms kommun,2021-10-08,2585000,2250000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 4,False,1943,3752,4500
+Ronnebyvägen 19,Björkhagen,Stockholms kommun,2021-10-07,3580000,2890000,Lägenhet,Bostadsrätt,2 ,53 ,True,2 av 3,False,1947,3204,6073
+"Mariestadsvägen 8, 2tr",Hammarbyhöjden,Stockholms kommun,2021-10-07,3080000,2450000,Lägenhet,Bostadsrätt,2 ,"40,5 ",True,2 av 3,False,1942,3188,8160
+Per Lindeströms väg 72,Hammarbyhöjden,Stockholms kommun,2021-10-07,3150000,2450000,Lägenhet,Bostadsrätt,2 ,42 ,True,2 av 3,False,1939,3389,4500
+Fyrvaktarkroken 6,Blåsut,Stockholms kommun,2021-10-06,3300000,2895000,Lägenhet,Bostadsrätt,2 ,45 ,False,1 av 6,True,2015,2625,
+Pilotgatan 21,Skarpnäck,Stockholms kommun,2021-10-06,2460000,1995000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,2 av 4,True,1984,3795,4200
+"Hasselquistvägen 29A, 3tr",Hammarbyhöjden,Stockholms kommun,2021-10-05,3145000,2450000,Lägenhet,Bostadsrätt,2 ,43 ,True,3 av 3,False,1939,2882,9084
+"Läckövägen 31, 3 tr",Hammarbyhöjden,Stockholms kommun,2021-10-05,3100000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1943,2419,6600
+Finn Malmgrens väg 54,Hammarbyhöjden,Stockholms kommun,2021-10-01,3100000,2450000,Lägenhet,Bostadsrätt,2 ,45 ,True,2 av 3,False,1939,2995,7100
+Sofielundsvägen 37,Blåsut,Stockholms kommun,2021-09-30,3200000,,Lägenhet,Bostadsrätt,2 ,41 ,False,1 av 5,True,2019,2402,5916
+"Svalövsvägen 6, 2 tr",Björkhagen,Stockholms kommun,2021-09-30,3450000,2995000,Lägenhet,Bostadsrätt,2 ,58 ,True,2 av 3,False,1949,2604,6480
+Kolbäcksgränd 3,Bagarmossen,Stockholms kommun,2021-09-29,2900000,2650000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1954,3850,4800
+"Finn Malmgrens Väg 18, 2tr",Hammarbyhöjden,Stockholms kommun,2021-09-28,3000000,2395000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1939,3161,7964
+"Tidaholmsvägen 29, 2 tr",Hammarbyhöjden,Stockholms kommun,2021-09-28,3525000,2895000,Lägenhet,Bostadsrätt,2 ,44 ,True,2 av 3,False,1940,1626,2808
+Thunbergsgatan 12,Hammarbyhöjden,Stockholms kommun,2021-09-27,2950000,2750000,Lägenhet,Bostadsrätt,2 ,42 ,True,2 av 3,False,1938,3763,5520
+Finn Malmgrens Väg 4 B,Hammarbyhöjden,Stockholms kommun,2021-09-25,3530000,3095000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 4,True,2017,3141,3600
+Läckövägen 11,Hammarbyhöjden,Stockholms kommun,2021-09-23,3850000,2850000,Lägenhet,Bostadsrätt,2 ,47 ,True,3 av 3,False,1943,3368,8073
+"Palandergatan 27, 3 tr",Hammarbyhöjden/Johanneshov,Stockholms kommun,2021-09-21,2750000,2250000,Lägenhet,Bostadsrätt,2 ,38 ,True,3 av 3,False,1938,2929,2580
+"Fyrskeppsvägen 75,",Kärrtorp,Stockholms kommun,2021-09-21,2935000,2935000,Lägenhet,Bostadsrätt,2 ,55 ,True,2 av 3,False,1949,3905,4200
+"Svartågatan 41, 3 tr",Bagarmossen,Stockholms kommun,2021-09-16,2925000,2495000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1954,3870,4800
+Per Lindeströms Väg 94,Hammarbyhöjden,Stockholms kommun,2021-09-13,3100000,2495000,Lägenhet,Bostadsrätt,2 ,47 ,True,2 av 3,False,1939,2940,4320
+Vingavägen 8,Blåsut,Stockholms kommun,2021-09-13,3550000,2895000,Lägenhet,Bostadsrätt,2 ,46 ,True,3 av 5,True,2012,2835,5220
+"Fyrskeppsvägen 31, vån 3/3",Kärrtorp,Stockholms kommun,2021-09-13,3050000,3050000,Lägenhet,Bostadsrätt,2 ,53 ,True,3 av 3,False,1950,3367,5880
+Lidköpingsvägen 57,Hammarbyhöjden,Stockholms kommun,2021-09-13,3600000,2950000,Lägenhet,Bostadsrätt,2 ,50 ,True,3 av 3,False,1942,3737,7080
+"Per Lindeströms väg 108, Accepterat pris!",Hammarbyhöjden,Stockholms kommun,2021-09-11,2725000,2725000,Lägenhet,Bostadsrätt,2 ,45 ,False,1 av 3,False,1939,3170,4800
+Horisontvägen 87B,Skarpnäck,Stockholms kommun,2021-09-10,2500000,2150000,Lägenhet,Bostadsrätt,2 ,68 ,True,3 av 3,True,1985,4723,5520
+Finn malmgrens väg 102,Hammarbyhöjden,Stockholms kommun,2021-09-10,3125000,2350000,Lägenhet,Bostadsrätt,2 ,41 ,True,1 av 3,False,1943,2330,7968
+"Rusthållarvägen 135, 3tr",Bagarmossen,Stockholms kommun,2021-09-09,3100000,2650000,Lägenhet,Bostadsrätt,2 ,59 ,False,3 av 3,False,1954,4226,5000
+Kolbäcksgränd 17,Bagarmossen,Stockholms kommun,2021-09-09,2925000,2750000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1954,3850,5880
+Finn Malmgrens Väg 59,Johanneshov,Stockholms kommun,2021-09-08,2550000,2295000,Lägenhet,Bostadsrätt,2 ,38 ,False,1 av 3,False,1943,3130,4000
+"Finn Malmgrens Väg 63, 2tr",Hammarbyhöjden,Stockholms kommun,2021-09-07,2540000,2250000,Lägenhet,Bostadsrätt,2 ,38 ,False,2 av 3,False,1943,3129,6132
+Glidflyktsgatan 1,Skarpnäck,Stockholms kommun,2021-09-06,2300000,2300000,Lägenhet,Bostadsrätt,2 ,55 ,False,,,1985,3952,4200
+Horisontvägen 81,Skarpnäck,Stockholms kommun,2021-09-03,1925000,1925000,Lägenhet,Bostadsrätt,2 ,63 ,True,2 av 3,True,1984,4482,3800
+Wahlbergsgatan 11,Hammarbyhöjden,Stockholms kommun,2021-09-03,3200000,2495000,Lägenhet,Bostadsrätt,2 ,38 ,True,3 av 3,False,1937,2527,8160
+Nathorstvägen 16,Hammarbyhöjden,Stockholms kommun,2021-09-01,2700000,2295000,Lägenhet,Bostadsrätt,2 ,39 ,False,,,1939,2447,5880
+Finn Malmgrens väg 63,Hammarbyhöjden,Stockholms kommun,2021-09-01,2510000,2250000,Lägenhet,Bostadsrätt,2 ,38 ,False,1 av 3,False,1943,3130,5520
+"Finn Malmgrens väg 112, 2tr",Hammarbyhöjden,Stockholms kommun,2021-08-31,3000000,2595000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1943,2713,3600
+Karlsborgsvägen 15,Hammarbyhöjden,Stockholms kommun,2021-08-31,3650000,2795000,Lägenhet,Bostadsrätt,2 ,50 ,,0 av 4,False,1943,4362,5100
+Läckövägen 17,Hammarbyhöjden,Stockholms kommun,2021-08-30,3300000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1943,2419,4800
+Vingavägen 7,Blåsut,Stockholms kommun,2021-08-28,4100000,3795000,Lägenhet,Bostadsrätt,2 ,64 ,True,2 av 6,True,2014,3413,6000
+Per Lindeströms Väg 102,Hammarbyhöjden,Stockholms kommun,2021-08-26,3460000,3295000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1939,3480,6900
+"Björnståhlsgatan 8, 2 tr",Hammarbyhöjden,Stockholms kommun,2021-08-25,4250000,3495000,Lägenhet,Bostadsrätt,2 ,59 ,True,2 av 3,False,1937,3646,8000
+Ystadsvägen 83,Björkhagen,Stockholms kommun,2021-08-25,3530000,2895000,Lägenhet,Bostadsrätt,2 ,52 ,True,2 av 3,False,1947,3180,4200
+Hållövägen 18,Enskededalen,Stockholms kommun,2021-08-23,3610000,2895000,Lägenhet,Bostadsrätt,2 ,46 ,True,3 av 5,True,2011,2683,4200
+Fyrvaktarkroken 52,Blåsut,Stockholms kommun,2021-08-19,3255000,2750000,Lägenhet,Bostadsrätt,2 ,"43,5 ",True,5 av 6,True,2009,2634,3840
+"Karlsborgsvägen 11, 2tr",Hammarbyhöjden,Stockholms kommun,2021-08-17,3270000,2450000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1943,2713,6000
+"Simrishamnsvägen 14, 6 tr",Björkhagen,Stockholms kommun,2021-08-10,3500000,2995000,Lägenhet,Bostadsrätt,2 ,54 ,True,6 av 6,True,1946,2749,8330
+Palandergatan 51,Hammarbyhöjden,Stockholms kommun,2021-08-09,2900000,2650000,Lägenhet,Bostadsrätt,2 ,47 ,True,2 av 3,False,1942,3350,9024
+Wahlbergsgatan 9,Hammarbyhöjden/Johanneshov,Stockholms kommun,2021-08-05,2755000,2250000,Lägenhet,Bostadsrätt,2 ,38 ,False,1 av 3,False,1937,2362,6444
+Fallskärmsgatan 9,Skarpnäck,Stockholms kommun,2021-07-26,2200000,2200000,Lägenhet,Bostadsrätt,2 ,"64,7 ",True,1 av 3,True,1985,4032,3800
+Läckövägen 24,Hammarbyhöjden,Stockholms kommun,2021-07-09,3130000,2450000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1943,2381,9360
+"Läckövägen 20, 2tr",Hammarbyhöjden,Stockholms kommun,2021-07-08,3130000,2450000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1943,2381,6468
+"Söderarmsvägen 8, 3tr",Kärrtorp,Stockholms kommun,2021-07-07,3320000,2950000,Lägenhet,Bostadsrätt,2 ,57 ,True,3 av 3,False,1949,3455,5880
+Hasselquistvägen 28,Hammarbyhöjden,Stockholms kommun,2021-07-07,3450000,2950000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 3,False,1938,3968,6804
+"Kolbäcksgränd 3, 2tr",Bagarmossen,Stockholms kommun,2021-07-06,3175000,2650000,Lägenhet,Bostadsrätt,2 ,58 ,True,2 av 3,False,1954,3913,5500
+Talmansgränd 3,Enskededalen/Kärrtorp,Stockholms kommun,2021-07-05,1100000,1100000,Lägenhet,Bostadsrätt,2 ,32 ,False,,,1930,2246,4800
+Per Lindeströms Väg 107,Hammarbyhöjden,Stockholms kommun,2021-07-01,2900000,2395000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1944,3092,4200
+Fyrvaktarkroken 22,Blåsut,Stockholms kommun,2021-06-28,3700000,3295000,Lägenhet,Bostadsrätt,2 ,66 ,True,5 av 5,True,2008,4280,3600
+Karlsövägen 3,Kärrtorp,Stockholms kommun,2021-06-28,2940000,2595000,Lägenhet,Bostadsrätt,2 ,49 ,True,2 av 4,True,2008,3769,4800
+Nathorstvägen 5,Hammarbyhöjden,Stockholms kommun,2021-06-24,2810000,2395000,Lägenhet,Bostadsrätt,2 ,42 ,True,2 av 3,False,1939,2825,7272
+Finn Malmgrens väg 100,Hammarbyhöjden,Stockholms kommun,2021-06-24,3020000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1943,2419,4500
+Vinggatan 18,Skarpnäck,Stockholms kommun,2021-06-24,2250000,1995000,Lägenhet,Bostadsrätt,2 ,"63,5 ",True,2 av 4,True,1986,4009,4200
+Horisontvägen 87B,Skarpnäck,Stockholms kommun,2021-06-23,2150000,2150000,Lägenhet,Bostadsrätt,2 ,63 ,True,2 av 3,True,1989,4432,4200
+Garagevägen 30,Blåsut/Enskededalen,Stockholms kommun,2021-06-23,3250000,2695000,Lägenhet,Bostadsrätt,2 ,41 ,False,1 av 5,True,2019,2457,
+"Läckövägen 8, 3 tr",Hammarbyhöjden,Stockholms kommun,2021-06-22,4240000,3195000,Lägenhet,Bostadsrätt,2 ,"52,2 ",True,3 av 3,False,1943,3005,6108
+"Sockenvägen 601, 1 tr",Bagarmossen,Stockholms kommun,2021-06-22,3300000,2695000,Lägenhet,Bostadsrätt,2 ,60 ,True,1 av 3,True,2008,3742,4800
+Simrishamnsvägen 9,Björkhagen,Stockholms kommun,2021-06-22,4125000,3200000,Lägenhet,Bostadsrätt,2 ,62 ,True,2 av 3,False,1949,2798,6060
+Rusthållarvägen 123,Bagarmossen,Stockholms kommun,2021-06-17,2515000,2195000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 3,False,1954,4026,4300
+Fogdevägen 41,Bagarmossen,Stockholms kommun,2021-06-16,2795000,2795000,Lägenhet,Bostadsrätt,2 ,48 ,True,3 av 4,True,2008,3301,7800
+Hållövägen 14,Blåsut,Stockholms kommun,2021-06-15,3200000,2895000,Lägenhet,Bostadsrätt,2 ,"46,5 ",False,,,2011,2713,7224
+Båstadsvägen 2,Johanneshov,Stockholms kommun,2021-06-15,3715000,2995000,Lägenhet,Bostadsrätt,2 ,56 ,True,2 av 3,False,1949,2849,6036
+Ronnebyvägen 40,Björkhagen,Stockholms kommun,2021-06-15,3900000,2690000,Lägenhet,Bostadsrätt,2 ,57 ,True,3 av 3,False,1947,3446,400
+"Renathvägen 8, 1 tr",Hammarbyhöjden,Stockholms kommun,2021-06-14,2850000,2450000,Lägenhet,Bostadsrätt,2 ,38 ,True,1 av 3,False,1939,2991,8040
+"Tidaholmsvägen 27, 3tr",Hammarbyhöjden,Stockholms kommun,2021-06-12,3200000,3200000,Lägenhet,Bostadsrätt,2 ,40 ,False,3 av 3,False,1939,1505,3600
+"Hässleholmsvägen 7, 2 tr",Björkhagen,Stockholms kommun,2021-06-11,3500000,2995000,Lägenhet,Bostadsrätt,2 ,52 ,True,2,True,1947,3106,3120
+"Nathorstvägen 11, 3tr",Hammarbyhöjden,Stockholms kommun,2021-06-10,3400000,2495000,Lägenhet,Bostadsrätt,2 ,44 ,True,3 av 3,False,1939,3450,6600
+Sockenvägen 611,Bagarmossen,Stockholms kommun,2021-06-09,3710000,2395000,Lägenhet,Bostadsrätt,2 ,67 ,True,,,2008,4062,4800
+Wahlbergsgatan 16,Hammarbyhöjden,Stockholms kommun,2021-06-09,3250000,2450000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1936,2020,5772
+Boråsvägen 2a,Hammarbyhöjden,Stockholms kommun,2021-06-09,3000000,2795000,Lägenhet,Bostadsrätt,2 ,52 ,True,1 av 4,False,1939,2900,
+Svalövsvägen 6,Björkhagen,Stockholms kommun,2021-06-04,3450000,2950000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1949,2604,8808
+Rusthållarvägen 67,Bagarmossen,Stockholms kommun,2021-06-03,2850000,2595000,Lägenhet,Bostadsrätt,2 ,56 ,True,1 av 3,False,1953,3128,7800
+Sofielundsvägen 37,Blåsut,Stockholms kommun,2021-06-03,3400000,3400000,Lägenhet,Bostadsrätt,2 ,41 ,True,5 av 5,True,2019,2348,5916
+Alingsåsvägen 18,Hammarbyhöjden,Stockholms kommun,2021-06-01,3100000,2595000,Lägenhet,Bostadsrätt,2 ,40 ,True,3 av 3,False,1942,2741,4800
+Läckövägen 30,Hammarbyhöjden,Stockholms kommun,2021-05-28,3825000,3095000,Lägenhet,Bostadsrätt,2 ,"52,2 ",True,1 av 3,False,1943,2903,4400
+"Per Lindeströms Väg 86, 3tr",Hammarbyhöjden/Johanneshov,Stockholms kommun,2021-05-28,2950000,2495000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1939,3298,6600
+"Stångåvägen 24, 2tr",Bagarmossen,Stockholms kommun,2021-05-27,3075000,2450000,Lägenhet,Bostadsrätt,2 ,54 ,True,2 av 3,False,1954,3870,4800
+Malmövägen 32,Hammarbyhöjden,Stockholms kommun,2021-05-27,3170000,2750000,Lägenhet,Bostadsrätt,2 ,51 ,True,2 av 3,False,1947,3482,5100
+Nathorstvägen  38,Johanneshov,Stockholms kommun,2021-05-26,2920000,2550000,Lägenhet,Bostadsrätt,2 ,50 ,True,2 av 6,True,1995,3628,1920
+Björnståhlsgatan 2,Hammarbyhöjden,Stockholms kommun,2021-05-26,4010000,3195000,Lägenhet,Bostadsrätt,2 ,51 ,True,2 av 3,False,1937,3186,6348
+Finn malmgrens väg 110,Johanneshov,Stockholms kommun,2021-05-26,3010000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,True,1 av 3,False,1943,2697,4680
+"Kalmgatan 30, 3 tr",Hammarbyhöjden,Stockholms kommun,2021-05-25,3800000,2995000,Lägenhet,Bostadsrätt,2 ,48 ,True,3 av 3,False,1936,2943,4800
+Vingavägen 8,Blåsut,Stockholms kommun,2021-05-25,3850000,3295000,Lägenhet,Bostadsrätt,2 ,62 ,,1 av 5,True,2013,3658,5100
+"Fogdevägen 47, 4 tr högst upp",Bagarmossen,Stockholms kommun,2021-05-25,4180000,3150000,Lägenhet,Bostadsrätt,2 ,65 ,True,4 av 4,True,2008,4148,7620
+"Emågatan 38, 3tr",Bagarmossen,Stockholms kommun,2021-05-23,2875000,2575000,Lägenhet,Bostadsrätt,2 ,56 ,True,3 av 3,False,1953,3177,4300
+"Hasselquistvägen 29, 3tr",Hammarbyhöjden,Stockholms kommun,2021-05-21,3055555,2495000,Lägenhet,Bostadsrätt,2 ,40 ,True,3 av 3,False,1939,2678,4200
+Petrejusvägen 39,Johanneshov,Stockholms kommun,2021-05-20,4220000,3450000,Lägenhet,Bostadsrätt,2 ,67 ,True,3 av 4,True,1992,3691,5160
+"Ljusnevägen 4, 3tr",Bagarmossen,Stockholms kommun,2021-05-19,3025000,2195000,Lägenhet,Bostadsrätt,2 ,44 ,True,3 av 4,True,2009,2651,4800
+"Finn Malmgrens väg 112, 1 tr",Hammarbyhöjden,Stockholms kommun,2021-05-19,2800000,2900000,Lägenhet,Bostadsrätt,2 ,41 ,True,1,False,1943,2697,9840
+Huvudskärsvägen 9,Kärrtorp,Stockholms kommun,2021-05-19,3865000,2895000,Lägenhet,Bostadsrätt,2 ,58 ,True,3 av 3,False,1949,3456,3500
+Axvallsvägen 53,Björkhagen,Stockholms kommun,2021-05-18,3500000,2950000,Lägenhet,Bostadsrätt,2 ,59 ,True,2 av 3,False,1946,2842,10080
+Glidflyktsgatan 1,Skarpnäck,Stockholms kommun,2021-05-17,2300000,2300000,Lägenhet,Bostadsrätt,2 ,49 ,False,,,1985,3428,4200
+Pilotgatan 15,Skarpnäck,Stockholms kommun,2021-05-12,2565000,2295000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,2 av 4,True,1983,3945,5800
+Tidaholmsvägen 30,Hammarbyhöjden,Stockholms kommun,2021-05-12,3850000,3295000,Lägenhet,Bostadsrätt,2 ,60 ,True,2 av 3,False,1939,4480,8400
+Björnståhlsgatan 2,Hammarbyhöjden,Stockholms kommun,2021-05-11,4005000,3150000,Lägenhet,Bostadsrätt,2 ,51 ,True,2 av 3,False,1937,3186,7100
+Karlsborgsvägen 17 (Högst upp!),Hammarbyhöjden,Stockholms kommun,2021-05-10,2800000,2195000,Lägenhet,Bostadsrätt,2 ,43 ,True,3 av 3,False,1943,3752,6504
+"Karlsborgsvägen 15, 1 tr",Hammarbyhöjden,Stockholms kommun,2021-05-07,2470000,1995000,Lägenhet,Bostadsrätt,2 ,43 ,False,1 av 3,False,1943,3752,4932
+"Karlsborgsvägen 15, 1 tr",Hammarbyhöjden,Stockholms kommun,2021-05-05,3400000,2995000,Lägenhet,Bostadsrätt,2 ,52 ,True,1 av 1,False,1943,4537,8700
+Boråsvägen 6,Hammarbyhöjden,Stockholms kommun,2021-05-05,4050000,3200000,Lägenhet,Bostadsrätt,2 ,55 ,True,2 av 3,False,1939,3363,10008
+Nathorstvägen 5,Hammarbyhöjden / Skärmarbrink,Stockholms kommun,2021-05-05,3010000,2495000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1938,2825,6096
+Hässleholmsvägen 9,Björkhagen,Stockholms kommun,2021-05-04,3800000,2995000,Lägenhet,Bostadsrätt,2 ,52 ,True,1,True,1947,2985,4200
+Lidköpingsvägen 19,Hammarbyhöjden,Stockholms kommun,2021-05-03,3850000,3095000,Lägenhet,Bostadsrätt,2 ,56 ,True,2 av 3,False,1943,3454,7055
+Vinggatan 32,Skarpnäck,Stockholms kommun,2021-04-30,2400000,1995000,Lägenhet,Bostadsrätt,2 ,59 ,True,3 av 3,True,1986,3469,3600
+Hjovägen 1,Hammarbyhöjden,Stockholms kommun,2021-04-30,2925000,2450000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1943,2381,5100
+Voxnegränd 1,Bagarmossen,Stockholms kommun,2021-04-28,3150000,2595000,Lägenhet,Bostadsrätt,2 ,54 ,True,8 av 8,True,1954,4018,5400
+Fyrvaktarkroken 48,Enskededalen,Stockholms kommun,2021-04-28,3940000,3195000,Lägenhet,Bostadsrätt,2 ,63 ,False,,,2009,3877,3840
+Varmfrontsgatan 11,Skarpnäck,Stockholms kommun,2021-04-26,2350000,2350000,Lägenhet,Bostadsrätt,2 ,65 ,True,1 av 3,True,1985,4553,6000
+"Bergsrådsvägen 30, 3tr",Bagarmossen,Stockholms kommun,2021-04-22,3150000,2450000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 3,False,1953,3672,5400
+"Rusthållarvägen 143, 3tr",Bagarmossen,Stockholms kommun,2021-04-22,3000000,2495000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 3,False,1954,4024,5600
+Karlskronavägen 6A,Johanneshov,Stockholms kommun,2021-04-21,3000000,2995000,Lägenhet,Bostadsrätt,2 ,"69,5 ",,0 av 4,True,2000,4439,6000
+Sofielundsvägen 15,Blåsut,Stockholms kommun,2021-04-20,4250000,3795000,Lägenhet,Bostadsrätt,2 ,65 ,True,4 av 5,True,2013,3821,4800
+"Vinggatan 28, 2tr",Skarpnäck,Stockholms kommun,2021-04-19,2580000,2295000,Lägenhet,Bostadsrätt,2 ,59 ,True,2 av 3,True,1986,3464,4000
+Fyrskeppsvägen 34,Kärrtorp,Stockholms kommun,2021-04-16,2750000,2495000,Lägenhet,Bostadsrätt,2 ,61 ,True,0,False,1949,3875,4800
+Lödösevägen 5,Hammarbyhöjden,Stockholms kommun,2021-04-15,2920000,2475000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1938,3183,4260
+Kalmgatan 6,Hammarbyhöjden,Stockholms kommun,2021-04-14,2900000,2195000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 3,False,1936,3416,8124
+"Lidköpingsvägen 41, 2 tr",Hammarbyhöjden,Stockholms kommun,2021-04-12,3100000,2850000,Lägenhet,Bostadsrätt,2 ,"46,5 ",True,2 av 3,False,1942,3613,4860
+Hjovägen 8,Hammarbyhöjden,Stockholms kommun,2021-04-11,2500000,2350000,Lägenhet,Bostadsrätt,2 ,42 ,False,,,1942,3076,8868
+Olaus Magnus väg 60,Hammarbyhöjden,Stockholms kommun,2021-04-09,3500000,2750000,Lägenhet,Bostadsrätt,2 ,50 ,True,3 av 3,False,1937,3092,5040
+Hässleholmsvägen 7,Björkhagen,Stockholms kommun,2021-04-07,3725000,3195000,Lägenhet,Bostadsrätt,2 ,54 ,True,5 av 6,True,1947,3061,5128
+"Kolbäcksgränd 5, 2tr",Bagarmossen,Stockholms kommun,2021-04-06,3090000,2600000,Lägenhet,Bostadsrätt,2 ,58 ,True,2 av 3,False,1954,3874,5700
+Fyrskeppsvägen 83,Kärrtorp,Stockholms kommun,2021-04-06,2890000,2350000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 3,False,1949,3905,6672
+Fogdevägen 41,Bagarmossen,Stockholms kommun,2021-04-02,2870000,2870000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 4,True,2008,3301,7600
+Finn Malmgrens väg 40,Hammarbyhöjden,Stockholms kommun,2021-04-02,2700000,2395000,Lägenhet,Bostadsrätt,2 ,42 ,True,2 av 3,False,1939,2444,7956
+Pilvingegatan 69,Skarpnäck,Stockholms kommun,2021-04-01,2330000,1995000,Lägenhet,Bostadsrätt,2 ,"44,5 ",True,,,2005,4030,3008
+Huvudskärsvägen 5,Kärrtorp,Stockholms kommun,2021-03-31,3380000,3380000,Lägenhet,Bostadsrätt,2 ,57 ,True,1 av 3,False,1950,3456,3500
+Fyrvaktarkroken 48,Blåsut,Stockholms kommun,2021-03-31,3900000,3495000,Lägenhet,Bostadsrätt,2 ,62 ,True,2 av 6,True,2009,3554,6000
+"Horisontvägen 87B, 3tr",Skarpnäck,Stockholms kommun,2021-03-30,2510000,2150000,Lägenhet,Bostadsrätt,2 ,68 ,True,3 av 3,True,1989,4594,5700
+"Voxnegränd 9, 1 vån",Bagarmossen,Stockholms kommun,2021-03-30,2400000,2150000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 3,False,1954,4059,5760
+Glidflyktsgatan 9,Skarpnäck,Stockholms kommun,2021-03-28,2200000,2200000,Lägenhet,Bostadsrätt,2 ,57 ,True,2 av 4,True,1985,3970,3600
+Finn Malmgrens Väg 112,Hammarbyhöjden,Stockholms kommun,2021-03-27,3050000,2595000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1943,2740,7740
+Axvallsvägen 49,Björkhagen,Stockholms kommun,2021-03-26,4100000,3150000,Lägenhet,Bostadsrätt,2 ,59 ,True,1 av 3,False,1946,2842,8280
+Olaus Magnus väg 19,Hammarbyhöjden,Stockholms kommun,2021-03-23,2930000,2250000,Lägenhet,Bostadsrätt,2 ,43 ,False,2 av 3,False,1936,3096,4500
+Sofielundsvägen 15,Blåsut,Stockholms kommun,2021-03-20,4050000,3695000,Lägenhet,Bostadsrätt,2 ,"62,5 ",True,5 av 5,True,2013,3698,4800
+"Läckövägen 36, 3 tr",Hammarbyhöjden,Stockholms kommun,2021-03-18,3100000,2595000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1943,2740,9358
+Wahlbergsgatan 12,Hammarbyhöjden,Stockholms kommun,2021-03-18,3060000,2595000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 2,False,1937,2476,1560
+Gondolgatan 6,Skarpnäck,Stockholms kommun,2021-03-17,2095000,2095000,Lägenhet,Bostadsrätt,2 ,57 ,True,1 av 3,True,1983,3366,996
+Strahlenbergsgatan 17 2tr,Hammarbyhöjden/Johanneshov,Stockholms kommun,2021-03-17,3010000,2650000,Lägenhet,Bostadsrätt,2 ,47 ,True,2 av 3,False,1936,3235,10080
+"Boråsvägen 14, 3tr",Hammarbyhöjden,Stockholms kommun,2021-03-16,3620000,2975000,Lägenhet,Bostadsrätt,2 ,52 ,True,3 av 3,False,1942,3071,6300
+"Svartågatan 31, 2tr",Bagarmossen,Stockholms kommun,2021-03-11,2940000,2500000,Lägenhet,Bostadsrätt,2 ,54 ,True,2 av 3,False,1954,3870,5000
+"Läckövägen 14, 3tr",Hammarbyhöjden,Stockholms kommun,2021-03-10,3000000,2600000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1943,2419,7356
+Wahlbergsgatan 7,Hammarbyhöjden,Stockholms kommun,2021-03-08,3000000,2695000,Lägenhet,Bostadsrätt,2 ,53 ,False,1 av 3,False,1937,3120,4860
+Wahlbergsgatan 9,Hammarbyhöjden,Stockholms kommun,2021-03-08,2770000,2250000,Lägenhet,Bostadsrätt,2 ,38 ,False,1 av 3,False,1937,2362,3792
+"Fyrskeppsvägen 43, 3 tr",Kärrtorp,Stockholms kommun,2021-03-05,3025000,2495000,Lägenhet,Bostadsrätt,2 ,52 ,True,3 av 3,False,1949,3303,4896
+"Strahlenbergsgatan 23, 3tr",Hammarbyhöjden,Stockholms kommun,2021-03-05,2800000,2500000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1937,4347,6600
+"Fyrvaktarkroken 59, 2tr",Enskede,Stockholms kommun,2021-03-05,3230000,2995000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 5,True,2019,2241,8028
+Boråsvägen 14,Hammarbyhöjden,Stockholms kommun,2021-03-03,2940000,2495000,Lägenhet,Bostadsrätt,2 ,40 ,True,1 av 3,False,1942,2439,5000
+Gondolgatan 7,Skarpnäck,Stockholms kommun,2021-03-03,2300000,1995000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,1 av 3,True,1984,3754,4248
+Paternostervägen 28,Hammarbyhöjden,Stockholms kommun,2021-03-03,3125000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,True,1 av 3,False,1952,1995,6000
+Palandergatan 31,Johanneshov Skärmarbrink,Stockholms kommun,2021-03-03,2620000,2150000,Lägenhet,Bostadsrätt,2 ,38 ,False,1 av 3,False,1938,2738,4560
+"Finn Malmgrens väg 42, 2tr",Hammarbyhöjden,Stockholms kommun,2021-02-27,2865000,2495000,Lägenhet,Bostadsrätt,2 ,42 ,True,2 av 3,False,1939,2444,7560
+Strahlenbergsgatan 21,Hammarbyhöjden,Stockholms kommun,2021-02-26,2800000,2495000,Lägenhet,Bostadsrätt,2 ,39 ,True,2 av 3,False,1937,3140,7968
+Nathorstvägen 25,Skärmarbrink/Hammarbyhöjden,Stockholms kommun,2021-02-26,3540000,3150000,Lägenhet,Bostadsrätt,2 ,49 ,True,1 av 3,False,1938,2684,4200
+"Per Lindeströms väg 121, 2tr",Hammarbyhöjden,Stockholms kommun,2021-02-23,3710000,3200000,Lägenhet,Bostadsrätt,2 ,55 ,True,2 av 3,False,1939,3380,10920
+Nathorstvägen 14,Johanneshov - Skärmarbrink,Stockholms kommun,2021-02-23,3715000,2990000,Lägenhet,Bostadsrätt,2 ,53 ,True,1 av 3,False,1939,3326,3000
+"Rusthållarvägen 71, 1tr",Bagarmossen,Stockholms kommun,2021-02-22,2965000,2500000,Lägenhet,Bostadsrätt,2 ,56 ,True,1 av 3,False,1953,3128,6000
+"Ballonggatan 3, 2tr",Skarpnäck,Stockholms kommun,2021-02-19,2200000,1975000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,2 av 2,True,1980,4319,6000
+Uppvindsgatan 2,Skarpnäck,Stockholms kommun,2021-02-17,2300000,1995000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,2 av 3,True,1985,4388,4200
+"Falsterbovägen 10, 2 tr",Björkhagen,Stockholms kommun,2021-02-17,3670000,2895000,Lägenhet,Bostadsrätt,2 ,59 ,True,2 av 6,True,1948,2850,4500
+Axvallsvägen 51,Björkhagen,Stockholms kommun,2021-02-16,3970000,3050000,Lägenhet,Bostadsrätt,2 ,59 ,True,2 av 3,False,1946,2842,3937
+Petrejusvägen 53,Johanneshov,Stockholms kommun,2021-02-16,3700000,2995000,Lägenhet,Bostadsrätt,2 ,58 ,True,3 av 3,False,1938,4342,3620
+Thunbergsgatan 18,Hammarbyhöjden,Stockholms kommun,2021-02-12,3060000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1938,3673,4200
+Vinggatan 34,Skarpnäck,Stockholms kommun,2021-02-12,2800000,2295000,Lägenhet,Bostadsrätt,2 ,"59,5 ",True,1 av 4,True,1986,3662,3300
+"Per Lindeströms väg 74, 3 tr",Hammarbyhöjden,Stockholms kommun,2021-02-12,3100000,2495000,Lägenhet,Bostadsrätt,2 ,43 ,True,3 av 3,False,1939,3475,6000
+Hållövägen 18,Blåsut,Stockholms kommun,2021-02-12,3030000,2795000,Lägenhet,Bostadsrätt,2 ,46 ,True,2,True,2011,2683,4200
+"Sofielundsvägen 37, 2 tr",Blåsut,Stockholms kommun,2021-02-10,3215000,2995000,Lägenhet,Bostadsrätt,2 ,41 ,True,1 av 5,True,2019,2348,5640
+Finn Malmgrens Väg 56,Hammarbyhöjden,Stockholms kommun,2021-02-08,3160000,2450000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 3,False,1939,2985,3800
+"Hasselquistvägen 20, 2 tr",Hammarbyhöjden,Stockholms kommun,2021-02-02,3100000,2495000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 3,False,1939,2853,5635
+Ballonggatan 5,Skarpnäck,Stockholms kommun,2021-01-30,2500000,2295000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,1 av 3,True,1985,4237,4000
+Hasselquistvägen 33,Hammarbyhöjden,Stockholms kommun,2021-01-29,3175000,2450000,Lägenhet,Bostadsrätt,2 ,42 ,True,3 av 3,False,1939,3012,3228
+Olaus Magnus Väg 56,Hammarbyhöjden,Stockholms kommun,2021-01-29,2630000,2650000,Lägenhet,Bostadsrätt,2 ,37 ,False,1 av 3,False,1937,2618,7692
+Kalmgatan 20,Hammarbyhöjden,Stockholms kommun,2021-01-28,3130000,2450000,Lägenhet,Bostadsrätt,2 ,39 ,True,3 av 3,False,1935,2794,4836
+Mariestadsvägen 10,Hammarbyhöjden,Stockholms kommun,2021-01-27,2550000,2495000,Lägenhet,Bostadsrätt,2 ,"40,5 ",True,2 av 3,False,1942,3356,3500
+"Strahlenbergsgatan 26, 2 tr",Hammarbyhöjden/Johanneshov,Stockholms kommun,2021-01-27,2800000,2250000,Lägenhet,Bostadsrätt,2 ,38 ,True,2 av 3,False,1938,3000,6456
+Boråsvägen 23,Hammarbyhöjden,Stockholms kommun,2021-01-26,3500000,3500000,Lägenhet,Bostadsrätt,2 ,59 ,True,2 av 3,False,1939,4836,4800
+"Kolbäcksgränd 14, 6tr",Bagarmossen,Stockholms kommun,2021-01-25,3200000,2450000,Lägenhet,Bostadsrätt,2 ,56 ,True,6 av 7,True,1954,3979,4920
+Nathorstvägen 38,Hammarbyhöjden,Stockholms kommun,2021-01-24,3000000,2295000,Lägenhet,Bostadsrätt,2 ,41 ,True,5 av 6,True,1995,3466,2604
+Kolbäcksgränd 25,Bagarmossen,Stockholms kommun,2021-01-23,2810000,2400000,Lägenhet,Bostadsrätt,2 ,60 ,True,1 av 3,False,1954,3910,5200
+Kolbäcksgränd 1,Bagarmossen,Stockholms kommun,2021-01-22,2250000,1995000,Lägenhet,Bostadsrätt,2 ,39 ,True,1 av 3,False,1954,2853,4000
+Fogdevägen 47,Bagarmossen,Stockholms kommun,2021-01-21,2750000,2250000,Lägenhet,Bostadsrätt,2 ,48 ,True,3 av 4,True,2008,3301,8640
+Lidköpingsvägen 62,Hammarbyhöjden,Stockholms kommun,2021-01-20,3850000,3395000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1944,2892,4800
+Ballonggatan 7,Skarpnäck,Stockholms kommun,2021-01-20,2250000,2195000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,2 av 4,True,1985,4444,4200
+Karlsborgsvägen 10,Hammarbyhöjden,Stockholms kommun,2021-01-20,3540000,2895000,Lägenhet,Bostadsrätt,2 ,53 ,True,2 av 3,False,1943,3422,4320
+Mariestadsvägen 6,Hammarbyhöjden,Stockholms kommun,2021-01-19,2600000,2095000,Lägenhet,Bostadsrätt,2 ,"37,5 ",False,1 av 3,False,1942,3042,5880
+"Finngrundsvägen 3, 5tr",Blåsut,Stockholms kommun,2021-01-19,4400000,3495000,Lägenhet,Bostadsrätt,2 ,"60,5 ",True,5 av 6,True,2019,3117,11220
+Nathorstvägen 40,Hammarbyhöjden - Skärmarbrink,Stockholms kommun,2021-01-17,2810000,2475000,Lägenhet,Bostadsrätt,2 ,41 ,True,4 av 6,True,1995,3467,2400
+Petrejusvägen 59,Hammarbyhöjden,Stockholms kommun,2021-01-15,3550000,3195000,Lägenhet,Bostadsrätt,2 ,56 ,True,2 av 3,False,1939,3616,6552
+Horisontvägen 97 C,Skarpnäck,Stockholms kommun,2021-01-14,1950000,1895000,Lägenhet,Bostadsrätt,2 ,35 ,,0 av 5,True,1989,2620,5400
+Ronnebyvägen 13,Björkhagen,Stockholms kommun,2021-01-13,3350000,2795000,Lägenhet,Bostadsrätt,2 ,57 ,True,1 av 3,False,1947,3446,7450
+Alingsåsvägen 12,Hammarbyhöjden,Stockholms kommun,2021-01-13,3750000,2950000,Lägenhet,Bostadsrätt,2 ,51 ,True,2 av 3,False,1939,3496,4380
+Fyrskeppsvägen 106,Kärrtorp,Stockholms kommun,2021-01-12,3200000,2495000,Lägenhet,Bostadsrätt,2 ,56 ,True,1 av 3,False,1949,3614,7800
+Läckövägen 35,Hammarbyhöjden,Stockholms kommun,2021-01-12,2850000,2550000,Lägenhet,Bostadsrätt,2 ,41 ,True,1 av 3,False,1942,2330,2400
+"Hässleholmsvägen 9, 3tr",Björkhagen,Stockholms kommun,2021-01-07,3600000,3600000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 6,True,1947,3001,3048
+Åkerbladsgatan 8,Hammarbyhöjden/Johanneshov,Stockholms kommun,2021-01-06,2685000,2250000,Lägenhet,Bostadsrätt,2 ,43 ,False,1 av 3,False,1936,3096,8004
+Finngrundsvägen 5,Hammarbyhöjden,Stockholms kommun,2020-12-14,3250000,2995000,Lägenhet,Bostadsrätt,2 ,41 ,True,4 av 6,True,2019,2194,4812
+"Läckövägen 9, 1 tr",Hammarbyhöjden,Stockholms kommun,2020-12-11,2520000,2195000,Lägenhet,Bostadsrätt,2 ,38 ,False,1 av 3,False,1942,2638,7992
+Skarabacken 49,Hammarbyhöjden,Stockholms kommun,2020-12-11,2710000,2395000,Lägenhet,Bostadsrätt,2 ,39 ,True,2 av 3,False,1942,2903,3300
+Vingavägen 7,Blåsut,Stockholms kommun,2020-12-08,4250000,3250000,Lägenhet,Bostadsrätt,2 ,64 ,True,3 av 5,True,2013,3413,8124
+Pilvingegatan 45,Skarpnäck,Stockholms kommun,2020-12-04,2400000,1995000,Lägenhet,Bostadsrätt,2 ,"44,5 ",False,,,2005,4011,3736
+Kalmgatan 31,Johanneshov,Stockholms kommun,2020-12-04,3800000,3450000,Lägenhet,Bostadsrätt,2 ,68 ,True,0 av 4,True,1992,2880,5160
+Ballonggatan 10,Skarpnäck,Stockholms kommun,2020-12-03,2500000,2500000,Lägenhet,Bostadsrätt,2 ,"59,5 ",True,3 av 4,True,1985,4246,4500
+"Palandergatan 9, 2tr",Hammarbyhöjden/Johanneshov,Stockholms kommun,2020-11-27,2600000,2250000,Lägenhet,Bostadsrätt,2 ,38 ,True,2 av 3,False,1938,3108,6780
+Läckövägen 24,Hammarbyhöjden,Stockholms kommun,2020-11-27,3150000,2450000,Lägenhet,Bostadsrätt,2 ,42 ,True,1 av 3,False,1943,2330,6276
+Malmövägen 30,Hammarbyhöjden/Björkhagen,Stockholms kommun,2020-11-27,3200000,2650000,Lägenhet,Bostadsrätt,2 ,51 ,True,1 av 3,False,1947,3483,5000
+Drakflygargatan 8,Skarpnäck,Stockholms kommun,2020-11-24,2300000,2300000,Lägenhet,Bostadsrätt,2 ,"59,5 ",True,3 av 3,True,1986,3670,4443
+Sofielundsvägen 15,Blåsut,Stockholms kommun,2020-11-19,3625000,3395000,Lägenhet,Bostadsrätt,2 ,"62,5 ",True,2 av 5,True,2013,3698,6000
+Kolbäcksgränd 5,Bagarmossen,Stockholms kommun,2020-11-18,3000000,2450000,Lägenhet,Bostadsrätt,2 ,58 ,True,1 av 3,False,1954,3812,5200
+Nathorstvägen 52,Skärmarbrink,Stockholms kommun,2020-11-16,3050000,3100000,Lägenhet,Bostadsrätt,2 ,45 ,True,1 av 3,False,1938,2915,7200
+Lidköpingsvägen 53,Hammarbyhöjden,Stockholms kommun,2020-11-13,3350000,3350000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 3,False,1942,3593,6000
+Simrishamnsvägen 14,Björkhagen,Stockholms kommun,2020-11-12,3150000,2695000,Lägenhet,Bostadsrätt,2 ,52 ,True,2 av 6,True,1946,2690,3600
+Thunbergsgatan 28,Hammarbyhöjden,Stockholms kommun,2020-11-11,3070000,2595000,Lägenhet,Bostadsrätt,2 ,"43,3 ",True,3 av 3,False,1939,2760,6611
+Pilvingegatan 40,Skarpnäck,Stockholms kommun,2020-11-11,2330000,1850000,Lägenhet,Bostadsrätt,2 ,45 ,True,1 av 3,True,1986,2834,3960
+"Wahlbergsgatan 8, vån 3/3",Johanneshov,Stockholms kommun,2020-11-11,2780000,2395000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 3,False,1937,2476,6236
+"Palandergatan 23, vån 3/3",Hammarbyhöjden,Stockholms kommun,2020-11-11,2810000,2395000,Lägenhet,Bostadsrätt,2 ,40 ,True,3 av 3,False,1939,2741,5192
+"Emågatan 32, 3tr",Bagarmossen,Stockholms kommun,2020-11-11,3050000,2450000,Lägenhet,Bostadsrätt,2 ,66 ,True,3 av 3,False,1953,3744,6000
+Voxnegränd 1,Bagarmossen,Stockholms kommun,2020-11-04,2650000,2295000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 8,True,1954,4018,5652
+Nathorstvägen 52,Hammarbyhöjden,Stockholms kommun,2020-11-02,2500000,2295000,Lägenhet,Bostadsrätt,2 ,39 ,,0 av 5,False,1938,2534,5500
+"Bergsrådsvägen 12, 1 tr",Bagarmossen,Stockholms kommun,2020-10-29,2850000,2495000,Lägenhet,Bostadsrätt,2 ,53 ,True,1 av 3,False,1952,3556,5100
+Horisontvägen 87B,Skarpnäck,Stockholms kommun,2020-10-27,2100000,2000000,Lägenhet,Bostadsrätt,2 ,65 ,True,2 av 3,True,1989,4664,5100
+Fyrvaktarkroken 10,Blåsut,Stockholms kommun,2020-10-27,3400000,2995000,Lägenhet,Bostadsrätt,2 ,64 ,True,1 av 8,True,2014,3733,4800
+"Fyrskeppsvägen 34, 3tr",Kärrtorp,Stockholms kommun,2020-10-26,2950000,2450000,Lägenhet,Bostadsrätt,2 ,61 ,True,3 av 3,False,1949,3798,5796
+Fogdevägen 45,Bagarmossen,Stockholms kommun,2020-10-23,3340000,2750000,Lägenhet,Bostadsrätt,2 ,65 ,True,2 av 5,True,2008,4148,4800
+Fyrskeppsvägen 104,Kärrtorp,Stockholms kommun,2020-10-22,3065000,2495000,Lägenhet,Bostadsrätt,2 ,55 ,True,3 av 3,False,1949,3550,5472
+Söderarmsvägen 6,Kärrtorp,Stockholms kommun,2020-10-21,3150000,2395000,Lägenhet,Bostadsrätt,2 ,57 ,True,2 av 3,False,1950,3355,5000
+Drakflygargatan 2,Skarpnäck,Stockholms kommun,2020-10-20,2600000,2095000,Lägenhet,Bostadsrätt,2 ,59 ,True,3 av 3,True,1986,3469,4800
+Nathorstvägen 36,Skärmarbrink,Stockholms kommun,2020-10-19,3000000,2395000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 3,False,1938,3015,4800
+Lidköpingsvägen 48,Hammarbyhöjden,Stockholms kommun,2020-10-16,3650000,2995000,Lägenhet,Bostadsrätt,2 ,52 ,True,3 av 3,False,1945,3130,6600
+"Fyrskeppsvägen 35, 1 tr",Kärrtorp,Stockholms kommun,2020-10-15,2700000,2695000,Lägenhet,Bostadsrätt,2 ,53 ,True,1 av 3,False,1950,3300,4704
+Fyrvaktarkroken 68,Blåsut,Stockholms kommun,2020-10-15,3660000,3195000,Lägenhet,Bostadsrätt,2 ,"62,5 ",True,3 av 6,True,2014,3652,5760
+"Finn Malmgrens väg 18, 1tr",Hammarbyhöjden,Stockholms kommun,2020-10-15,3400000,3195000,Lägenhet,Bostadsrätt,2 ,56 ,True,1 av 3,False,1939,4316,5100
+"Bergsrådsvägen 20, 2tr",Bagarmossen,Stockholms kommun,2020-10-14,3040000,2295000,Lägenhet,Bostadsrätt,2 ,54 ,True,2 av 3,False,1953,3614,6600
+Drakflygargatan 9,Skarpnäck,Stockholms kommun,2020-09-30,2700000,1995000,Lägenhet,Bostadsrätt,2 ,"63,5 ",True,2 av 3,True,1985,4010,4500
+Fyrskeppsvägen 71,Kärrtorp,Stockholms kommun,2020-09-30,2750000,2250000,Lägenhet,Bostadsrätt,2 ,55 ,True,2 av 3,False,1949,3550,4200
+Vikstensvägen 1,Kärrtorp,Stockholms kommun,2020-09-25,2480000,2395000,Lägenhet,Bostadsrätt,2 ,58 ,True,2 av 3,False,1950,3783,6096
+"Hässleholmsvägen 9, 4tr",Björkhagen,Stockholms kommun,2020-09-23,3400000,2500000,Lägenhet,Bostadsrätt,2 ,54 ,True,4 av 6,True,1947,3001,6600
+Åkerbladsgatan 8,Johanneshov,Stockholms kommun,2020-09-23,2650000,2195000,Lägenhet,Bostadsrätt,2 ,43 ,True,2 av 3,False,1936,3163,4200
+"Simrishamnsvägen 12, vån 6 av 6",Hammarbyhöjden/Björkhagen,Stockholms kommun,2020-09-22,3500000,2695000,Lägenhet,Bostadsrätt,2 ,54 ,True,6 av 6,True,1948,2687,2400
+Petrejusvägen 6,Hammarbyhöjden,Stockholms kommun,2020-09-20,3075000,2495000,Lägenhet,Bostadsrätt,2 ,45 ,True,3 av 3,False,1937,2896,4200
+Skarpnäcks Allé 37,Skarpnäck,Stockholms kommun,2020-09-18,2200000,2049000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,1 av 4,True,1985,4318,5386
+Fogdevägen 47,Bagarmossen,Stockholms kommun,2020-09-18,2650000,2275000,Lägenhet,Bostadsrätt,2 ,48 ,False,,,2008,3301,6240
+Emågatan 33,Bagarmossen,Stockholms kommun,2020-09-17,2750000,2395000,Lägenhet,Bostadsrätt,2 ,57 ,True,1 av 3,False,1954,3501,4300
+Hasselquistvägen 31,Hammarbyhöjden,Stockholms kommun,2020-09-10,2680000,2295000,Lägenhet,Bostadsrätt,2 ,42 ,True,1 av 3,False,1939,3012,7700
+Sten bergmans väg 21,Hammarbyhöjden,Stockholms kommun,2020-09-08,3350000,2650000,Lägenhet,Bostadsrätt,2 ,60 ,True,1 av 3,True,1989,3595,7200
+Pilotgatan 4,Skarpnäck,Stockholms kommun,2020-09-04,2240000,1995000,Lägenhet,Bostadsrätt,2 ,63 ,True,3 av 3,True,1989,4550,3800
+Nathorstvägen 32,Hammarbyhöjden/Johanneshov,Stockholms kommun,2020-09-04,3210000,2750000,Lägenhet,Bostadsrätt,2 ,47 ,True,1 av 3,False,1938,3620,9480
+"Emågatan 12, 2tr",Bagarmossen,Stockholms kommun,2020-09-03,2765000,2500000,Lägenhet,Bostadsrätt,2 ,50 ,True,2 av 3,False,1953,3209,5000
+Finn Malmgrens Väg 71,Björkhagen/Hammarbyhöjden,Stockholms kommun,2020-09-03,3210000,3250000,Lägenhet,Bostadsrätt,2 ,52 ,True,3 av 3,False,1942,2859,3600
+Kolbäcksgränd 1,Bagarmossen,Stockholms kommun,2020-08-28,2880000,2495000,Lägenhet,Bostadsrätt,2 ,57 ,True,2 av 3,False,1954,3798,3900
+Pilvingegatan 56,Skarpnäck,Stockholms kommun,2020-08-22,2250000,2195000,Lägenhet,Bostadsrätt,2 ,56 ,False,,,1986,3392,4800
+Fyrvaktarkroken 68,Blåsut,Stockholms kommun,2020-08-21,3700000,2995000,Lägenhet,Bostadsrätt,2 ,65 ,True,3 av 6,True,2013,3776,3256
+"Läckövägen 25, 2tr",Hammarbyhöjden,Stockholms kommun,2020-08-21,2940000,2450000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1943,2381,6564
+"Paternostervägen 40, 3 tr",Hammarbyhöjden,Stockholms kommun,2020-08-21,3330000,2750000,Lägenhet,Bostadsrätt,2 ,59 ,True,3 av 3,False,1952,2871,8188
+Fyrvaktarkroken 59,Enskededalen,Stockholms kommun,2020-08-20,3400000,2995000,Lägenhet,Bostadsrätt,2 ,"60,5 ",False,,,2019,3094,9264
+"Ljusnevägen 2, 3 tr",Bagarmossen,Stockholms kommun,2020-08-13,2580000,2395000,Lägenhet,Bostadsrätt,2 ,44 ,True,3 av 4,True,2009,2529,1510
+Paternostervägen 80A,Hammarbyhöjden,Stockholms kommun,2020-08-13,2820000,2495000,Lägenhet,Bostadsrätt,2 ,45 ,False,,,1952,3005,5400
+"Mariestadsvägen 2, 3 tr",Hammarbyhöjden,Stockholms kommun,2020-08-04,2760000,2295000,Lägenhet,Bostadsrätt,2 ,"37,5 ",True,3 av 3,False,1942,3156,4500
+Lidköpingsvägen 53,Hammarbyhöjden,Stockholms kommun,2020-07-22,3200000,2795000,Lägenhet,Bostadsrätt,2 ,48 ,True,2 av 3,False,1942,3593,4130
+Lödösevägen 1,Hammarbyhöjden,Stockholms kommun,2020-07-20,3110000,2495000,Lägenhet,Bostadsrätt,2 ,50 ,True,,,1939,3021,6012
+Alingsåsvägen 40,Hammarbyhöjden,Stockholms kommun,2020-07-17,2875000,2395000,Lägenhet,Bostadsrätt,2 ,40 ,True,3 av 3,False,1941,2763,5400
+Finn Malmgrens Väg 29,Hammarbyhöjden,Stockholms kommun,2020-07-15,3250000,2695000,Lägenhet,Bostadsrätt,2 ,54 ,True,3 av 3,False,1939,3819,4200
+Finn Malmgrens väg 42A,Hammarbyhöjden,Stockholms kommun,2020-07-07,3050000,2995000,Lägenhet,Bostadsrätt,2 ,49 ,False,,,1939,2850,3300
+Garagevägen 24,Hammarbyhöjden,Stockholms kommun,2020-06-10,3020000,2495000,Lägenhet,Bostadsrätt,2 ,41 ,True,3 av 5,True,2018,2197,6024
+Fyrskeppsvägen 114,Kärrtorp,Stockholms kommun,2020-06-08,2700000,2395000,Lägenhet,Bostadsrätt,2 ,55 ,True,1 av 3,False,1949,3645,6400
+Petrejusvägen 49,Hammarbyhöjden,Stockholms kommun,2020-06-03,2500000,2395000,Lägenhet,Bostadsrätt,2 ,44 ,True,1 av 3,False,1939,3363,4800
+"Pilotgatan 21, 1tr",Skarpnäck,Stockholms kommun,2020-06-02,2200000,2200000,Lägenhet,Bostadsrätt,2 ,"61,5 ",True,,,1983,3754,6000
+Fyrskeppsvägen 44,Kärrtorp,Stockholms kommun,2020-05-28,2850000,2395000,Lägenhet,Bostadsrätt,2 ,53 ,True,3 av 3,False,1949,3300,6236
+Thunbergsgatan 10,Hammarbyhöjden,Stockholms kommun,2020-05-28,2830000,2795000,Lägenhet,Bostadsrätt,2 ,45 ,True,3 av 3,False,1939,3210,9940
+Horisontvägen 87B,Skarpnäck,Stockholms kommun,2020-05-26,2140000,2200000,Lägenhet,Bostadsrätt,2 ,65 ,True,2 av 3,True,1989,4772,5000
+Lagavägen 20,Bagarmossen,Stockholms kommun,2020-05-15,2450000,2600000,Lägenhet,Bostadsrätt,2 ,63 ,False,,,2001,4849,3300
+Åstorpsringen 15 - Accepterat pris,Enskededalen/Hammarbyhöjden,Stockholms kommun,2020-05-14,2900000,2900000,Lägenhet,Bostadsrätt,2 ,60 ,True,2,True,2005,3283,4800
+Läckövägen 20,Hammarbyhöjden,Stockholms kommun,2020-05-05,2800000,2395000,Lägenhet,Bostadsrätt,2 ,41 ,True,2 av 3,False,1943,2381,4814
+Mariestadsvägen 8,Björkhagen/Hammarbyhöjden,Stockholms kommun,2020-05-04,2550000,2195000,Lägenhet,Bostadsrätt,2 ,39 ,True,2 av 3,False,1942,3289,4200
+"Ronnebyvägen 9, 2tr",Björkhagen,Stockholms kommun,2020-04-23,3060000,2795000,Lägenhet,Bostadsrätt,2 ,53 ,False,2 av 3,False,1947,3204,7054
+Olaus Magnus väg 46,Hammarbyhöjden,Stockholms kommun,2020-04-22,2500000,2195000,Lägenhet,Bostadsrätt,2 ,39 ,True,,,1940,3141,4800
+Malmövägen 34,Hammarbyhöjden/Björkhagen,Stockholms kommun,2020-04-03,2890000,2795000,Lägenhet,Bostadsrätt,2 ,51 ,True,2 av 3,False,1947,3483,3600
+Söderarmsvägen 25,Kärrtorp,Stockholms kommun,2020-03-26,2300000,2195000,Lägenhet,Bostadsrätt,2 ,46 ,True,,,2008,3451,2400
+Läckövägen 22,Hammarbyhöjden,Stockholms kommun,2020-03-25,3570000,2995000,Lägenhet,Bostadsrätt,2 ,"54,5 ",True,2 av 3,False,1943,2996,5429
+Thunbergsgatan 28,Hammarbyhöjden,Stockholms kommun,2020-03-05,3775000,3395000,Lägenhet,Bostadsrätt,2 ,"59,2 ",True,2 av 3,False,1939,3287,7662
+Fogdevägen 45,Bagarmossen,Stockholms kommun,2020-02-26,2600000,2295000,Lägenhet,Bostadsrätt,2 ,48 ,False,,,2009,3301,6408
+Ronnebyvägen 9,Björkhagen,Stockholms kommun,2020-02-25,3250000,2850000,Lägenhet,Bostadsrätt,2 ,53 ,True,2 av 3,False,1947,3204,4700
+Ystadsvägen 63,Björkhagen,Stockholms kommun,2020-02-14,3200000,2995000,Lägenhet,Bostadsrätt,2 ,63 ,True,2 av 3,False,1947,3661,5228
+Petrejusvägen 49,Hammarbyhöjden,Stockholms kommun,2020-02-12,3650000,3195000,Lägenhet,Bostadsrätt,2 ,62 ,False,1 av 3,False,1939,4179,5311
+Kalmgatan 30,Hammarbyhöjden,Stockholms kommun,2020-02-04,3000000,2595000,Lägenhet,Bostadsrätt,2 ,56 ,False,,,1936,3519,4248
+Hållövägen 5,Hammarbyhöjden,Stockholms kommun,2020-01-29,3450000,2895000,Lägenhet,Bostadsrätt,2 ,"60,5 ",False,,,2019,3188,5040
+Garagevägen 15,Johanneshov,Stockholms kommun,2018-10-30,2900000,2495000,Lägenhet,Bostadsrätt,2 ,48 ,,,,2014,3282,4200
